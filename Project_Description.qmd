@@ -1,0 +1,175 @@
+---
+title: "Project description"
+date: "\\vspace{-3em}"
+format: 
+  pdf:
+    number_sections: true
+---
+
+::: {.content-visible when-format="pdf"}
+
+\newsection{D}
+:::
+
+<!-- https://vcresearch.berkeley.edu/sites/default/files/inline-files/CAREER_Writing_Guide_2017_final.pdf -->
+
+# Objectives
+
+<!-- 1. Objectives/Specific Aims/Goals -->
+<!-- Other names for these are goals, research thrusts, etc. You can call these whatever you like or whatever is most used in your field. -->
+<!-- • Try to fit this information on one page. -->
+<!-- • Start with a brief problem statement to introduce your research question and state why it is important. -->
+<!-- • Put the solution to your research question in context of your overall, long-term career objectives. -->
+<!-- • Identify the specific objective for the present proposal. -->
+<!-- • Describe your overall hypothesis for your specific objective. -->
+<!-- • List your specific aims for how you will accomplish the objectives of your proposal.  -->
+<!--    o Each aim is to find out information, not to do a method (a method supports an aim, but is not the purpose of the aim; i.e., the aim should be outcome-oriented). -->
+<!--    o Limit yourself to 2-4 aims. -->
+<!--    o Be declarative (use short bullet points). -->
+<!--    o Make sure aims are not inter-dependent but supportive of each other (i.e., make sure that if the first step of your proposal doesn’t turn out the way you expect, your entire proposal won't fail). -->
+<!--    o Link your specific aims to hypotheses, as appropriate. -->
+<!-- • Close this section with a statement on your expected outcomes, emphasizing the project's innovation. -->
+<!-- • It can be very useful to try to diagram your objective and aims. -->
+
+
+
+# Research Plan
+<!-- 2. Research Plan -->
+<!-- Note: The research and educational activities do not need to be addressed separately if the relationship between them is such that it works best to present an integrated project where the two are interspersed throughout the Project Description. -->
+
+## Background Information
+<!-- a. Background information -->
+<!-- This section lets you: -->
+<!-- 1. Orient reader to your subject, providing scientific background and context. -->
+<!-- 2. Establish the importance and novelty of your project. -->
+<!-- 3. Show your knowledge of the area through a solid review and objective citation of prior related work. -->
+<!-- 4. Reveal that you are aware of opportunities, gaps, and roadblocks in your field.  -->
+<!-- 5. Persuade the reviewers to become invested in your work by showing how your research matters for the field and their own research. -->
+<!-- Write this section in nontechnical terms for a broader audience. -->
+
+Statistical graphics are one primary method scientists use to communicate results to the general public, but we have been arguing about best practices for the visual display of data almost since these graphical forms were created [@croxtonBarChartsCircle1927; @eellsRelativeMeritsCircles1926]. Different individuals and organizations have released guidelines for graphical design [@JointCommitteeStandards1915; @brewerGuidelinesUsePerceptual1994; @kosslynGraphDesignEye2006; @tufteVisualDisplayQuantitative2001], but many of these are based on aesthetic preferences, individual experience, or extrapolation from limited empirical studies.
+<!-- on extremely simple graphics to a wide variety of modern graphics that . -->
+
+
+## Preliminary Data
+<!-- b. Preliminary data -->
+<!-- This is the place to highlight your own preliminary data, showing your ability to develop and test hypotheses, design rigorous experiments, perform experimental techniques, and analyze and interpret data. -->
+<!-- • Illustrate the relevance of your preliminary data to your specific aims/goals and how it relates to your proposed research plan. -->
+<!-- • Use high quality graphics and tables to illustrate your data and results. -->
+
+
+## Methods
+
+<!-- c. Methods -->
+<!-- This is generally the longest section of the research plan, where you develop the details of your project. This section is not just about methods but design. -->
+<!-- Suggested format for this section: -->
+<!-- D. RESEARCH DESIGN AND METHODS -->
+<!-- Introductory paragraph to orient reviewer to what you plan to do. -->
+<!-- D.1. Aim 1. Repeat Specific Aim from page 1. -->
+<!-- D.1.a. Hypothesis and Rationale. -->
+<!-- D.1.b. Experimental Plan. -->
+<!-- D.1.c. Expected Outcomes/Evaluation -->
+<!-- D.1.d. Potential Pitfalls and Alternative Approaches -->
+
+<!-- When outlining your experimental plan: -->
+<!-- • Base it on your specific aims—restate the aims and describe the flow of experiments for each aim. -->
+<!-- • Describe methodology for each aim, establishing your expertise with the approach by linking back to your preliminary studies and assessing the strengths and limitations of your approach. -->
+<!-- • Cite appropriate references. -->
+<!-- • Describe the timeline and sequence of experiments. -->
+<!-- • Talk about relevance to the field. -->
+
+
+## Alternative Approaches
+<!-- d. Potential pitfalls and alternative approaches -->
+<!-- Discuss the limitations of each approach you are proposing and how they may affect your results and data.  -->
+<!-- • Call attention to potential difficulties and propose alternatives you will use if a technique is inadequate or the results are inconclusive. -->
+<!-- • Describe potential pitfalls and what you will do if they occur. -->
+<!-- • State what you will do if results are negative, how negative findings will also advance the field, and what you will do next. -->
+
+## Evaluation
+<!-- e. Evaluation -->
+<!-- Describe how you will assess your research program. -->
+<!-- • Consider linking this to your timeline and/or milestones. -->
+<!-- • Describe future plans. -->
+<!-- • Identify what others will be able to do with your research results. -->
+
+## Future Steps
+<!-- f. Future steps -->
+
+
+
+# Education Plan
+<!-- 3. Education Plan -->
+<!-- Suggested length is 3-5 pages. Tips: Use first person, and refer to experiences that have informed your approach to education/teaching/mentoring.  -->
+
+
+## Overview
+<!-- a. Overview/background/aims -->
+<!-- Frame a big picture for your education plan. Include background, motivation, rationale, and aims for each major activity in the plan (e.g., Aim 1, Aim 2, Aim 3.). Suggest limiting to 3 major aims. -->
+
+
+## Design and methods
+<!-- b. Design and methods -->
+<!-- For each aim listed in 3a, describe the target audience, needs/gaps to be addressed, methods, resources (including  personnel, partnerships, budget), and measurable desired outcomes (i.e., what would success look like?). -->
+
+## Evaluation
+<!-- c. Evaluation -->
+<!-- Describe how you will assess your education program. -->
+<!-- • Consider linking this to your timeline. -->
+<!-- Tip: Refer to the NSF User Friendly Handbook for Project Evaluation: nsf.gov/pubs/2002/nsf02057/nsf02057.pdf -->
+
+## Integration of research and Education
+<!-- d. Integration of research and education -->
+<!-- How will your research impact your education goals and how will your education activities feed back into your research? -->
+
+# Broader Impacts
+<!-- 4. Broader Impacts -->
+<!-- You must include a separate section that addresses the Broader Impacts of your proposal. -->
+<!-- • Must use the section heading "Broader Impacts" somewhere in your proposal. -->
+<!-- • Describe the broader impacts that are intrinsic to your research, as well as those that result from your education activities. -->
+<!-- • As an alternative to one section on broader impacts, you could have multiple sections throughout the proposal that are paired with each aim. In this case, be sure that you still create a separate section with the heading "Broader Impacts." -->
+
+# Timeline
+<!-- 5. Timeline -->
+<!-- This is where you show how everything will fit together. -->
+<!-- • Propose an appropriate amount of work for the funding period. Reviewers are sensitive to proposals that seem “overly ambitious.” -->
+<!-- • Provide a diagram of your timeline over the funding period, showing when you will hit certain milestones, or provide a list of milestones you will achieve in each year. -->
+<!-- • Include key milestones for each education aim -->
+
+# Results from Prior NSF Support
+<!-- 6. Results from Prior NSF Support -->
+<!-- Describe support from past 5 years per GPG instructions. If you have none, write “Not applicable.” Use this format: -->
+<!-- (a) The NSF award number, amount and period of support. -->
+<!-- (b) The title of the project. -->
+<!-- (c) A summary of the results of the completed work, including accomplishments, supported by the award. The results must be separately described under two distinct headings: Intellectual Merit and Broader Impacts. -->
+<!-- (d) A listing of the publications resulting from the NSF award. -->
+<!-- (e) Evidence of research products and their availability, including, but not limited to: data, publications, samples, physical collections, software, and models, as described in any Data Management Plan. -->
+<!-- (f) Write "Not applicable." (This section is for if the proposal is for renewed support.)  -->
+<!-- If the project was recently awarded and therefore no new results exist, describe the major goals and broader impacts of the project. -->
+
+\begin{wrapfigure}{R}{.25\textwidth}  
+```{r new, echo=F, fig.width=2, fig.height=1.5,warning=F,message=F,out.width=".25\\textwidth"}
+nums<-rnorm(100,0,1)
+df<-data.frame(s=1:100,nums)
+library(ggplot2)
+ggplot(df, aes(x=nums))+
+  geom_histogram()+
+  theme_classic(base_size=9)
+```
+
+\end{wrapfigure}
+
+# References
+
+\newsection{E}
+\indent
+\setlength{\parindent}{-.5in}
+\setlength{\leftskip}{0.5in}
+
+
+
+
+
+
+
+

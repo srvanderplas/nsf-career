@@ -1,0 +1,33 @@
+project:
+  title: "2023-nsf-career"
+  output-dir: docs
+  render:
+    - 1pg-summary.qmd
+    - README.qmd
+
+    - Index.qmd
+    - Bio.qmd
+    - Budget.qmd
+    - Collaborators.qmd
+    - Data.qmd
+    - PostdocPlan.qmd
+    - ProjectDescription.qmd
+    - Resources.qmd
+    - Summary.qmd
+
+
+
+format:
+  pdf:
+    documentclass: style/nsf2
+    include-in-header: style/preamble.tex
+    keep-tex: false
+    number-sections: true
+  html:
+    toc: true
+    html-math-method: katex
+
+bibliography: refs.bib
+
+csl: ieee-with-url.csl
+

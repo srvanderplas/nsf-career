@@ -1,0 +1,34 @@
+---
+title: "Index"
+author: Susan Vanderplas
+date: today
+output: html_document
+---
+
+<!-- Use the build tab to build website. All .qmds will be knitted into .pdfs and put into the doc folder -->
+
+# NSF CAREER Award Quick Links
+
+[One-page Summary](1pg-summary.pdf)
+
+[Biosketch](NSF-Biosketch.pdf)
+
+[Full CV](https://srvanderplas.github.io/CV/SusanVanderplas-CV.pdf)
+
+[Chalk Talk](https://srvanderplas.github.io/Presentations/2023-CAREER-chalk-talk/#/) - Presentation given March 2023
+
+
+## Grant components
+
+- Summary [pdf](Summary.pdf) [html](Summary.html)
+
+- Project Description [pdf](Project_Description.pdf) [html](Project_Description.html)
+
+- Budget [pdf](Budget.pdf) [html](Budget.html)
+
+- Bio [pdf](Bio.pdf) [html](Bio.html)
+- Collaborators [pdf](Collaborators.pdf) [html](Collaborators.html)
+
+- Data [pdf](Data.pdf) [html](Data.html)
+<!-- - Postdoc Plan [pdf](Collaborators.pdf) [html](Collaborators.html) -->
+- Resources [pdf](Resources.pdf) [html](Resources.html)

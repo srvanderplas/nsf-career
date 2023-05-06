@@ -1,0 +1,9 @@
+= NSF CAREER Award Quick Links
+
+link:1pg-summary.pdf[One-page Summary]
+
+link:NSF-Biosketch.pdf[Biosketch]
+
+https://srvanderplas.github.io/CV/SusanVanderplas-CV.pdf[Full CV]
+
+https://srvanderplas.github.io/Presentations/2023-CAREER-chalk-talk/#/[Chalk Talk] - Presentation given March 2023
