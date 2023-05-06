@@ -12,10 +12,10 @@ format:
     papersize: letter
     toc: false
     geometry:
-      - top=1.2in
+      - top=1.35in
       - left=0.75in
       - right=0.75in
-      - bottom=0.75in
+      - bottom=0.7in
     include-in-header:
       - text: |
           \usepackage{fontspec}
