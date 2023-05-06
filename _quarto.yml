@@ -3,7 +3,6 @@ project:
   output-dir: docs
   render:
     - 1pg-summary.qmd
-    - README.qmd
 
     - Index.qmd
     - Bio.qmd
