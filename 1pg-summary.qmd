@@ -52,7 +52,7 @@ format:
 Statistical graphics are powerful and efficient tools to convey numerical information for human decision making; however, research on graphical perception is a patchwork of inconsistent methods.
 Most recommendations are based on opinion rather than empirical study, rendering many scientific communications sub-optimal or ineffective. 
 This is alarming, as effective science communication is critical for cultivating public trust in the scientific process and ensuring that decision makers accurately interpret information when making choices which impact people's lives. 
-My long-term career goal is to understand statistical graphics and data visualization, *helping humans and algorithms work together more efficiently and effectively* and apply this research to educate a new generation of scientists and the broader public. 
+Addressing these challenges, the PI's long-term career goal is to understand statistical graphics and data visualization, *helping humans and algorithms work together more efficiently and effectively*, and apply this research to educate a new generation of scientists and the broader public. 
 
 
 <!-- Toward that long-term goal, what is the overall research goal of the five-year CAREER program? What are the research objectives that will be completed in pursuit of this goal?  -->
