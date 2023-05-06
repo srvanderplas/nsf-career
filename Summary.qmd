@@ -1,14 +1,6 @@
 ---
 title: "Project Summary"
 date: "\\vspace{-3em}"
-output: 
-  pdf_document:
-   includes:
-    in_header: style/preamble.tex
-   template: null
-   keep_tex: no
-   number_sections: false
-documentclass: style/nsf2
 ---
 
 ```{r setup, include=FALSE}

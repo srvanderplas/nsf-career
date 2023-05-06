@@ -1,10 +1,6 @@
 ---
 title: "Susan Vanderplas"
 orcid: "0000-0002-3803-0972"
-format:
-  pdf: 
-    includes:
-      in_header: preamble.tex
 ---
 ::: {.content-visible when-format="pdf"}
 
@@ -13,49 +9,51 @@ format:
 :::
 
 
-## a. Professional Preparation
+## Professional Preparation
 
 Organization and Location | Degree | Date | Field of Study
---- | ---: | :--- | :---
+------------------------------------ | -------: | :-------- | :-------------------
 Iowa State University, Ames, IA, US | Ph.D. | 05/2015 | Statistics
 Iowa State University, Ames, IA, US | M.S. | 12/2011 | Statistics
-Texas A&M University, College Station, Texas, US | B.S. | 05/2009 | Psychology & Applied Mathematical Sciences
+Texas A&M University, College Station, TX, US | B.S. | 05/2009 | Psychology & Applied Mathematical Sciences
 
-## b. Appointments and Positions
+## Appointments and Positions
 
-- 2018 - 2019: Assistant Research Faculty, Iowa State University, Statistics, Ames, IA, US
-- 2015 - 2018: Statistical Analyst, Nebraska Public Power District, Columbus, NE, US
+2018 - 2019 Assistant Research Faculty, Iowa State University, Statistics, Ames, IA, US    
+2015 - 2018 Statistical Analyst, Nebraska Public Power District, Columbus, NE, US
 
-## c. Publications
+## Publications
 
-### Most-closely related publications
-1. Robinson E, Howard R, VanderPlas S. Eye Fitting Straight Lines in the Modern Era. Journal of Computational and Graphical Statistics. 2022 November 21; :1-8. Available from: https://www.tandfonline.com/doi/full/10.1080/10618600.2022.2140668 DOI: 10.1080/10618600.2022.2140668
+### Most-closely related publications {-}
+
+1. Robinson E, Howard R, VanderPlas S. Eye Fitting Straight Lines in the Modern Era. Journal of Computational and Graphical Statistics. 2022 November 21. DOI: 10.1080/10618600.2022.2140668
 
 2. VanderPlas S, Röttger C, Cook D, Hofmann H. Statistical significance calculations for scenarios
-in visual inference. Stat. 2021 February 22; 10(1):-. Available from: https://onlinelibrary.wiley.com/doi/10.1002/sta4.337 DOI: 10.1002/sta4.337
+in visual inference. Stat. 2021 February 22. DOI: 10.1002/sta4.337
 
-3. Vanderplas S, Nally M, Klep T, Cadevall C, Hofmann H. Comparison of three similarity scores for bullet LEA matching. Forensic Science International. 2020 March; 308:110167-. Available from: https://linkinghub.elsevier.com/retrieve/pii/S0379073820300293 DOI: 10.1016/j.forsciint.2020.110167
+3. Vanderplas S, Nally M, Klep T, Cadevall C, Hofmann H. Comparison of three similarity scores for bullet LEA matching. Forensic Science International. 2020 March. DOI: 10.1016/j.forsciint.2020.110167
 
-4. VanderPlas S, Ryan G, Hofmann H. Framed! Reproducing and Revisiting 150-Year-Old Charts. Journal of Computational and Graphical Statistics. 2019 April 01; 28(3):620-634. Available from: https://www.tandfonline.com/doi/full/10.1080/10618600.2018.1562937 DOI: 10.1080/10618600.2018.1562937
+4. VanderPlas S, Ryan G, Hofmann H. Framed! Reproducing and Revisiting 150-Year-Old Charts. Journal of Computational and Graphical Statistics. 2019 April 01; 28(3):620-634. DOI: 10.1080/10618600.2018.1562937
 
-5. VanderPlas S, Hofmann H. Clusters Beat Trend!? Testing Feature Hierarchy in Statistical Graphics. Journal of Computational and Graphical Statistics. 2017 April 24; 26(2):231-242. Available from: https://www.tandfonline.com/doi/full/10.1080/10618600.2016.1209116 DOI: 10.1080/10618600.2016.1209116
+5. VanderPlas S, Hofmann H. Clusters Beat Trend!? Testing Feature Hierarchy in Statistical Graphics. Journal of Computational and Graphical Statistics. 2017 April 24; 26(2):231-242. DOI: 10.1080/10618600.2016.1209116
 
-### Significant Publications
+### Significant Publications {-}
 
-1. VanderPlas S, Ge Y, Unwin A, Hofmann H. Penguins Go Parallel: A Grammar of Graphics Framework for Generalized Parallel Coordinate Plots. Journal of Computational and Graphical Statistics. 2023 April 21; :1-16. Available from: https://www.tandfonline.com/doi/full/10.1080/10618600.2023.2195462 DOI: 10.1080/10618600.2023.2195462
+1. VanderPlas S, Ge Y, Unwin A, Hofmann H. Penguins Go Parallel: A Grammar of Graphics Framework for Generalized Parallel Coordinate Plots. Journal of Computational and Graphical Statistics. 2023 April 21. DOI: 10.1080/10618600.2023.2195462
 
-2. Wilhelm A, VanderPlas S. Visual Narratives of the Covid-19 pandemic. Journal of Data Science, Statistics, and Visualisation. 2022 November 28; 2(7):84-113. Available from: https://jdssv.org/index.php/jdssv/article/view/64 DOI: 10.52933/jdssv.v2i7.64
+2. Wilhelm A, VanderPlas S. Visual Narratives of the Covid-19 pandemic. Journal of Data Science, Statistics, and Visualisation. 2022 November 28; 2(7):84-113. DOI: 10.52933/jdssv.v2i7.64
 
-3. Vanderplas S. Designing Graphics Requires Useful Experimental Testing Frameworks and Graphics Derived from Empirical Results. Harvard Data Science Review. 2021 July 30; :-. Available from: https://hdsr.mitpress.mit.edu/pub/m7ur7k3u DOI: 10.1162/99608f92.7d099fd0 
+3. Vanderplas S. Designing Graphics Requires Useful Experimental Testing Frameworks and Graphics Derived from Empirical Results. Harvard Data Science Review. 2021 July 30. DOI: 10.1162/99608f92.7d099fd0 
 
-4. Hofmann H, Carriquiry A, Vanderplas S. Treatment of inconclusives in the AFTE range of conclusions. Law, Probability and Risk. 2020 December 01; 19(3-4):317-364. Available from: https://academic.oup.com/lpr/article/19/3-4/317/6308611 DOI: 10.1093/lpr/mgab002
+4. Hofmann H, Carriquiry A, Vanderplas S. Treatment of inconclusives in the AFTE range of conclusions. Law, Probability and Risk. 2020 December 01; 19(3-4):317-364. DOI: 10.1093/lpr/mgab002
 
-5. Vanderplas S, Cook D, Hofmann H. Testing Statistical Charts: What Makes a Good Graph?. Annual Review of Statistics and Its Application. 2020 March 09; 7(1):61-88. Available from: https://www.annualreviews.org/doi/10.1146/annurev-statistics-031219-041252 DOI: 10.1146/annurev-statistics-031219-041252
+5. Vanderplas S, Cook D, Hofmann H. Testing Statistical Charts: What Makes a Good Graph?. Annual Review of Statistics and Its Application. 2020 March 09; 7(1):61-88. DOI: 10.1146/annurev-statistics-031219-041252
  
 
-## d. Synergistic activities
+## Synergistic activities
 
-1. Development of an [OER textbook](https://srvanderplas.github.io/stat-computing-r-python/) for teaching statistical computing and data science skills in R and python.
+1. Development of an [OER textbook](https://srvanderplas.github.io/stat-computing-r-python/) covering statistical computing and data science skills in R and python with an emphasis on open-source software, data visualization, and reproducibility.
+
 2. Writing amicus curiae briefs evaluating scientific support for forensic evidence evaluation techniques that are currently conducted visually (firearms, toolmark, footwear), including assessment of experimental design, empirically validated error rates, reproducibility, and validation of the underlying scientific principles used to support claims made about forensic evidence during courtroom testimony.
 
 3. American Statistical Association Advisory committee on Forensic Science member (2023-2025)

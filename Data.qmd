@@ -1,6 +1,5 @@
 ---
 title: "Data Management Plan"
-date: "\\vspace{-3em}"
 ---
 
 ```{r setup, include=FALSE}

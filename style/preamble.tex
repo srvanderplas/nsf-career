@@ -1,4 +1,39 @@
-\usepackage{palatino}
+\usepackage{fontspec}
+\setmainfont{Times New Roman}
 
 \date{\vspace{-5em}}
 
+\RedeclareSectionCommand[
+  %runin=false,
+  afterindent=false,font=\Large\bfseries,
+  beforeskip=.25\baselineskip,
+  afterskip=.05\baselineskip]{section}
+\RedeclareSectionCommand[
+  %runin=false,
+  afterindent=false,
+  beforeskip=.05\baselineskip,
+  afterskip=.05\baselineskip]{subsection}
+\RedeclareSectionCommand[
+  %runin=false,
+  afterindent=false,
+  beforeskip=.05\baselineskip,
+  afterskip=-1\baselineskip]{subsubsection}
+\RedeclareSectionCommand[
+  runin=true,
+  %afterindent=false,
+  beforeskip=.05\baselineskip,
+  afterskip=-1\baselineskip]{paragraph}
+
+% Method proposed in "The LaTeX Companion", 2nd ed.:
+\makeatletter
+\def\@seccntformat#1{\@ifundefined{#1@cntformat}%
+    {\csname the#1\endcsname\space}%    default
+    {\csname #1@cntformat\endcsname}}%  enable individual control
+% \newcommand\subsection@cntformat{\thesubsection\@.\space} % subsection level
+\makeatother
+
+\renewcommand\thesection{\Alph{section}}
+
+\newcommand{\newsection}[1]{\pagenumbering{arabic}\renewcommand{\thepage}{#1--\arabic{page}}}
+
+\usepackage{wrapfig}

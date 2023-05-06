@@ -1,11 +1,6 @@
 ---
 title: "Budget Justification"
-date: "\\vspace{-3em}"
 ---
-
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
 
 \newsection{G}
 

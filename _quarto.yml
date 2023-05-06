@@ -18,15 +18,23 @@ project:
 
 format:
   pdf:
-    documentclass: style/nsf2
-    include-in-header: style/preamble.tex
     keep-tex: false
     number-sections: true
+    documentclass: scrartcl
+    fontsize: 11pt
+    papersize: letter
+    toc: false
+    geometry:
+      - top=1in
+      - left=1in
+      - right=1in
+      - bottom=1in
+    include-in-header: style/preamble.tex
   html:
     toc: true
     html-math-method: katex
 
 bibliography: refs.bib
 
-csl: ieee-with-url.csl
+csl: style/ieee-with-url.csl
 
