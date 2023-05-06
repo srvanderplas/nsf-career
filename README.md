@@ -1,6 +1,6 @@
 # NSF CAREER Award Quick Links
 
-[One-page Summary](1pg-summary.pdf)
+[One-page Summary](docs/1pg-summary.pdf)
 
 [Biosketch](NSF-Biosketch.pdf)
 
