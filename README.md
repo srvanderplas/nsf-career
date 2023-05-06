@@ -1,7 +1,4 @@
----
-format: asciidoc
-title: NSF CAREER Award Quick Links
----
+# NSF CAREER Award Quick Links
 
 [One-page Summary](1pg-summary.pdf)
 
