@@ -39,3 +39,7 @@ vignettes/*.pdf
 .Renviron
 
 /.quarto/
+
+*_files/
+*.tex
+*.log
