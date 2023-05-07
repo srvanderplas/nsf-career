@@ -32,8 +32,29 @@
 % \newcommand\subsection@cntformat{\thesubsection\@.\space} % subsection level
 \makeatother
 
-\renewcommand\thesection{\Alph{section}}
-
 \newcommand{\newsection}[1]{\pagenumbering{arabic}\renewcommand{\thepage}{#1--\arabic{page}}}
 
 \usepackage{wrapfig}
+\usepackage{underscore}
+
+\makeatletter
+\def\@maketitle{%
+  \newpage
+  \null
+  % \vskip 2em%
+  % \begin{center}%
+  \let \footnote \thanks
+    \hfil\textbf{\Large \@title}\hfil\\
+    % \vskip 1.5em%
+    % {\large
+    %   % \lineskip .5em%
+    %   \begin{tabular}[t]{c}%
+    %     \@author
+    %   \end{tabular}\par}%
+    % \vskip 1em%
+    %{\large \@date}%
+  % \end{center}%
+  \par
+  % \vskip 1.5em
+  }
+\makeatother

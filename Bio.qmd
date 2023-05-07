@@ -1,6 +1,11 @@
 ---
 title: "Susan Vanderplas"
 orcid: "0000-0002-3803-0972"
+format:
+  pdf:
+    include-in-header: 
+      - text: |
+          \renewcommand\thesection{\Alph{section}}
 ---
 ::: {.content-visible when-format="pdf"}
 
