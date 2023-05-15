@@ -49,33 +49,36 @@ format:
 <!-- What is the need or opportunity your work will address? What current approaches/methods are used, and how are these current approaches limited/insufficient?  -->
 <!-- In the context of the need for your work described above, what is your long-term career goal in terms of both research and education?  -->
 
-Statistical graphics are powerful and efficient tools to convey numerical information for human decision making; however, research on graphical perception is a patchwork of inconsistent methods.
+Statistical graphics are powerful and efficient tools to convey data to support human decision making; however, research on graphical perception is a patchwork of inconsistent methods and conflicting results.
 Most recommendations are based on opinion rather than empirical study, rendering many scientific communications sub-optimal or ineffective. 
 This is alarming, as effective science communication is critical for cultivating public trust in the scientific process and ensuring that decision makers accurately interpret information when making choices which impact people's lives. 
-Addressing these challenges, the PI's long-term career goal is to understand statistical graphics and data visualization, *helping humans and algorithms work together more efficiently and effectively*, and apply this research to educate a new generation of scientists and the broader public. 
+Addressing these challenges, the PI's long-term career goal is to examine statistical graphics with the goal of *helping humans and algorithms work together more efficiently and effectively*, and to apply this research to educate a new generation of scientists and the broader public. 
 
 
 <!-- Toward that long-term goal, what is the overall research goal of the five-year CAREER program? What are the research objectives that will be completed in pursuit of this goal?  -->
 
 Toward this vision, the overall **research goal** of this CAREER program is to advance understanding of the use and perception of data displays and the impact of their design on humans' ability to use them successfully. Toward this goal, three research objectives (ROs) will be pursued. 
 RO1: Examine effectiveness of graphics across different tasks, such as comparison, prediction, and estimation, by developing multi-modal methods for testing charts. 
-RO2: Empirically validate guidelines for graphical creation, assessing the effect of design decisions on the utility of charts across different uses.
-RO3: Produce validated, empirical, quantitative tools for reproducible decision-making in forensic science by engineering statistical features that mimic human visual perception in when examining forensic evidence.
+RO2: Empirically validate visualization design guidelines, measuring the impact of design decisions on task performance.
+RO3: Produce validated, empirical, quantitative tools for reproducible decision-making in forensic pattern evidence analysis by engineering statistical features that mimic human visual perception.
 
 <!-- What is the overall education goal of the five-year CAREER program? What are the education objectives that will be completed in pursuit of this goal?  -->
 
-Integrated with these research efforts, the overall **education goal** is to cultivate statistical learning and scientific decision making in society. Three education objectives (EOs) will address this goal: 
+Integrated with these research efforts, the overall **education goal** is to cultivate statistical learning and scientific decision making in society. Three education objectives (EOs) address this goal: 
 EO1: Develop and implement experiential learning activities in graphics for undergraduate introductory statistics courses. 
 EO2: Create and implement open educational resources (OER) to introduce reproducible science and open-source software development in statistical programming courses. 
-EO3: Work with graduate students to engage with forensic scientists, lawyers, and judges, evaluating the scientific support for forensic disciplines and promoting the importance of open, reproducible forensic science. 
+EO3: Engage with forensic scientists, lawyers, and judges, evaluating the scientific support for forensic disciplines and promoting open, reproducible scientific practices. 
 
 # Intellectual Merit
 
 <!-- Describe the potential of the proposed activity to advance knowledge. What is novel in the proposed approach? What knowledge will be advanced, and how will this new knowledge inform future work in your field and other fields? -->
 
-This work will expand our understanding of applied perception and scientific communication; in particular, this research will include studies focused on expert, disabled, and neurodivergent subpopulations, increasing our understanding of accessible graphics in different target groups. 
-Novel methods for graphical study will uncover new research directions in InfoVis and will produce additional tools for evaluating scientific communication.
-Research in forensic perception will advance our understanding of visual evidence comparisons, produce better error rate estimates, and approach explainable machine learning in a new way. 
+This work will expand our understanding of scientific communication with graphics by reconciling sparse and conflicting research and opinions with empirical testing to produce nuanced guidelines for chart design. 
+New methods of empirical graphical testing will be developed to cover a wider range of engagement with charts. 
+In addition, this work will specifically examine the effects of expertise and disability (visual and cognitive), increasing our understanding of accessibility and audience considerations in graphics. 
+While at first glance forensic pattern evidence seems unrelated to graphical perception, both graphics and pattern evidence images are visual tools used for making decisions; studying how visual patterns are perceived and used for decision-making in graphics allows us to reverse-engineer the process to develop reproducible, quantitative features that capture visual patterns in evidence that is currently evaluated subjectively. 
+<!-- In addition, these algorithms produce better error-rate estimates, providing scientific support for the validity of this evidence within the legal system. -->
+<!-- Research in forensic perception will advance our understanding of visual evidence comparisons, produce better error rate estimates, and approach explainable machine learning in a new way.  -->
 Incorporating experiential learning and graphics research into intro statistics courses will advance knowledge of pedagogy and barriers to interest and engagement in STEM. 
 Finally, assessing the OER curricula developed for reproducibility and open-source science will allow us to measure and explore the development of students' attitudes toward ethical science and responsible conduct of research.
 
@@ -84,8 +87,8 @@ Finally, assessing the OER curricula developed for reproducibility and open-sour
 
 <!-- Describe the potential of the proposed activity to benefit society and contribute to the achievement of specific, desired societal outcomes. How might results of this work ultimately inform applications that benefit society?  -->
 
-The statistical graphics research will produce empirical guidelines for better science communication. 
-Applying our improved understanding of visual perception, we will develop algorithms for quantitative, reproducible evaluation of forensic pattern evidence. 
-Engaging with the justice system will emphasize the failings of current subjective evaluation methods, motivate the importance of these algorithms, and facilitate conversations between graduate students in quantitative fields and judges, lawyers, law students, and forensic scientists. 
+This research will produce nuanced, empirically driven guidelines to support better science communication. 
+In addition, this project leverages explainable machine learning to reduce cognitive demands on jurors while building community and forensic examiner trust in statistical decision tools.
+Applying perceptual research to pattern evidence will emphasize the subjectivity and lack of reproducibility under the status quo; the work will also facilitate conversations between graduate students in quantitative fields and judges, lawyers, law students, and forensic scientists. 
 Experiential learning and research engagement will produce students who are more engaged in STEM coursework and less averse to STEM careers (while accelerating research productivity). 
-Incorporating reproducibility and open-source software development into statistical coursework will foster a well-trained future generation of scientists who will contribute to the open-science community, emphasize the importance of reproducible and open science, and build new infrastructure while conducting better science.
+Incorporating reproducibility and open-source software development into statistical coursework will foster a well-trained future generation of scientists who will contribute to the open-science community, emphasize the importance of reproducible and open science, and build new infrastructure to support future research.
