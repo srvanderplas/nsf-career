@@ -36,5 +36,5 @@ format:
 
 bibliography: refs.bib
 
-csl: style/ieee-with-url.csl
+csl: style/national-science-foundation-grant-proposals.csl
 
