@@ -54,9 +54,9 @@ We can use the insights we gain by studying perception of graphics to "close the
 
 This CAREER proposal addresses a fundamental research question underpinning both of these problems: *How do humans make decisions supported by data visualizations?* Three research objectives (ROs) will support the overall **research goal** of advancing our understanding of the role of data visualizations in human decision making:
 
--   **RO1:** Examine effectiveness of charts across different tasks, such as visual search, comparison, prediction, and estimation, by developing multi-modal methods for graphical testing.
+-   **RO1:** Examine effectiveness of charts across different tasks, such as visual search, comparison, prediction, and estimation, by developing multi-modal methods for graphical testing. If successful, this will produce testing methods that focus on specific cognitive tasks related to use of scientific visualizations, and will facilitate comparison of results across experiments and methods.
 -   **RO2:** Empirically validate visualization design guidelines, measuring the impact of design decisions on performance of different tasks. If successful, this will produce nuanced guidelines that are task-focused and empirically derived.
--   **RO3:** Engineer statistical features that mimic human perception which will be combined into empirically validated, objective, quantitative statistical tools that support reproducible decision-making in forensic pattern evidence.
+-   **RO3:** Engineer statistical features that mimic human perception which will be combined into empirically validated, objective, quantitative tools that support reproducible decision-making in forensic pattern evidence. 
 
 Integrated with these research efforts, the overall **education goal** is to cultivate statistical learning and scientific decision making in society.
 Three education objectives (EOs) address this goal:
@@ -67,7 +67,7 @@ Three education objectives (EOs) address this goal:
 
 The research, educational activities, and outreach conducted in support of these objectives will advance our understanding of the design, perception, and use of visual data displays.
 New suites of task-focused testing methods will facilitate precise, targeted experiments in data visualization, and applying multiple task-focused testing methods to examine design guidelines will facilitate better scientific communication and dissemination of results, building trust in science and leveraging scientific principles.
-Measuring the pedagogical effectiveness of experiential learning in undergraduate statistics courses will provide new strategies for STEM outreach and engagement.
+Measuring the pedagogical effectiveness of experiential learning in undergraduate statistics courses will provide new understanding of effective strategies for STEM outreach and engagement.
 Incorporating students into the research process with experiential learning and using graphics to motivate statistical concepts will engage students at a deeper level and open up STEM topics to math-phobic students in a tangible way.
 Weaving scientific communication and reproducibility into courses on statistical programming will produce a new generation of scientists equipped with the tools to conduct better, more reproducible research and communicate the results to other scientists and to the public. 
 
@@ -95,16 +95,25 @@ Weaving scientific communication and reproducibility into courses on statistical
 
 <!-- Write this section in nontechnical terms for a broader audience. -->
 
-Statistical graphics are a primary way scientists communicate results to other scientists as well as the general public, but we have been arguing about best practices for the visual display of data almost since these graphical forms were created [@wickham2013graphical; @croxtonBarChartsCircle1927; @eellsRelativeMeritsCircles1926].
+
+<!-- Importance of Scientific visualizations -->
+
+
+
+Statistical visualizations are a primary way scientists communicate results to other scientists as well as the general public, but we have been arguing about best practices for the visual display of data almost since these graphical forms were created [@wickham2013graphical; @croxtonBarChartsCircle1927; @eellsRelativeMeritsCircles1926].
 Different individuals and organizations have released guidelines for graphical design [@JointCommitteeStandards1915; @brewerGuidelinesUsePerceptual1994; @kosslynGraphDesignEye2006; @tufteVisualDisplayQuantitative2001; @kelleherTenGuidelinesEffective2011], but many of these are based on aesthetic preferences, individual experience, or extrapolation from limited empirical studies.
-Even when there are empirical studies to support guidelines for choosing one graphical form over another to increase perceptual accuracy and decrease viewer effort [@cleveland1984; @hofmannGraphicalTestsPower2012; @spenceVisualPsychophysicsSimple1990] (See @vanderplasTestingStatisticalCharts2020 for a review), these studies measure different quantities (estimation accuracy vs. ability to perceive a departure from a null model) in different ways (direct numerical estimation vs. comparative estimation of proportions) that have a potentially large effect on the generalizability of the results.
-<!-- Address Perception vs. Task vs. Structure vs. Meta Perception Testing methods (Measures in Visualization Space, Bolte & Bruckner, in Foundations of Data Visualization) --> There are relatively few studies which directly compare the effect of different methods for testing graphics, but minor changes to data collection methods can impact accuracy of even simple numerical estimation tasks [@hondaNumberBiasWisdom2022]; it is reasonable to expect that the specifics of the graphical testing procedure used may impact the results, potentially explaining conflicting empirically driven recommendations [@croxtonBarChartsCircle1927; @eellsRelativeMeritsCircles1926; @spenceVisualPsychophysicsSimple1990].
+Even when there are empirical studies to support guidelines for choosing one graphical form over another to increase perceptual accuracy and decrease viewer effort [@cleveland1984; @hofmannGraphicalTestsPower2012; @spenceVisualPsychophysicsSimple1990] (See @vanderplasTestingStatisticalCharts2020 for a review), these studies measure different quantities (estimation accuracy vs. ability to perceive a departure from a null model) in different ways (direct numerical estimation vs. comparative estimation of proportions); these differences have a potentially large effect on the generalizability of the results.
+<!-- Address Perception vs. Task vs. Structure vs. Meta Perception Testing methods (Measures in Visualization Space, Bolte & Bruckner, in Foundations of Data Visualization) --> 
+There are relatively few studies which directly compare the effect of different methods for testing graphics, but minor changes to data collection methods can impact accuracy of even simple numerical estimation tasks [@hondaNumberBiasWisdom2022]; it is reasonable to expect that the specifics of the graphical testing procedure used may impact the results, potentially explaining conflicting empirically based recommendations [@croxtonBarChartsCircle1927; @eellsRelativeMeritsCircles1926; @spenceVisualPsychophysicsSimple1990].
+
+
 
 ```{=tex}
 \begin{wrapfigure}{R}{.25\textwidth}  
 \includegraphics{ProjectDescription_files/figure-pdf/new-1}
 \end{wrapfigure}
 ```
+
 ## Preliminary Data
 
 <!-- b. Preliminary data -->
