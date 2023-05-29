@@ -170,6 +170,8 @@ If this is the case, the guidelines to avoid 3D graphics may be entirely misguid
 
 ## Methods
 
+[Link to Excel Sheet](https://uofnelincoln-my.sharepoint.com/:x:/g/personal/svanderplas2_unl_edu/EWdmaS7it8VMlxCsZ9_XRacB9zIwx2nIQZJoPzoeU3yD6Q?e=H9qwHb&nav=MTVfe0NDMjUzODdELUU4MDAtNDhGOS05OTg2LTZFRDA0NDI0NjFBOH0)
+
 <!-- c. Methods -->
 <!-- This is generally the longest section of the research plan, where you develop the details of your project. This section is not just about methods but design. -->
 <!-- Suggested format for this section: -->
