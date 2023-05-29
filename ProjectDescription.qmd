@@ -133,7 +133,7 @@ During the early stages of the pandemic, log scales were fairly common because t
 In order to address this gap in the literature, I worked with a graduate student, Emily Robinson, to design and execute a series of three studies addressing different tasks related to log scales: could participants detect a difference in rates of exponential growth?
 Could they predict future values?
 Could they estimate additive and multiplicative differences from an exponential time series?
-We examined these questions by testing charts with log and linear scales; in addition to a separate study testing each question above [@robinson_human_2022, peer reviewed articles in progress], we have also published a tool paper [@robinson_etal23] and a method validation paper [@robinson_etal22]. 
+We examined these questions by testing charts with log and linear scales; in addition to a separate study testing each question above [@robinson_human_2022, additional publications in progress], we have also published a tool paper [@robinson_etal23] and a method validation paper [@robinson_etal22]. 
 
 ```{=html}
 ![Lineups (log and linear scale) test detection of differences in exponential growth rates.](log-lineups.png)
@@ -146,138 +146,130 @@ We examined these questions by testing charts with log and linear scales; in add
 \end{wrapfigure}
 ```
 
+While there are many graph design and scientific communication questions which have not yet been experimentally tested, there is another problem with current literature: some comparisons were tested experimentally using graphics which were state-of-the-art at the time, but have not been re-examined in light of technological developments in the past 40-60 years. 
+For instance, @cleveland1984 examined the use of fixed 3D projections of 2D data, but developments since the 1980s mean that analysts can now create 3D digital environments with appropriate shading and interactivity, and can even print these creations to create 3D charts that can be physically manipulated, touched, and considered from all angles. 
+Are the guidelines that suggest 3D renderings are less accurately read and misleading still valid under these conditions?
+
+```{=html}
+![Three renderings of bar charts: 2D (top), 3D digital render (middle), and 3D printed (bottom).](images/3D-charts.png)
+```
+
+```{=tex}
+\begin{wrapfigure}{R}{.3\textwidth}  
+\includegraphics{images/3D-charts.png}
+\caption{Three renderings of bar charts: 2D (top), 3D digital render (middle), and 3D printed (bottom).}
+\end{wrapfigure}
+```
+
+
+A graduate student and I have been investigating this question in two different populations: a population comparable to that used in @cleveland1984 (statistics faculty and graduate students and their roommates), and a population of introductory statistics students as part of an experiential learning project; the latter population is being tested in Summer 2023, but preliminary data is available from the former population. 
+We have created charts rendered using 2D graphics, 3D digital renderings [@rglpkg], and 3D-printed graphics [@mariuskintelOpenSCADDocumentation2023]. 
+Our initial investigation found few differences between 2D, 3D digital, and 3D printed charts in comparison accuracy; as a result, we are expanding the study to determine whether this is a technological difference and the decreased accuracy in @cleveland1984 is a result of the 3D fixed-angle projection that does not allow for realistic manipulation. 
+Misapplied depth perception has been implicated in other graphical mis-perceptions [@vanderplasSignsSineIllusion2015;@hofmannCommonAnglePlots2013], and it is entirely possible that 3D charts that are interactive can be accurately perceived while artificial 3D fixed-angle projections into 2D space lead to inaccurate perceptions. 
+If this is the case, the guidelines to avoid 3D graphics may be entirely misguided given the technology available today.
 
 ## Methods
 
 <!-- c. Methods -->
-
 <!-- This is generally the longest section of the research plan, where you develop the details of your project. This section is not just about methods but design. -->
-
 <!-- Suggested format for this section: -->
-
 <!-- D. RESEARCH DESIGN AND METHODS -->
-
 <!-- Introductory paragraph to orient reviewer to what you plan to do. -->
-
 <!-- When outlining your experimental plan: -->
-
 <!-- • Base it on your specific aims—restate the aims and describe the flow of experiments for each aim. -->
-
 <!-- • Describe methodology for each aim, establishing your expertise with the approach by linking back to your preliminary studies and assessing the strengths and limitations of your approach. -->
-
 <!-- • Cite appropriate references. -->
-
 <!-- • Describe the timeline and sequence of experiments. -->
-
 <!-- • Talk about relevance to the field. -->
-
 <!-- D.1. Aim 1. Repeat Specific Aim from page 1. -->
-
 <!-- D.1.a. Hypothesis and Rationale. -->
-
 <!-- D.1.b. Experimental Plan. -->
-
 <!-- D.1.c. Expected Outcomes/Evaluation -->
-
 <!-- D.1.d. Potential Pitfalls and Alternative Approaches -->
-
 <!-- Discuss the limitations of each approach you are proposing and how they may affect your results and data.  -->
-
 <!-- • Call attention to potential difficulties and propose alternatives you will use if a technique is inadequate or the results are inconclusive. -->
-
 <!-- • Describe potential pitfalls and what you will do if they occur. -->
-
 <!-- • State what you will do if results are negative, how negative findings will also advance the field, and what you will do next. -->
-
-<!-- D.1.e Evaluation -->
-
-<!-- Describe how you will assess your research program. -->
-
+<!-- D.1.e Evaluation - Describe how you will assess your research program. -->
 <!-- • Consider linking this to your timeline and/or milestones. -->
-
 <!-- • Describe future plans. -->
-
 <!-- • Identify what others will be able to do with your research results. -->
-
 <!-- D.1.f Future Steps -->
+
+<!-- D.2. Aim 2. Repeat Specific Aim from page 1. -->
+<!-- D.2.a. Hypothesis and Rationale. -->
+<!-- D.2.b. Experimental Plan. -->
+<!-- D.2.c. Expected Outcomes/Evaluation -->
+<!-- D.2.d. Potential Pitfalls and Alternative Approaches -->
+<!-- Discuss the limitations of each approach you are proposing and how they may affect your results and data.  -->
+<!-- • Call attention to potential difficulties and propose alternatives you will use if a technique is inadequate or the results are inconclusive. -->
+<!-- • Describe potential pitfalls and what you will do if they occur. -->
+<!-- • State what you will do if results are negative, how negative findings will also advance the field, and what you will do next. -->
+<!-- D.2.e Evaluation - Describe how you will assess your research program. -->
+<!-- • Consider linking this to your timeline and/or milestones. -->
+<!-- • Describe future plans. -->
+<!-- • Identify what others will be able to do with your research results. -->
+<!-- D.2.f Future Steps -->
+
+<!-- D.3. Aim 3. Repeat Specific Aim from page 1. -->
+<!-- D.3.a. Hypothesis and Rationale. -->
+<!-- D.3.b. Experimental Plan. -->
+<!-- D.3.c. Expected Outcomes/Evaluation -->
+<!-- D.3.d. Potential Pitfalls and Alternative Approaches -->
+<!-- Discuss the limitations of each approach you are proposing and how they may affect your results and data.  -->
+<!-- • Call attention to potential difficulties and propose alternatives you will use if a technique is inadequate or the results are inconclusive. -->
+<!-- • Describe potential pitfalls and what you will do if they occur. -->
+<!-- • State what you will do if results are negative, how negative findings will also advance the field, and what you will do next. -->
+<!-- D.3.e Evaluation - Describe how you will assess your research program. -->
+<!-- • Consider linking this to your timeline and/or milestones. -->
+<!-- • Describe future plans. -->
+<!-- • Identify what others will be able to do with your research results. -->
+<!-- D.3.f Future Steps -->
+
 
 # Education Plan
 
 <!-- 3. Education Plan -->
-
 <!-- Suggested length is 3-5 pages. Tips: Use first person, and refer to experiences that have informed your approach to education/teaching/mentoring.  -->
 
 ## Overview
 
 <!-- a. Overview/background/aims -->
-
 <!-- Frame a big picture for your education plan. Include background, motivation, rationale, and aims for each major activity in the plan (e.g., Aim 1, Aim 2, Aim 3.). Suggest limiting to 3 major aims. -->
 
 ## Design and methods
 
 <!-- b. Design and methods -->
-
 <!-- For each aim listed in 3a, describe the target audience, needs/gaps to be addressed, methods, resources (including  personnel, partnerships, budget), and measurable desired outcomes (i.e., what would success look like?). -->
 
 ## Evaluation
 
 <!-- c. Evaluation -->
-
 <!-- Describe how you will assess your education program. -->
-
 <!-- • Consider linking this to your timeline. -->
-
 <!-- Tip: Refer to the NSF User Friendly Handbook for Project Evaluation: nsf.gov/pubs/2002/nsf02057/nsf02057.pdf -->
 
 ## Integration of research and Education
 
 <!-- d. Integration of research and education -->
-
 <!-- How will your research impact your education goals and how will your education activities feed back into your research? -->
 
 # Broader Impacts
 
 <!-- 4. Broader Impacts -->
-
 <!-- You must include a separate section that addresses the Broader Impacts of your proposal. -->
-
 <!-- • Must use the section heading "Broader Impacts" somewhere in your proposal. -->
-
 <!-- • Describe the broader impacts that are intrinsic to your research, as well as those that result from your education activities. -->
-
 <!-- • As an alternative to one section on broader impacts, you could have multiple sections throughout the proposal that are paired with each aim. In this case, be sure that you still create a separate section with the heading "Broader Impacts." -->
 
 # Timeline
 
 <!-- 5. Timeline -->
-
 <!-- This is where you show how everything will fit together. -->
-
 <!-- • Propose an appropriate amount of work for the funding period. Reviewers are sensitive to proposals that seem “overly ambitious.” -->
-
 <!-- • Provide a diagram of your timeline over the funding period, showing when you will hit certain milestones, or provide a list of milestones you will achieve in each year. -->
-
 <!-- • Include key milestones for each education aim -->
 
-# Results from Prior NSF Support
-
-<!-- 6. Results from Prior NSF Support -->
-
-<!-- Describe support from past 5 years per GPG instructions. If you have none, write “Not applicable.” Use this format: -->
-
-<!-- (a) The NSF award number, amount and period of support. -->
-
-<!-- (b) The title of the project. -->
-
-<!-- (c) A summary of the results of the completed work, including accomplishments, supported by the award. The results must be separately described under two distinct headings: Intellectual Merit and Broader Impacts. -->
-
-<!-- (d) A listing of the publications resulting from the NSF award. -->
-
-<!-- (e) Evidence of research products and their availability, including, but not limited to: data, publications, samples, physical collections, software, and models, as described in any Data Management Plan. -->
-
-<!-- (f) Write "Not applicable." (This section is for if the proposal is for renewed support.)  -->
-
-<!-- If the project was recently awarded and therefore no new results exist, describe the major goals and broader impacts of the project. -->
 
 ::: {.content-visible when-format="pdf"}
 \clearpage
