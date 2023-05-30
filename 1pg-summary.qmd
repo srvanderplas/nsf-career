@@ -57,10 +57,10 @@ Addressing these challenges, the PI's long-term career goal is to examine statis
 
 <!-- Toward that long-term goal, what is the overall research goal of the five-year CAREER program? What are the research objectives that will be completed in pursuit of this goal?  -->
 
-Toward this vision, the overall **research goal** of this CAREER program is to advance understanding of the use and perception of data displays and the impact of their design on humans' ability to use them successfully. Toward this goal, three research objectives (ROs) will be pursued. 
-RO1: Examine effectiveness of graphics across different tasks, such as comparison, prediction, and estimation, by developing multi-modal methods for testing charts. 
+Toward this vision, the overall **research goal** of this CAREER program is to advance understanding of the use and perception of data displays and the impact design the charts effectiveness. Toward this goal, three research objectives (ROs) will be pursued. 
+RO1: Examine effectiveness of graphics across different tasks <!--, such as comparison, prediction, and estimation,--> by developing methods for testing charts at different levels of user engagement.
 RO2: Empirically validate visualization design guidelines, measuring the impact of design decisions on task performance.
-RO3: Produce validated, empirical, quantitative tools for reproducible decision-making in forensic pattern evidence analysis by engineering statistical features that mimic human visual perception.
+RO3: Produce quantitative statistical models for reproducible decision support using images <!--in forensic pattern evidence analysis--> by engineering statistical features to mimic human perception.
 
 <!-- What is the overall education goal of the five-year CAREER program? What are the education objectives that will be completed in pursuit of this goal?  -->
 
@@ -87,8 +87,9 @@ Finally, assessing the OER curricula developed for reproducibility and open-sour
 
 <!-- Describe the potential of the proposed activity to benefit society and contribute to the achievement of specific, desired societal outcomes. How might results of this work ultimately inform applications that benefit society?  -->
 
-This research will produce nuanced, empirically driven guidelines to support better science communication. 
-In addition, this project leverages explainable machine learning to reduce cognitive demands on jurors while building community and forensic examiner trust in statistical decision tools.
-Applying perceptual research to pattern evidence will emphasize the subjectivity and lack of reproducibility under the status quo; the work will also facilitate conversations between graduate students in quantitative fields and judges, lawyers, law students, and forensic scientists. 
+This research will produce nuanced, empirically driven guidelines to support better science communication, enhancing scientists' ability to disseminate their research to the general public through data visualization. 
+In addition, this project leverages explainable machine learning (EML) to reduce cognitive demands of decision-making based on statistical models while building <!--community and forensic examiner--> trust in statistical decision tools through perceptual analogies.
+One specific application of this approach to EML is the proposed work with forensic pattern evidence, which will emphasize the subjectivity and lack of reproducibility of current methods; the work will also require conversations between graduate students in quantitative fields and judges, lawyers, law students, and forensic scientists. 
+<!-- However, the general approach of applying feature engineering to visually represented data in order to develop explainable machine learning models can be applied far beyond forensic pattern evidence. -->
 Experiential learning and research engagement will produce students who are more engaged in STEM coursework and less averse to STEM careers (while accelerating research productivity). 
 Incorporating reproducibility and open-source software development into statistical coursework will foster a well-trained future generation of scientists who will contribute to the open-science community, emphasize the importance of reproducible and open science, and build new infrastructure to support future research.
