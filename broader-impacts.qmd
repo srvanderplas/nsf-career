@@ -1,0 +1,99 @@
+My BI Project Plan Summary
+Congratulations! You've reached the end of the ARIS Broader Impact Wizard. Now you can copy or print your notes below and work on your actual BI project proposal in your favorite writing tool. If you would like to change any of your notes, you can always go back through the Wizard.
+
+If this page is blank, you probably haven't gone through the ARIS Broader Impact Wizard yet. Why not give it a go from the top! If you're ready to start work on a new BI Project Plan, click the reset button to clear your data.
+
+Show Questions
+[Edit Section]
+ Research Relevance
+What are the research/science questions in your proposal?
+
+This project focuses on ways that human perception and data interact to facilitate decision-making, making use of new experimental methods for testing charts, generating better design guidelines, and using human perception to build new statistical features for reproducible decision making tools.
+
+What are the potential benefits of sharing this information with your audience?
+
+Graphics are not only a method for communicating scientific results to the public; they are also much less intimidating than formulae and statistical tests. At a fundamental level, this project's goal of understanding how we use data visualization to make decisions effectively is directly related to the broader impact of making scientific research accessible to the public, increasing public trust in science.
+
+[Edit Section]
+ Target Audience
+Who is your target audience?
+
+The broader impacts of this project will support undergraduate and graduate students, educators, researchers, and individuals in the justice system (lawyers, judges, and forensic examiners).
+
+What relevant needs are you meeting for this audience?
+
+Using data visualization to provide an accessible entry into data analysis and statistics will generate more interest in STEM fields. This project also empowers scientists (and future scientists) to communicate and build trust more effectively with the general public, while building the quantitative reasoning skills in students so that they can be educated members of the public.
+
+[Edit Section]
+ Partners
+Who is (are) your partner(s)?
+
+I will work with the Center for Statistics and Applications in Forensic Evidence (CSAFE) to specifically reach out to lawyers, judges, and forensic examiners, because there is a critical need for better science communication relating to forensics, error rates, and the interaction with the legal system. Through this partnership, I will be able to reach interested practitioners and engage in useful conversations at multiple levels of the justice system.
+
+I will also partner with Nebraska Math and Science Summer Institute (NMSSI) to bring experiential learning activities leveraging statistical graphics to high school teachers, reinforcing statistical and experimental design principles for high school students by demonstrating the effectiveness of the activities to their instructors.
+
+How will your partner(s) support your BI plan?
+
+CSAFE and NMSSI will facilitate contact with individuals throughout the legal system and K-12 educational system, respectively, enhancing the reach of the research conducted as part of this project to new groups and populations. This will support the more general goal of enhancing quantitative literacy and trust in science in the general population.
+
+[Edit Section]
+ Project Goals
+What activities do you plan to run as part of your Broader Impact efforts?
+
+Experiential learning activities will fuel the graphical testing research, but these activities will also reinforce students' understanding of statistical principles through guided reflections and critical comparisons of how statistical results are presented to different audiences.
+
+A series of case studies will support graduate and undergraduate students as they learn statistical programming, reinforcing the importance of computationally reproducible, open source science throughout their journey from a user of statistical tools to a developer of statistical software. These case studies will be made available to the community as open educational resources (OERs).
+
+I will also work with CSAFE and contacts within the public defender community to develop trainings, webinars, and activities to provide statistical education to lawyers, judges, and forensic examiners. I will also provide statistical support in the form of amicus briefs evaluating statistical support for forensic evidence, error rates of different methods, and providing common-sense explanations for statistical concepts to support people who must make decisions related to the interpretation of statistics in a legal context.
+
+How would these activities support your target audience(s)?
+
+What is the rationale for doing it this way?
+
+Experiential learning supports student engagement; engaging students in graphics research provides an additional advantage: charts are a gentle, anxiety-free introduction to statistical concepts that do not require calculations or formulae and instead get students thinking about the meaning behind the data. This "hook" captures student interest and may draw in students who were not previously considering STEM careers; in addition, it builds a connection between statistics and the arts, engaging skills and interests that are not often tapped in traditional statistics courses.
+
+
+[Edit Section]
+ Project Description
+How you will implement your specific activities in collaboration with your partners?
+
+something, something...
+
+[Edit Section]
+ Budget
+It looks like you haven't started the Budget step yet.
+
+[Edit Section]
+ Evaluation
+It looks like you haven't started the Evaluation step yet.
+
+[Edit Section]
+ Summary
+It looks like you haven't started the Takeaway step yet.
+
+ Literature Connections
+We have compiled a collection of references for each of your selected targeted audiences below. These may be helpful in your planning process, and they may also help you provide a rationale for your proposed Broader Impact effort in your proposal.
+Government/Policy Makers
+Higher Education
+Educators (K-12 and Informal)
+Public
+What should I do next?
+Now that you have gone through the wizard and collected your notes, you're ready to start writing your Broader Impact project plan into your proposal.
+
+Here are your next steps:
+
+Review the key questions below, and the details for each on the Checklist page to make sure you will think through all of the key elements of an effective BI plan.
+Grab all of your notes from this Wizard from the Summary page.
+Write your plan into your proposal, and work with your partners to finalize your plans.
+Come back and use the Checklist to make sure you've included all of the appropriate elements.
+Submit your proposal!
+Good Luck!
+
+Key Questions for your BI Plan
+Take a moment to re-read your BI Plan and ask yourself these important questions:
+
+Does the BI project address one/more of the target outcomes for BI activities outlined by NSF?
+What is the potential for the proposed activity to benefit society and contribute to achievement of specific desired societal outcomes?
+To what extent do the proposed activities suggest and explore creative, original, or potentially transformative concepts?
+Is the plan for carrying out the proposed activities well-reasoned, well organized, and based on a sound rationale? Does the plan incorporate a mechanism to assess success?
+How well qualified is the individual, team, or institution to conduct the proposed activities?
