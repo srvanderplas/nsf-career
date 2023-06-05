@@ -28,29 +28,17 @@ ggplot(df, aes(x=nums))+
 <!-- Other names for these are goals, research thrusts, etc. You can call these whatever you like or whatever is most used in your field. -->
 
 <!-- • Try to fit this information on one page. -->
-
 <!-- • Start with a brief problem statement to introduce your research question and state why it is important. -->
-
 <!-- • Put the solution to your research question in context of your overall, long-term career objectives. -->
-
 <!-- • Identify the specific objective for the present proposal. -->
-
 <!-- • Describe your overall hypothesis for your specific objective. -->
-
 <!-- • List your specific aims for how you will accomplish the objectives of your proposal.  -->
-
 <!--    o Each aim is to find out information, not to do a method (a method supports an aim, but is not the purpose of the aim; i.e., the aim should be outcome-oriented). -->
-
 <!--    o Limit yourself to 2-4 aims. -->
-
 <!--    o Be declarative (use short bullet points). -->
-
 <!--    o Make sure aims are not inter-dependent but supportive of each other (i.e., make sure that if the first step of your proposal doesn’t turn out the way you expect, your entire proposal won't fail). -->
-
 <!--    o Link your specific aims to hypotheses, as appropriate. -->
-
 <!-- • Close this section with a statement on your expected outcomes, emphasizing the project's innovation. -->
-
 <!-- • It can be very useful to try to diagram your objective and aims. -->
 
 <!-- Problem statement:  -->
@@ -68,7 +56,7 @@ This CAREER proposal addresses a fundamental research question underpinning both
 
 -   **RO1:** Examine effectiveness of charts across different tasks, such as visual search, comparison, prediction, and estimation, by developing multi-modal methods for graphical testing. If successful, this will produce testing methods that focus on specific cognitive tasks related to use of scientific visualizations, and will facilitate comparison of results across experiments and methods.
 -   **RO2:** Empirically validate visualization design guidelines, measuring the impact of design decisions on performance of different tasks. If successful, this will produce nuanced guidelines that are task-focused and empirically derived.
--   **RO3:** Engineer statistical features that mimic human perception which will be combined into empirically validated, objective, quantitative tools that support reproducible decision-making in forensic pattern evidence.
+-   **RO3:** Produce quantitative statistical models for explainable, reproducible decision support using images by engineering statistical features to mimic human perception.
 
 Integrated with these research efforts, the overall **education goal** is to cultivate statistical learning and scientific decision making in society.
 Three education objectives (EOs) address this goal:
@@ -79,9 +67,14 @@ Three education objectives (EOs) address this goal:
 
 The research, educational activities, and outreach conducted in support of these objectives will advance our understanding of the design, perception, and use of visual data displays.
 New suites of task-focused testing methods will facilitate precise, targeted experiments in data visualization, and applying multiple task-focused testing methods to examine design guidelines will facilitate better scientific communication and dissemination of results, building trust in science and leveraging scientific principles.
+Building statistical models to mimic human perception takes a new approach to explainable machine learning by creating understandable features during the model design process; this facilitates public trust in the model by through analogies to the human experience. 
+
 Measuring the pedagogical effectiveness of experiential learning in undergraduate statistics courses will provide new understanding of effective strategies for STEM outreach and engagement.
 Incorporating students into the research process with experiential learning and using graphics to motivate statistical concepts will engage students at a deeper level and open up STEM topics to math-phobic students in a tangible way.
 Weaving scientific communication and reproducibility into courses on statistical programming will produce a new generation of scientists equipped with the tools to conduct better, more reproducible research and communicate the results to other scientists and to the public.
+
+The research and educational activities described in this project have the potential to significantly improve how scientists communicate scientific results to each other as well as to the general public, increasing public trust in science and facilitating public decision making based on experimental data and results. 
+
 
 # Research Plan
 
@@ -114,7 +107,8 @@ Different individuals and organizations have released guidelines for graphical d
 Even when there are empirical studies to support guidelines for choosing one graphical form over another <!-- to increase perceptual accuracy and decrease viewer effort  --> [@cleveland1984; @hofmannGraphicalTestsPower2012; @spenceVisualPsychophysicsSimple1990; see @vanderplasTestingStatisticalCharts2020 for a review], these studies measure different quantities <!-- (estimation accuracy vs. ability to perceive a departure from a null model) --> in different ways <!-- (direct numerical estimation vs. comparative estimation of proportions) -->; the design and implementation differences have a potentially large effect on the generalizability of the results.
 Complicating this problem, the design space of visualization user studies is incredibly large [@Abdul-Rahman2020], and studies can address charts from multiple perspectives, including perception, task-based interaction (with different tasks producing different results), structural characteristics, and more [@Bolte2020].
 In addition, the test population is an important and under-examined aspect of the graphics experiment design space: we know that expertise as well as disorders such as dyslexia, dyscalculia, and ADHD affect perception, numeracy, and other processes involved in graph comprehension [@cheng_etal18; @chity_etal12; @hokken_etal23]; while these subpopulations can be difficult to test compared to the general population, empirical design recommendations must also address accessibility and audience considerations, as designers already consider these issues [@bako_etal23] but have no firm guidance about best practice.
-<!-- Address Perception vs. Task vs. Structure vs. Meta Perception Testing methods (Measures in Visualization Space, Bolte & Bruckner, in Foundations of Data Visualization) --> Relatively few studies directly compare the effect of different approaches for testing graphics, but minor changes to data collection methods can impact accuracy of even simple numerical estimation tasks [@hondaNumberBiasWisdom2022]; it is reasonable to expect that the specifics of the graphical testing procedure used may impact the results, potentially explaining conflicting empirically based recommendations [@croxtonBarChartsCircle1927; @eellsRelativeMeritsCircles1926; @spenceVisualPsychophysicsSimple1990].
+<!-- Address Perception vs. Task vs. Structure vs. Meta Perception Testing methods (Measures in Visualization Space, Bolte & Bruckner, in Foundations of Data Visualization) --> 
+Relatively few studies directly compare the effect of different approaches for testing graphics, but minor changes to data collection methods can impact accuracy of even simple numerical estimation tasks [@hondaNumberBiasWisdom2022]; it is reasonable to expect that the specifics of the graphical testing procedure used may impact the results, potentially explaining conflicting empirically based recommendations [@croxtonBarChartsCircle1927; @eellsRelativeMeritsCircles1926; @spenceVisualPsychophysicsSimple1990].
 Without the ability to integrate results from different types of studies, it is hard to generate scientifically accurate recommendations from existing research.
 To bridge this gap, information visualization needs a suite of easily implemented, validated graphical testing methods that are systematically applied to test existing design guidelines in order to produce nuanced, empirically grounded recommendations.
 
@@ -178,13 +172,33 @@ If this is the case, the guidelines to avoid 3D graphics may be entirely misguid
 <!-- Suggested format for this section: -->
 <!-- D. RESEARCH DESIGN AND METHODS -->
 <!-- Introductory paragraph to orient reviewer to what you plan to do. -->
+This project is designed to leverage human perception and statistics to facilitate better communication about data and statistical models, as shown in Figure @fig-cycle. 
+
+```{=html}
+![Relationship between research aims.](images/fig-cycle.svg){#fig-cycle}
+```
+
+```{=tex}
+\begin{wrapfigure}{R}{.5\textwidth}  
+\includegraphics{images/cycle.pdf}
+\caption{Relationship between research aims.}\label{fig-cycle}
+\end{wrapfigure}
+```
+
+
+To address this broad goal, we will benchmark methods for testing statistical graphics that correspond to typical uses for statistical graphics. 
+We will then use these methods to assess design guidelines and recommendations to provide a more nuanced, task-focused, empirical evaluation of these design criteria; this will provide clarity in the importance and impact of design guidelines and, if successful, will allow us to reconcile conflicting historical experiments as well.
+While these two goals are related, they are not dependent: there are already sufficient methods in the literature for testing graphics to allow us to complete a task-focused evaluation of design guidelines; our contribution in the first aim is to modernize historical methods, fill in gaps in task-focused analysis methods, provide direct comparisons between methods, and create guidelines for the use of each method when testing statistical graphics. 
+
 <!-- When outlining your experimental plan: -->
 <!-- • Base it on your specific aims—restate the aims and describe the flow of experiments for each aim. -->
 <!-- • Describe methodology for each aim, establishing your expertise with the approach by linking back to your preliminary studies and assessing the strengths and limitations of your approach. -->
 <!-- • Cite appropriate references. -->
 <!-- • Describe the timeline and sequence of experiments. -->
 <!-- • Talk about relevance to the field. -->
+
 <!-- D.1. Aim 1. Repeat Specific Aim from page 1. -->
+
 <!-- D.1.a. Hypothesis and Rationale. -->
 <!-- D.1.b. Experimental Plan. -->
 <!-- D.1.c. Expected Outcomes/Evaluation -->
