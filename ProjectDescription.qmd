@@ -127,17 +127,21 @@ In order to address this gap in the literature, I worked with a graduate student
 Could they predict future values?
 Could they estimate additive and multiplicative differences from an exponential time series?
 We examined these questions by testing charts with log and linear scales using the lineup protocol [@buja_statistical_2009], participant drawn trends, and questions that required numerical calculation in a single omnibus study conducted using Prolific. Each set of results was analyzed separately [@robinson_human_2022, additional publications in progress], with additional publications discussing the implementation [@robinson_etal23] and validating the new method [@robinson_etal22] to gather data using participant-drawn trend lines. 
-As expected when examining a single graphical choice using different methods, the results were mixed: using lineups, we determined that overall we have a hard time detecting changes in curvature, though we can detect a curve among straight lines more easily than we can detect a line (or less-steep curve) among curves. When assessing predictions, we found that the use of log scales reduced under-prediction of exponential growth. Finally, when examining participants' ability to estimate quantities from both types of charts, we found that participa
-Future work related to this study will analyze the differences in participant performance across methods to assess the importance of individual characteristics such as skill level and educational background.
+As expected when examining a single graphical choice using different methods, the results were mixed: using lineups, we determined that overall we have a hard time detecting changes in curvature, though we can detect a curve among straight lines more easily than we can detect a line (or less-steep curve) among curves. 
+When assessing predictions, we found that the use of log scales reduced under-prediction of exponential growth. 
+Finally, when examining participants' ability to estimate quantities from both types of charts, we found that participants tended to make serious inferential errors with regards to interpreting the language of the questions: questions asking for additive differences were often answered with multiplicative estimates, and vice versa, indicating that participants had trouble both with understanding the questions and visually estimating the answers.
+Future work related to this study will analyze the differences in participant performance across methods to assess the importance of individual characteristics such as skill level and educational background. 
+This COVID-era project has directly inspired the comparisons across different testing methods proposed here: we experimentally validated performance across a number of levels of engagement with similar data, varying the y-axis scale transformation. 
+It would be extremely helpful to systematically examine the impact of experimental testing decisions, such as estimating the ratio (A/B) vs. the proportion (A/(A+B)), data collection methods (numeric estimation vs. slider with tick marks vs. slider without tick marks), and task-based testing methods: this would allow us to compare the impact of these decisions, selecting the most accurate testing method for the experimental question and providing some context that may allow us to reconcile the results of conflicting historical studies.
 
 ```{=html}
-![Lineups (log and linear scale) test detection of differences in exponential growth rates.](log-lineups.png)
+![Lineups (log and linear scale) test detection of differences in exponential growth rates.](log-lineups.png){#fig-lineups}
 ```
 
 ```{=tex}
 \begin{wrapfigure}{R}{.5\textwidth}  
 \includegraphics{log-lineups.png}
-\caption{Lineups (log and linear scale) test detection of differences in exponential growth rates.}
+\caption{Lineups (log and linear scale) test detection of differences in exponential growth rates.}\label{fig-lineups}
 \end{wrapfigure}
 ```
 
@@ -145,23 +149,13 @@ While there are many graph design and scientific communication questions which h
 For instance, @cleveland1984 examined the use of fixed 3D projections of 2D data, but developments since the 1980s mean that analysts can now create 3D digital environments with appropriate shading and interactivity, and can even print these creations to create 3D charts that can be physically manipulated, touched, and considered from all angles. 
 Are the guidelines that suggest 3D renderings are less accurately read and misleading still valid under these conditions?
 
-```{=html}
-![Three renderings of bar charts: 2D (top), 3D digital render (middle), and 3D printed (bottom).](images/3D-charts.png)
-```
-
-```{=tex}
-\begin{wrapfigure}{R}{.3\textwidth}  
-\includegraphics{images/3D-charts.png}
-\caption{Three renderings of bar charts: 2D (top), 3D digital render (middle), and 3D printed (bottom).}
-\end{wrapfigure}
-```
-
+![Three renderings of bar charts: 2D (left), 3D digital render (middle), and 3D printed (right).](images/3D-charts-sideways.png){#fig-3d-bar}
 
 A graduate student and I have been investigating this question in two different populations: a population comparable to that used in @cleveland1984 (statistics faculty and graduate students and their roommates), and a population of introductory statistics students as part of an experiential learning project; the latter population is being tested in Summer 2023, but preliminary data is available from the former population. 
-We have created charts rendered using 2D graphics, 3D digital renderings [@rglpkg], and 3D-printed graphics [@mariuskintelOpenSCADDocumentation2023]. 
+We have created charts rendered using 2D graphics, 3D digital renderings [@rglpkg], and 3D-printed graphics [@mariuskintelOpenSCADDocumentation2023], as shown in @fig-3d-bar. 
 Our initial investigation found few differences between 2D, 3D digital, and 3D printed charts in comparison accuracy; as a result, we are expanding the study to determine whether this is a technological difference and the decreased accuracy in @cleveland1984 is a result of the 3D fixed-angle projection that does not allow for realistic manipulation. 
 Misapplied depth perception has been implicated in other graphical mis-perceptions [@vanderplasSignsSineIllusion2015;@hofmannCommonAnglePlots2013], and it is entirely possible that 3D charts that are interactive can be accurately perceived while artificial 3D fixed-angle projections into 2D space lead to inaccurate perceptions. 
-If this is the case, the guidelines to avoid 3D graphics may be entirely misguided given the technology available today.
+If this is the case, the guidelines to avoid 3D graphics may be entirely misguided given the rendering algorithms available today.
 
 ## Methods
 
@@ -172,14 +166,16 @@ If this is the case, the guidelines to avoid 3D graphics may be entirely misguid
 <!-- Suggested format for this section: -->
 <!-- D. RESEARCH DESIGN AND METHODS -->
 <!-- Introductory paragraph to orient reviewer to what you plan to do. -->
-This project is designed to leverage human perception and statistics to facilitate better communication about data and statistical models, as shown in Figure @fig-cycle. 
+This project is designed to leverage human perception and statistics to facilitate better communication about data and statistical models, as shown in Figure 3. 
+
+
 
 ```{=html}
-![Relationship between research aims.](images/fig-cycle.svg){#fig-cycle}
+![Relationship between research aims.](images/cycle.png){#fig-cycle}
 ```
 
 ```{=tex}
-\begin{wrapfigure}{R}{.5\textwidth}  
+\begin{wrapfigure}{L}{.5\textwidth}
 \includegraphics{images/cycle.pdf}
 \caption{Relationship between research aims.}\label{fig-cycle}
 \end{wrapfigure}
