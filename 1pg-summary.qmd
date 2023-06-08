@@ -13,8 +13,8 @@ format:
     toc: false
     geometry:
       - top=1.35in
-      - left=0.75in
-      - right=0.75in
+      - left=0.7in
+      - right=0.7in
       - bottom=0.7in
     include-in-header:
       - text: |
@@ -49,37 +49,39 @@ format:
 <!-- What is the need or opportunity your work will address? What current approaches/methods are used, and how are these current approaches limited/insufficient?  -->
 <!-- In the context of the need for your work described above, what is your long-term career goal in terms of both research and education?  -->
 
-Statistical graphics are powerful and efficient tools to convey data to support human decision making; however, research on graphical perception is a patchwork of inconsistent methods and conflicting results.
-Most recommendations are based on opinion rather than empirical study, rendering many scientific communications sub-optimal or ineffective. 
-This is alarming, as effective science communication is critical for cultivating public trust in the scientific process and ensuring that decision makers accurately interpret information when making choices which impact people's lives. 
-Addressing these challenges, the PI's long-term career goal is to examine statistical graphics with the goal of *helping humans and algorithms work together more efficiently and effectively*, and to apply this research to educate a new generation of scientists and the broader public. 
-
+Statistical graphics are powerful and efficient tools to convey data to support human decision making; however, studies of graphical perception are a patchwork of different methods and conflicting results.
+Recommendations are often based on opinion, not empirical study, rendering many scientific communications sub-optimal or ineffective. 
+This is alarming: effective science communication is critical for cultivating public trust in the scientific process and ensuring that decision makers accurately interpret information when making choices with real impact. 
+Addressing these challenges, the PI's long-term career goal is to examine statistical graphics with the goal of *helping humans and algorithms work together more effectively*, and to apply this research to educate a new generation of scientists and the broader public. 
 
 <!-- Toward that long-term goal, what is the overall research goal of the five-year CAREER program? What are the research objectives that will be completed in pursuit of this goal?  -->
 
-Toward this vision, the overall **research goal** of this CAREER program is to advance understanding of the use and perception of data displays and the impact design the charts effectiveness. Toward this goal, three research objectives (ROs) will be pursued. 
-RO1: Examine effectiveness of graphics across different tasks <!--, such as comparison, prediction, and estimation,--> by developing methods for testing charts at different levels of user engagement.
-RO2: Empirically validate visualization design guidelines, measuring the impact of design decisions on task performance.
-RO3: Produce quantitative statistical models for reproducible decision support using images <!--in forensic pattern evidence analysis--> by engineering statistical features to mimic human perception.
+Toward this vision, the overall **research goal** of this CAREER program is to advance understanding of the use, design, and perception of data displays. Three research objectives (ROs) support this goal.
+RO1: Create a framework for comprehensive graphical testing by developing and comparing methods that examine multiple levels of engagement. <!--, such as comparison, prediction, and estimation,-->
+RO2: Empirically validate chart design guidelines, measuring the impact of design on task performance.
+RO3: Re-imagine explainable machine learning by designing inputs that mimic human perception and are explainable by design. 
+<!-- by quantitative statistical models for reproducible decision support using images in forensic pattern evidence analysis by engineering statistical features to mimic human perception. -->
 
 <!-- What is the overall education goal of the five-year CAREER program? What are the education objectives that will be completed in pursuit of this goal?  -->
 
 Integrated with these research efforts, the overall **education goal** is to cultivate statistical learning and scientific decision making in society. Three education objectives (EOs) address this goal: 
-EO1: Develop and implement experiential learning activities in graphics for undergraduate introductory statistics courses. 
-EO2: Create and implement open educational resources (OER) to introduce reproducible science and open-source software development in statistical programming courses. 
-EO3: Engage with forensic scientists, lawyers, and judges, evaluating the scientific support for forensic disciplines and promoting open, reproducible scientific practices. 
+EO1: Develop and implement experiential learning activities for undergraduate introductory statistics courses. 
+EO2: Create and implement open educational resources (OER) to promote reproducible science, responsible machine learning, and open-source software development in statistical programming courses.
+EO3: Educate and engage with members of the legal system (lawyers and law students, judges, and forensic scientists) and the general public to promote the importance of statistics, scientific validity, and open, reproducible scientific methods. 
+<!-- EO3: Engage with forensic scientists, lawyers, and judges, evaluating the scientific support for forensic disciplines and promoting open, reproducible scientific practices.  -->
 
 # Intellectual Merit
 
 <!-- Describe the potential of the proposed activity to advance knowledge. What is novel in the proposed approach? What knowledge will be advanced, and how will this new knowledge inform future work in your field and other fields? -->
 
-This work will expand our understanding of scientific communication with graphics by reconciling sparse and conflicting research and opinions with empirical testing to produce nuanced guidelines for chart design. 
-New methods of empirical graphical testing will be developed to cover a wider range of engagement with charts. 
-In addition, this work will specifically examine the effects of expertise and disability (visual and cognitive), increasing our understanding of accessibility and audience considerations in graphics. 
-While at first glance forensic pattern evidence seems unrelated to graphical perception, both graphics and pattern evidence images are visual tools used for making decisions; studying how visual patterns are perceived and used for decision-making in graphics allows us to reverse-engineer the process to develop reproducible, quantitative features that capture visual patterns in evidence that is currently evaluated subjectively. 
+This work will expand our understanding of scientific communication with graphics by examining conflicting research and opinions using comprehensive empirical testing, producing nuanced guidelines for chart design based on intended use. 
+New methods of empirical graphical testing will be developed to cover a wider range of engagement with charts; examination of experimental design choices will provide additional guidance to researchers in this space. 
+<!-- In addition, this work will specifically include assessment of the effects of expertise and disability (visual and cognitive), increasing our understanding of accessibility and audience considerations in graphics.  -->
+This work approaches explainable machine learning by designing explainable features that mimic human perception of data features and using these features to build statistical models.
+This combined process of exploratory data analysis, perception, introspection, and machine learning leverages techniques for graphical testing to create reproducible quantitative models that can be explained conceptually, building trust with outside experts and the public.
 <!-- In addition, these algorithms produce better error-rate estimates, providing scientific support for the validity of this evidence within the legal system. -->
 <!-- Research in forensic perception will advance our understanding of visual evidence comparisons, produce better error rate estimates, and approach explainable machine learning in a new way.  -->
-Incorporating experiential learning and graphics research into intro statistics courses will advance knowledge of pedagogy and barriers to interest and engagement in STEM. 
+Incorporating experiential learning, graphics research, and forensics into statistics courses will advance knowledge of pedagogy and reduce barriers to interest and engagement in STEM. 
 Finally, assessing the OER curricula developed for reproducibility and open-source science will allow us to measure and explore the development of students' attitudes toward ethical science and responsible conduct of research.
 
 
@@ -88,8 +90,9 @@ Finally, assessing the OER curricula developed for reproducibility and open-sour
 <!-- Describe the potential of the proposed activity to benefit society and contribute to the achievement of specific, desired societal outcomes. How might results of this work ultimately inform applications that benefit society?  -->
 
 This research will produce nuanced, empirically driven guidelines to support better science communication, enhancing scientists' ability to disseminate their research to the general public through data visualization. 
-In addition, this project leverages explainable machine learning (EML) to reduce cognitive demands of decision-making based on statistical models while building <!--community and forensic examiner--> trust in statistical decision tools through perceptual analogies.
-One specific application of this approach to EML is the proposed work with forensic pattern evidence, which will emphasize the subjectivity and lack of reproducibility of current methods; the work will also require conversations between graduate students in quantitative fields and judges, lawyers, law students, and forensic scientists. 
-<!-- However, the general approach of applying feature engineering to visually represented data in order to develop explainable machine learning models can be applied far beyond forensic pattern evidence. -->
+In addition, this project reimagines explainable machine learning (EML), reducing the cognitive demands of decision-making with complex models by building these models with explainable inputs that mimic human perception. 
+EML is applicable across many fields, but one immediate application area is forensic pattern evidence: the validity of subjective methods for evaluating this evidence has recently resulted in limitations on the admissibility of such evidence in court. 
+Introducing objective algorithms to supplement subjective visual comparisons promises to provide large benefits to society and improve the fairness of the legal system. 
+This application area will also provide opportunities for graduate students to converse with lawyers, judges, and forensic scientists about statistics, machine learning, error rate estimation, and open science. 
 Experiential learning and research engagement will produce students who are more engaged in STEM coursework and less averse to STEM careers (while accelerating research productivity). 
 Incorporating reproducibility and open-source software development into statistical coursework will foster a well-trained future generation of scientists who will contribute to the open-science community, emphasize the importance of reproducible and open science, and build new infrastructure to support future research.
