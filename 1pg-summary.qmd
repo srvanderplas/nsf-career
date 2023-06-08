@@ -49,50 +49,48 @@ format:
 <!-- What is the need or opportunity your work will address? What current approaches/methods are used, and how are these current approaches limited/insufficient?  -->
 <!-- In the context of the need for your work described above, what is your long-term career goal in terms of both research and education?  -->
 
-Statistical graphics are powerful and efficient tools to convey data to support human decision making; however, studies of graphical perception are a patchwork of different methods and conflicting results.
-Recommendations are often based on opinion, not empirical study, rendering many scientific communications sub-optimal or ineffective. 
-This is alarming: effective science communication is critical for cultivating public trust in the scientific process and ensuring that decision makers accurately interpret information when making choices with real impact. 
-Addressing these challenges, the PI's long-term career goal is to examine statistical graphics with the goal of *helping humans and algorithms work together more effectively*, and to apply this research to educate a new generation of scientists and the broader public. 
+Statistical graphics and models are powerful tools to summarize data and support human decision making; however, studies of chart perception are a patchwork of different methods and conflicting results.
+Chart design guidelines are often based on opinion, not empirical study, rendering many scientific communications sub-optimal or ineffective.
+This is alarming: effective science communication is critical for cultivating public trust in the scientific process and ensuring that decision makers accurately interpret supporting information. 
+Addressing these challenges, the PI's long-term career goal is to examine statistical graphics with the goal of *helping people use data more effectively*, and to apply this research to educate and inspire a new generation of scientists while building public trust in science. 
 
 <!-- Toward that long-term goal, what is the overall research goal of the five-year CAREER program? What are the research objectives that will be completed in pursuit of this goal?  -->
 
-Toward this vision, the overall **research goal** of this CAREER program is to advance understanding of the use, design, and perception of data displays. Three research objectives (ROs) support this goal.
-RO1: Create a framework for comprehensive graphical testing by developing and comparing methods that examine multiple levels of engagement. <!--, such as comparison, prediction, and estimation,-->
-RO2: Empirically validate chart design guidelines, measuring the impact of design on task performance.
-RO3: Re-imagine explainable machine learning by designing inputs that mimic human perception and are explainable by design. 
-<!-- by quantitative statistical models for reproducible decision support using images in forensic pattern evidence analysis by engineering statistical features to mimic human perception. -->
+Toward this vision, the overall **research goal** of this CAREER program is to advance understanding of the use, design, and perception of data visualizations. Three research objectives (ROs) support this goal.
+RO1: Create a framework for comprehensive graphical testing across multiple levels of user engagement.
+RO2: Empirically validate common chart design guidelines, measuring the impact of design on task performance.
+RO3: Assess the impact of measurement methods on experiments evaluating statistical graphics.
 
 <!-- What is the overall education goal of the five-year CAREER program? What are the education objectives that will be completed in pursuit of this goal?  -->
+Integrated with these research efforts, the overall **education goal** is to leverage visualization to motivate statistical learning and improve data-driven decision making in society. Three education objectives (EOs) address this goal.
+EO1: Develop and implement experiential learning activities in statistical graphics for undergraduate introductory statistics courses.
+EO2: Improve the penetration of visualization research beyond academia by incorporating summaries of empirical studies in resources used by data scientists, industry analysts, and researchers in STEM disciplines.
+EO3: Create graduate course modules for K-12 educators that connect ongoing research to engaging, hands-on classroom activities for teaching statistics, math, and science.
 
-Integrated with these research efforts, the overall **education goal** is to cultivate statistical learning and scientific decision making in society. Three education objectives (EOs) address this goal: 
-EO1: Develop and implement experiential learning activities for undergraduate introductory statistics courses. 
-EO2: Create and implement open educational resources (OER) to promote reproducible science, responsible machine learning, and open-source software development in statistical programming courses.
-EO3: Educate and engage with members of the legal system (lawyers and law students, judges, and forensic scientists) and the general public to promote the importance of statistics, scientific validity, and open, reproducible scientific methods. 
-<!-- EO3: Engage with forensic scientists, lawyers, and judges, evaluating the scientific support for forensic disciplines and promoting open, reproducible scientific practices.  -->
+<!-- EO2: Create and implement open educational resources (OER) to promote reproducible science, responsible machine learning, and open-source software development in statistical programming courses. -->
+<!-- EO3: Educate and engage with members of the legal system (lawyers and law students, judges, and forensic scientists) and the general public to promote the importance of statistics, scientific validity, and open, reproducible scientific methods.  -->
 
 # Intellectual Merit
 
 <!-- Describe the potential of the proposed activity to advance knowledge. What is novel in the proposed approach? What knowledge will be advanced, and how will this new knowledge inform future work in your field and other fields? -->
 
-This work will expand our understanding of scientific communication with graphics by examining conflicting research and opinions using comprehensive empirical testing, producing nuanced guidelines for chart design based on intended use. 
-New methods of empirical graphical testing will be developed to cover a wider range of engagement with charts; examination of experimental design choices will provide additional guidance to researchers in this space. 
-<!-- In addition, this work will specifically include assessment of the effects of expertise and disability (visual and cognitive), increasing our understanding of accessibility and audience considerations in graphics.  -->
-This work approaches explainable machine learning by designing explainable features that mimic human perception of data features and using these features to build statistical models.
-This combined process of exploratory data analysis, perception, introspection, and machine learning leverages techniques for graphical testing to create reproducible quantitative models that can be explained conceptually, building trust with outside experts and the public.
-<!-- In addition, these algorithms produce better error-rate estimates, providing scientific support for the validity of this evidence within the legal system. -->
-<!-- Research in forensic perception will advance our understanding of visual evidence comparisons, produce better error rate estimates, and approach explainable machine learning in a new way.  -->
-Incorporating experiential learning, graphics research, and forensics into statistics courses will advance knowledge of pedagogy and reduce barriers to interest and engagement in STEM. 
-Finally, assessing the OER curricula developed for reproducibility and open-source science will allow us to measure and explore the development of students' attitudes toward ethical science and responsible conduct of research.
+This work will expand our understanding of graphical communication by empirically and systematically examining chart design with a focus on comprehensive task-based testing, producing nuanced guidelines for chart design based on intended use and accessibility considerations. 
+<!-- In addition, this work will specifically include studies assessing the role of disabilities (visual and cognitive) on the use, design, and testing of charts in order to ensure that the developed guidelines prioritize accessibility. -->
+<!-- Systematic studies that examine both individuals with identified disabilities and wider populations will facilitate population level comparison of study results, but we expect that the study results will also be of interest to university disability services offices, math educators, and may also inform more general guidelines for visualization accessibility.  -->
+It is often difficult or even misleading to generalize the results of graphics studies because small experimental design and implementation decisions have a large effect on the results, yet vary across otherwise similar studies. 
+This project will assess the role of these decisions on empirical user studies, with the dual goals of providing contextual data to interpret results from historical studies and informing the design of future studies. 
+Incorporating experiential learning and graphics research into statistics courses and STEM education in K-12 will advance knowledge of pedagogy and motivate student interest and engagement in STEM classes. 
+Finally, collaborating with online visualization resources will provide opportunities to identify obstacles to adoption of best practice guidelines among practitioners.
 
 
 # Broader Impacts
 
 <!-- Describe the potential of the proposed activity to benefit society and contribute to the achievement of specific, desired societal outcomes. How might results of this work ultimately inform applications that benefit society?  -->
-
-This research will produce nuanced, empirically driven guidelines to support better science communication, enhancing scientists' ability to disseminate their research to the general public through data visualization. 
-In addition, this project reimagines explainable machine learning (EML), reducing the cognitive demands of decision-making with complex models by building these models with explainable inputs that mimic human perception. 
-EML is applicable across many fields, but one immediate application area is forensic pattern evidence: the validity of subjective methods for evaluating this evidence has recently resulted in limitations on the admissibility of such evidence in court. 
-Introducing objective algorithms to supplement subjective visual comparisons promises to provide large benefits to society and improve the fairness of the legal system. 
-This application area will also provide opportunities for graduate students to converse with lawyers, judges, and forensic scientists about statistics, machine learning, error rate estimation, and open science. 
-Experiential learning and research engagement will produce students who are more engaged in STEM coursework and less averse to STEM careers (while accelerating research productivity). 
-Incorporating reproducibility and open-source software development into statistical coursework will foster a well-trained future generation of scientists who will contribute to the open-science community, emphasize the importance of reproducible and open science, and build new infrastructure to support future research.
+<!-- Graphics are powerful tools for science communication in part because they can be accessible, useful, and even beautiful to PhDs and politicians, journalists and the general public.  -->
+The proposed research will provide a solid foundation for future visualization research by developing, validating, and implementing new methods in a common framework that can be easily reused.
+The general public will benefit from better visual science communication resulting from nuanced, empirically driven data visualization research. 
+In addition, collaboration with a popular data visualization website will bridge the gap between academic research and implementation, using summaries of empirical research curated by undergraduates to support and augment chart selection tools. 
+Another collaboration with Nebraska Math and Science Summer Institutes will engage K-12 educators with graduate coursework that connects current research in statistics and data visualization with fun activities that reinforce critical concepts such as variability, experimentation, and sampling. 
+A similar undergraduate experiential learning initiative will incorporate graphics research and reflective writing to introductory statistics courses, reinforcing material and connecting it to ongoing research.
+If successful, these activities will introduce and reinforce STEM concepts through fun, nonthreatening, and even artistic activities that minimize math anxiety while supporting student learning and increasing general scientific literacy.
+Data visualizations are broadly useful across the population, providing insight, supporting decision making, and encouraging exploration; as a result, investments in graphics research and education have broad, wide, and deep potential impacts for aspiring and practicing scientists as well as the general public.
