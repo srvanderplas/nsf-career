@@ -62,21 +62,17 @@ RO2: Empirically validate common chart design guidelines, measuring the impact o
 RO3: Assess the impact of measurement methods on experiments evaluating statistical graphics.
 
 <!-- What is the overall education goal of the five-year CAREER program? What are the education objectives that will be completed in pursuit of this goal?  -->
-Integrated with these research efforts, the overall **education goal** is to leverage visualization to motivate statistical learning and improve data-driven decision making in society. Three education objectives (EOs) address this goal.
+Integrated with these research efforts, the overall **education goal** is to leverage visualization research to motivate statistical learning and improve data-driven decision making in society. Three education objectives (EOs) address this goal.
 EO1: Develop and implement experiential learning activities in statistical graphics for undergraduate introductory statistics courses.
-EO2: Improve the penetration of visualization research beyond academia by incorporating summaries of empirical studies in resources used by data scientists, industry analysts, and researchers in STEM disciplines.
-EO3: Create graduate course modules for K-12 educators that connect ongoing research to engaging, hands-on classroom activities for teaching statistics, math, and science.
+EO2: Create graduate course modules for K-12 educators that connect ongoing research to engaging, hands-on classroom activities for teaching statistics, math, and science.
+EO3: Improve the penetration of visualization research beyond academia by incorporating summaries of empirical studies in resources used by data scientists, industry analysts, and researchers in STEM disciplines.
 
-<!-- EO2: Create and implement open educational resources (OER) to promote reproducible science, responsible machine learning, and open-source software development in statistical programming courses. -->
-<!-- EO3: Educate and engage with members of the legal system (lawyers and law students, judges, and forensic scientists) and the general public to promote the importance of statistics, scientific validity, and open, reproducible scientific methods.  -->
 
 # Intellectual Merit
 
 <!-- Describe the potential of the proposed activity to advance knowledge. What is novel in the proposed approach? What knowledge will be advanced, and how will this new knowledge inform future work in your field and other fields? -->
 
 This work will expand our understanding of graphical communication by empirically and systematically examining chart design with a focus on comprehensive task-based testing, producing nuanced guidelines for chart design based on intended use and accessibility considerations. 
-<!-- In addition, this work will specifically include studies assessing the role of disabilities (visual and cognitive) on the use, design, and testing of charts in order to ensure that the developed guidelines prioritize accessibility. -->
-<!-- Systematic studies that examine both individuals with identified disabilities and wider populations will facilitate population level comparison of study results, but we expect that the study results will also be of interest to university disability services offices, math educators, and may also inform more general guidelines for visualization accessibility.  -->
 It is often difficult or even misleading to generalize the results of graphics studies because small experimental design and implementation decisions have a large effect on the results, yet vary across otherwise similar studies. 
 This project will assess the role of these decisions on empirical user studies, with the dual goals of providing contextual data to interpret results from historical studies and informing the design of future studies. 
 Incorporating experiential learning and graphics research into statistics courses and STEM education in K-12 will advance knowledge of pedagogy and motivate student interest and engagement in STEM classes. 
@@ -86,7 +82,6 @@ Finally, collaborating with online visualization resources will provide opportun
 # Broader Impacts
 
 <!-- Describe the potential of the proposed activity to benefit society and contribute to the achievement of specific, desired societal outcomes. How might results of this work ultimately inform applications that benefit society?  -->
-<!-- Graphics are powerful tools for science communication in part because they can be accessible, useful, and even beautiful to PhDs and politicians, journalists and the general public.  -->
 The proposed research will provide a solid foundation for future visualization research by developing, validating, and implementing new methods in a common framework that can be easily reused.
 The general public will benefit from better visual science communication resulting from nuanced, empirically driven data visualization research. 
 In addition, collaboration with a popular data visualization website will bridge the gap between academic research and implementation, using summaries of empirical research curated by undergraduates to support and augment chart selection tools. 
