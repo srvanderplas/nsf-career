@@ -149,17 +149,6 @@ To bridge this gap, information visualization needs a suite of easily implemente
 <!-- Summarize any relevant preliminary supporting data.  -->
 <!-- Can also be included in research plan -->
  
-
-# Research Plan
-<!-- Describe the work necessary, including methods and procedures, to meet the research objectives set forth in Section A.   -->
-<!-- Include clear statements of the research activities to be undertaken.   -->
-<!-- Include any plans for collaboration.   -->
-<!-- If international/global dimensions are included, clearly state how the research activities will be enhanced by the international engagements and describe the benefits to participants in the U.S. and abroad. Delineate how the activities fit within the context of the expertise, facilities, data, and other resources that are being applied globally in relevant areas of research, and how the CAREER award would position you and UNL to take a leadership role.  -->
-<!-- If software artifacts are anticipated, state and justify which software license(s) will be used for the released software.  -->
-<!-- Explain how you will evaluate and assess progress made over the course of the project.  -->
-
-## Background Information
-
 ## Preliminary Data
 
 <!-- b. Preliminary data -->
