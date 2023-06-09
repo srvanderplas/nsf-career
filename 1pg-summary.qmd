@@ -58,8 +58,8 @@ Addressing these challenges, the PI's long-term career goal is to examine statis
 
 Toward this vision, the overall **research goal** of this CAREER program is to advance understanding of the use, design, and perception of data visualizations. Three research objectives (ROs) support this goal.
 RO1: Create a framework for comprehensive graphical testing across multiple levels of user engagement.
-RO2: Empirically validate common chart design guidelines, measuring the impact of design on task performance.
-RO3: Assess the impact of measurement methods on experiments evaluating statistical graphics.
+RO2: Assess the impact of measurement methods on experiments evaluating statistical graphics.
+RO3: Empirically validate common chart design guidelines, measuring the impact of design decisions on task performance.
 
 <!-- What is the overall education goal of the five-year CAREER program? What are the education objectives that will be completed in pursuit of this goal?  -->
 Integrated with these research efforts, the overall **education goal** is to leverage visualization research to motivate statistical learning and improve data-driven decision making in society. Three education objectives (EOs) address this goal.
