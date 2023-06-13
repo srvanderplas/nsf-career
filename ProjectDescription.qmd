@@ -123,8 +123,20 @@ My long-term career goal is to examine statistical graphics with the goal of *he
 ### Overview 
 
 <!-- Briefly sketch the background leading to the present application, critically evaluate the existing literature, and identify gaps the project is intended to fill.   -->
+Scientific graphics transform quantitative data into image representations that can make use of the human visual system, leveraging our ability to take in and process huge quantities of information with minimal cognitive effort.
+However, unlike many mathematical data transformations, the transformation to visual space incurs loss both in the rendering of data to image and the transition from image to cognitive representation. 
+That is, when creating data visualizations, we have to be concerned not only with the accuracy of the rendered image, but also with how that image is perceived by the viewer.
+It is easy to find entire books filled with situations in which the transition from data to image produces results which are misleading [@cairoTruthfulArtData2016; @cairoHowChartsLie2019; @huffHowLieStatistics1954]; identifying scenarios where the transition from image to cognitive representation is suboptimal is more challenging and requires user studies. 
+There have been empirical studies of graphics for at least 100 years [@croxtonBarChartsCircle1927; @eellsRelativeMeritsCircles1926; @wickham2013graphical], but the foundational work in graphical perception is @clevelandGraphicalPerceptionTheory1984, which established viewer's ability to accurately estimate information from simple visual displays. 
+While this work is important, and valuable, it has been synthesized into recommendations and rankings which go far beyond the original experiments [@mackinlayAutomatingDesignGraphical1986; @franconeriScienceVisualData2021] with limited empirical verification, though in many cases these extrapolations are based in part on cognitive and perceptual research that is not specific to scientific visualization. 
+In addition, it is easy to forget that @clevelandGraphicalPerceptionTheory1984 examined charts with respect to the direct numerical accuracy of quantitative estimates; the results do not necessarily apply if we are interested instead in determining whether differences between quantities can be perceived, ordered, or used to reach a reasonable real-world decision. 
+While each of these alternate tasks has been addressed in user studies of graphics, it is extremely difficult to synthesize the total graphics literature across many different disciplines (including psychology, computer science, statistics, design, and communication) in order to derive empirically driven guidelines for creating graphs which not only accurately transform the data into an image but also present the data in a form which can be effectively used by the intended audience.
 
 <!-- Discuss how this project will generate foundational research that will advance the field in general or address specific challenges of great importance.   -->
+The research objectives proposed here are designed to lay a foundation for more consistent evaluation and testing of scientific visualizations. 
+We focus on the level of user engagement with the chart: while there are hierarchies and taxonomies of graphical tasks that break down intended to help **designers** select the best graphical representation, we focus instead on how the ultimate target of the graph is intended to interact with the image and the information presented within.
+
+We will first identify and evaluate methods for graphical testing across multiple levels of user engagement, comparing methods which test equivalent levels of engagement. 
 
 <!-- Describe the contributions the project will make to synthesizing, expanding, or building the base of knowledge and evidence needed in the field and to the development of theory and methodology.  -->
 
