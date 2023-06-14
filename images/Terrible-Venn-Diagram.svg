@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="11in"
+   height="8.5in"
+   viewBox="0 0 279.40056 215.90043"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   sodipodi:docname="Terrible-Venn-Diagram.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#999999"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="true"
+     inkscape:zoom="2.8569347"
+     inkscape:cx="755.35504"
+     inkscape:cy="377.67752"
+     inkscape:window-width="2256"
+     inkscape:window-height="1451"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1">
+    <sodipodi:guide
+       position="0,215.90043"
+       orientation="0,1056"
+       id="guide182"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="279.40056,215.90043"
+       orientation="816,0"
+       id="guide184"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="279.40056,0"
+       orientation="0,-1056"
+       id="guide186"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="0,0"
+       orientation="-816,0"
+       id="guide188"
+       inkscape:locked="false" />
+    <inkscape:grid
+       type="xygrid"
+       id="grid190"
+       dotted="true"
+       units="in"
+       spacingx="12.700025"
+       spacingy="12.700025" />
+  </sodipodi:namedview>
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g3458">
+      <ellipse
+         style="opacity:0.2;fill:#ff0000;stroke:#000000;stroke-width:0;stroke-linecap:round;stroke-miterlimit:3;paint-order:stroke fill markers"
+         id="ellipse1750"
+         cx="209.00183"
+         cy="3.3595781"
+         rx="69.17868"
+         ry="35.03091"
+         transform="rotate(30)" />
+      <ellipse
+         style="opacity:0.2;fill:#0000ff;stroke:#000000;stroke-width:0;stroke-linecap:round;stroke-miterlimit:3;paint-order:stroke fill markers"
+         id="ellipse1754"
+         cx="-93.574272"
+         cy="178.05197"
+         rx="69.17868"
+         ry="35.03091"
+         transform="matrix(-0.8660254,0.5,0.5,0.8660254,0,0)" />
+    </g>
+    <g
+       id="g3462">
+      <ellipse
+         style="opacity:0.2;fill:#00ff00;stroke:#000000;stroke-width:0;stroke-linecap:round;stroke-miterlimit:3;paint-order:stroke fill markers"
+         id="path1696"
+         cx="186.61345"
+         cy="35.364037"
+         rx="69.17868"
+         ry="35.03091"
+         transform="rotate(30)" />
+      <ellipse
+         style="opacity:0.2;fill:#ffff00;stroke:#000000;stroke-width:0;stroke-linecap:round;stroke-miterlimit:3;paint-order:stroke fill markers"
+         id="ellipse1752"
+         cx="-115.96265"
+         cy="210.05643"
+         rx="69.17868"
+         ry="35.03091"
+         transform="matrix(-0.8660254,0.5,0.5,0.8660254,0,0)" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-size:8.46668px;font-family:'Ink Free';-inkscape-font-specification:'Ink Free';text-align:center;text-anchor:middle;opacity:1;fill:#ff0000;stroke:#000000;stroke-width:0;stroke-linecap:round;stroke-miterlimit:3;paint-order:stroke fill markers"
+       x="145.12805"
+       y="59.46423"
+       id="text2161"><tspan
+         sodipodi:role="line"
+         id="tspan2159"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Calibri;-inkscape-font-specification:'Calibri Bold';opacity:1;fill:#ff0000;fill-opacity:1;stroke-width:0"
+         x="145.12805"
+         y="59.46423">Data</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:8.46668px;font-family:'Ink Free';-inkscape-font-specification:'Ink Free';text-align:center;text-anchor:middle;opacity:1;fill:#0000ff;stroke:#000000;stroke-width:0;stroke-linecap:round;stroke-miterlimit:3;paint-order:stroke fill markers"
+       x="206.06418"
+       y="59.464233"
+       id="text2215"><tspan
+         sodipodi:role="line"
+         id="tspan2213"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Calibri;-inkscape-font-specification:'Calibri Bold';opacity:1;fill:#0000ff;fill-opacity:1;stroke-width:0"
+         x="206.06418"
+         y="59.464233">Cognition</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:8.46668px;font-family:'Ink Free';-inkscape-font-specification:'Ink Free';text-align:center;text-anchor:middle;opacity:1;fill:#008000;stroke:#000000;stroke-width:0;stroke-linecap:round;stroke-miterlimit:3;paint-order:stroke fill markers"
+       x="97.085564"
+       y="88.450241"
+       id="text2321"><tspan
+         sodipodi:role="line"
+         id="tspan2319"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Calibri;-inkscape-font-specification:'Calibri Bold';opacity:1;fill:#008000;fill-opacity:1;stroke-width:0"
+         x="97.085564"
+         y="88.450241">Computing</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:8.46668px;font-family:'Ink Free';-inkscape-font-specification:'Ink Free';text-align:center;text-anchor:middle;opacity:1;fill:#008000;stroke:#000000;stroke-width:0;stroke-linecap:round;stroke-miterlimit:3;paint-order:stroke fill markers"
+       x="255.04286"
+       y="102.66271"
+       id="text2377"><tspan
+         sodipodi:role="line"
+         id="tspan2375"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Calibri;-inkscape-font-specification:'Calibri Bold';opacity:1;fill:#bfbf40;fill-opacity:1;stroke-width:0"
+         x="255.04286"
+         y="102.66271">Communication</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.23334px;font-family:Calibri;-inkscape-font-specification:'Calibri Bold';text-align:center;text-anchor:middle;opacity:1;fill:#bfbf40;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:round;stroke-miterlimit:3;paint-order:stroke fill markers"
+       x="191.92244"
+       y="80.32254"
+       id="text2533"><tspan
+         sodipodi:role="line"
+         id="tspan2531"
+         style="font-size:4.23334px;fill:#000000;fill-opacity:1;stroke-width:0"
+         x="191.92244"
+         y="80.32254">Psychophysics</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.23334px;font-family:Calibri;-inkscape-font-specification:'Calibri Bold';text-align:center;text-anchor:middle;opacity:1;fill:#bfbf40;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:round;stroke-miterlimit:3;paint-order:stroke fill markers"
+       x="134.85619"
+       y="70.01268"
+       id="text2589"><tspan
+         sodipodi:role="line"
+         id="tspan2587"
+         style="font-size:4.23334px;fill:#000000;fill-opacity:1;stroke-width:0"
+         x="134.85619"
+         y="70.01268">Statistics</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.23334px;font-family:Calibri;-inkscape-font-specification:'Calibri Bold';text-align:center;text-anchor:middle;opacity:1;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:round;stroke-miterlimit:3;paint-order:stroke fill markers"
+       x="213.48917"
+       y="70.869507"
+       id="text2643"><tspan
+         sodipodi:role="line"
+         id="tspan2641"
+         style="stroke-width:0"
+         x="213.48917"
+         y="70.869507">Cognitive</tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:0"
+         x="213.48917"
+         y="76.161179"
+         id="tspan2645">Psychology</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.23334px;font-family:Calibri;-inkscape-font-specification:'Calibri Bold';text-align:center;text-anchor:middle;opacity:1;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:round;stroke-miterlimit:3;paint-order:stroke fill markers"
+       x="237.64334"
+       y="99.752144"
+       id="text2649"><tspan
+         sodipodi:role="line"
+         id="tspan2647"
+         style="stroke-width:0"
+         x="237.64334"
+         y="99.752144" /></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.23334px;font-family:Calibri;-inkscape-font-specification:'Calibri Bold';text-align:center;text-anchor:middle;opacity:1;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:round;stroke-miterlimit:3;paint-order:stroke fill markers"
+       x="225.20792"
+       y="121.49611"
+       id="text2653"><tspan
+         sodipodi:role="line"
+         id="tspan2651"
+         style="stroke-width:0"
+         x="225.20792"
+         y="121.49611">Science</tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:0"
+         x="225.20792"
+         y="126.78778"
+         id="tspan2655">communication</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.23334px;font-family:Calibri;-inkscape-font-specification:'Calibri Bold';text-align:center;text-anchor:middle;opacity:1;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:round;stroke-miterlimit:3;paint-order:stroke fill markers"
+       x="126.53589"
+       y="84.168739"
+       id="text2659"><tspan
+         sodipodi:role="line"
+         id="tspan2657"
+         style="stroke-width:0"
+         x="126.53589"
+         y="84.168739">Machine</tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:0"
+         x="126.53589"
+         y="89.460411"
+         id="tspan2661">Learning</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.23334px;font-family:Calibri;-inkscape-font-specification:'Calibri Bold';text-align:center;text-anchor:middle;opacity:1;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:round;stroke-miterlimit:3;paint-order:stroke fill markers"
+       x="103.48774"
+       y="119.93199"
+       id="text2665"><tspan
+         sodipodi:role="line"
+         id="tspan2663"
+         style="stroke-width:0"
+         x="103.48774"
+         y="119.93199">Artificial</tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:0"
+         x="103.48774"
+         y="125.22366"
+         id="tspan2667">Intelligence</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.23334px;font-family:Calibri;-inkscape-font-specification:'Calibri Bold';text-align:center;text-anchor:middle;opacity:1;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:round;stroke-miterlimit:3;paint-order:stroke fill markers"
+       x="132.01823"
+       y="139.82497"
+       id="text2671"><tspan
+         sodipodi:role="line"
+         id="tspan2669"
+         style="stroke-width:0"
+         x="132.01823"
+         y="139.82497">Human</tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:0"
+         x="132.01823"
+         y="145.11664"
+         id="tspan2675">Computer</tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:0"
+         x="132.01823"
+         y="150.40831"
+         id="tspan2673">Interaction</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.23334px;font-family:Calibri;-inkscape-font-specification:'Calibri Bold';text-align:center;text-anchor:middle;opacity:1;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:round;stroke-miterlimit:3;paint-order:stroke fill markers"
+       x="223.08926"
+       y="85.350136"
+       id="text3405"><tspan
+         sodipodi:role="line"
+         id="tspan3403"
+         style="stroke-width:0"
+         x="223.08926"
+         y="85.350136">Psychology of</tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:0"
+         x="223.08926"
+         y="90.641808"
+         id="tspan3407">Language</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.23334px;font-family:Calibri;-inkscape-font-specification:'Calibri Bold';text-align:center;text-anchor:middle;opacity:1;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:round;stroke-miterlimit:3;paint-order:stroke fill markers"
+       x="143.43784"
+       y="95.624466"
+       id="text3411"><tspan
+         sodipodi:role="line"
+         style="stroke-width:0"
+         x="143.43784"
+         y="95.624466"
+         id="tspan3413" /></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.23334px;font-family:Calibri;-inkscape-font-specification:'Calibri Bold';text-align:center;text-anchor:middle;opacity:1;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:round;stroke-miterlimit:3;paint-order:stroke fill markers"
+       x="224.58459"
+       y="136.72035"
+       id="text3423"><tspan
+         sodipodi:role="line"
+         id="tspan3421"
+         style="stroke-width:0"
+         x="224.58459"
+         y="136.72035">Data</tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:0"
+         x="224.58459"
+         y="142.01202"
+         id="tspan3437">Journalism</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.23334px;font-family:Calibri;-inkscape-font-specification:'Calibri Bold';text-align:center;text-anchor:middle;opacity:1;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:round;stroke-miterlimit:3;paint-order:stroke fill markers"
+       x="126.98157"
+       y="123.76439"
+       id="text3427"><tspan
+         sodipodi:role="line"
+         id="tspan3425"
+         style="stroke-width:0"
+         x="126.98157"
+         y="123.76439">Interface</tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:0"
+         x="126.98157"
+         y="129.05608"
+         id="tspan3429">Design</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.23334px;font-family:Calibri;-inkscape-font-specification:'Calibri Bold';text-align:center;text-anchor:middle;opacity:1;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:round;stroke-miterlimit:3;paint-order:stroke fill markers"
+       x="159.84692"
+       y="77.599205"
+       id="text3433"><tspan
+         sodipodi:role="line"
+         id="tspan3431"
+         style="stroke-width:0"
+         x="159.84692"
+         y="77.599205">Visual</tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:0"
+         x="159.84692"
+         y="82.890877"
+         id="tspan3435">estimation</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.23334px;font-family:Calibri;-inkscape-font-specification:'Calibri Bold';text-align:center;text-anchor:middle;opacity:1;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:round;stroke-miterlimit:3;paint-order:stroke fill markers"
+       x="173.87111"
+       y="120.62267"
+       id="text3441"><tspan
+         sodipodi:role="line"
+         style="stroke-width:0"
+         x="173.87111"
+         y="120.62267"
+         id="tspan3445">Data graphics</tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:0"
+         x="173.87111"
+         y="125.91434"
+         id="tspan3454">as tools for</tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:0"
+         x="173.87111"
+         y="131.20602"
+         id="tspan3470">statistical inference</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.23334px;font-family:Calibri;-inkscape-font-specification:'Calibri Bold';text-align:center;text-anchor:middle;opacity:1;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:round;stroke-miterlimit:3;paint-order:stroke fill markers"
+       x="194.3907"
+       y="145.12158"
+       id="text3466"><tspan
+         sodipodi:role="line"
+         id="tspan3464"
+         style="stroke-width:0"
+         x="194.3907"
+         y="145.12158">Dashboards</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.23334px;font-family:Calibri;-inkscape-font-specification:'Calibri Bold';text-align:center;text-anchor:middle;opacity:1;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:round;stroke-miterlimit:3;paint-order:stroke fill markers"
+       x="122.09056"
+       y="101.95008"
+       id="text3478"><tspan
+         sodipodi:role="line"
+         style="stroke-width:0"
+         x="122.09056"
+         y="101.95008"
+         id="tspan3476">Computer</tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:0"
+         x="122.09056"
+         y="107.24175"
+         id="tspan3482">Vision</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.23334px;font-family:Calibri;-inkscape-font-specification:'Calibri Bold';text-align:center;text-anchor:middle;opacity:1;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:round;stroke-miterlimit:3;paint-order:stroke fill markers"
+       x="136.59489"
+       y="116.57533"
+       id="text3486"><tspan
+         sodipodi:role="line"
+         id="tspan3484"
+         style="stroke-width:0"
+         x="136.59489"
+         y="116.57533">InfoVis</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.23334px;font-family:Calibri;-inkscape-font-specification:'Calibri Bold';text-align:center;text-anchor:middle;opacity:1;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:round;stroke-miterlimit:3;paint-order:stroke fill markers"
+       x="142.9509"
+       y="88.785561"
+       id="text3490"><tspan
+         sodipodi:role="line"
+         id="tspan3488"
+         style="stroke-width:0"
+         x="142.9509"
+         y="88.785561">Data</tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:0"
+         x="142.9509"
+         y="94.077232"
+         id="tspan3492">Charts</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.23334px;font-family:Calibri;-inkscape-font-specification:'Calibri Bold';text-align:center;text-anchor:middle;opacity:1;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:round;stroke-miterlimit:3;paint-order:stroke fill markers"
+       x="202.44955"
+       y="89.552315"
+       id="text3496"><tspan
+         sodipodi:role="line"
+         id="tspan3494"
+         style="stroke-width:0"
+         x="202.44955"
+         y="89.552315">Decision</tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:0"
+         x="202.44955"
+         y="94.843987"
+         id="tspan3498">Theory</tspan></text>
+  </g>
+</svg>

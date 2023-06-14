@@ -36,7 +36,7 @@ format:
   #   toc: true
   #   html-math-method: katex
 
-bibliography: refs.bib
+# bibliography: refs.bib
 
 csl: style/national-science-foundation-grant-proposals.csl
 
