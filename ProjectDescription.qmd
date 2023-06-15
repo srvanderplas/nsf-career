@@ -120,7 +120,7 @@ My long-term career goal is to examine statistical graphics with the goal of *he
 <!-- 5. Persuade the reviewers to become invested in your work by showing how your research matters for the field and their own research. -->
 <!-- Write this section in nontechnical terms for a broader audience. -->
 
-### Overview 
+## Overview 
 
 <!-- Briefly sketch the background leading to the present application, critically evaluate the existing literature, and identify gaps the project is intended to fill.   -->
 Scientific graphics transform quantitative data into image representations that can make use of the human visual system, leveraging our ability to take in and process huge quantities of information with minimal cognitive effort.
@@ -137,7 +137,8 @@ While each of these alternate tasks has been addressed in user studies of graphi
 
 <!-- Discuss how this project will generate foundational research that will advance the field in general or address specific challenges of great importance.   -->
 The research objectives proposed here are designed to lay a foundation for more consistent evaluation and testing of scientific visualizations. 
-We focus on the integrated cognitive complexity and temporal evolution of user-chart interaction, which is roughly illustrated in @fig-cognition-hierarchy. Previous hierarchies have focused on the complexity of single graphical tasks [@carswellChoosingSpecifiersEvaluation1992; @cleveland1984; @spenceVisualPsychophysicsSimple1990]; while this is a useful way to determine which chart to use to display data, it does not approach different ways users engage with a single chart: 
+We focus on the integrated cognitive complexity and temporal evolution of user-chart interaction, which is roughly illustrated in @fig-cognition-hierarchy. 
+Previous hierarchies have focused on the complexity of single graphical tasks [@carswellChoosingSpecifiersEvaluation1992; @cleveland1984; @spenceVisualPsychophysicsSimple1990]; while this is a useful way to determine which chart to use to display data, it does not approach different ways users engage with a single chart: 
 are they perceiving the graphical forms without engaging with the underlying symbolic meaning? 
 Using the chart to understand the underlying natural phenomenon? 
 Doing statistical inference (e.g. visually estimating parameter values from the graph)? 
@@ -159,7 +160,7 @@ Thus, this project will develop methodology for measuring the functional cogniti
 The results from the proposed research will also allow integration of conflicting historical results, hopefully leading to a robust set of empirical evidence that can be integrated to produce more robust, task-focused design guidelines for statistical graphics. 
 
 
-### Review of Relevant Literature  
+## Motivation
 
 <!-- Provide a brief review of the pertinent literature to show the current state of the field and to illustrate the gap your proposed work will fill.  -->
 
@@ -169,12 +170,18 @@ What is remarkable given the ubiquity of statistical graphics in scientific comm
 For example, Tufte's data-ink ratio @tufteVisualDisplayQuantitative2001 has been thoroughly tested [@kellyDataInkRatioAccuracy1988;@spenceVisualPsychophysicsSimple1990;@carswellChoosingSpecifiersEvaluation1992;@gillanMinimalismSyntaxGraphs1994;@gillanMinimalismSyntaxGraphs2009], but results have been decidedly mixed, suggesting that the data-ink ratio is too simplistic; even so, it is still part of the common vernacular and makes its way into many different design guidelines [@ajaniDeclutterFocusEmpirically2022]. 
 Another common recommendation is to locate the most important variables along position axes (e.g. $x$ and $y$ in a scatterplot) rather than encoding quantitative information in color; this is because @cleveland1984 found higher levels of accuracy in these comparisons, but accuracy of numerical estimation is not the only important way people use charts @bertiniWhyShouldnAll2020, and in fact, it is relatively uncommon for individuals to directly estimate one specific numerical quantity from a chart: for these tasks, a table would be much more appropriate @gelmanWhyTablesAre2011.
 At a fundamental level, we know that graphics are useful for communicating scientific results and for exploring our data; whether the target audience is ourselves, peers, or the general public, graphics are an invaluable tool.
-So why do we assess graphics based on things like estimation accuracy, and then extrapolate the results to tasks and situations that don't revolve around estimation accuracy? 
-A better alternative to the patchwork testing of individual questions with highly specific methods might be to try to assemble a functional picture of how specific charts (or design decisions) hold up under different levels of use, and then create guidelines which are more nuanced but can be applied more widely than current mantras.
+So why do we assess graphics based on things like estimation accuracy or response time [@hullmanBenefittingInfoVisVisual2011], and then extrapolate the results to tasks and situations that don't revolve around estimation accuracy? 
+What is needed instead is a testing framework focused on the user's level of interaction and purpose for interacting with a chart. 
+@lamEmpiricalStudiesInformation2012 divides evaluation scenarios into several user-focused task-based methods for both visualization and data analysis, assessing the utility of several methods for testing these empirically, but stops short of actually performing experiments evaluating the same graphics using multiple different methods. 
+This component of the proposed work is essential because it provides multiple points of experimental control that are not present when aggregating results across experiments: it is possible to keep the same participants, data (or data generating model), and testing conditions across multiple testing methods. 
+In this work, we propose a comprehensive, multi-modal experimental framework for evaluating graphics.
+This will provide a better alternative to the patchwork testing of individual questions with highly specific methods by empirically assessing how specific charts (or design decisions) function under different tasks and measurement methods.
 
-With this goal in mind, there are several factors that must be considered and evaluated: the measurement methods and variables used to assess charts are of obvious interest, but other factors are also important. 
-Measurement of numerical information that has passed through the human brain in one form or another can be complicated by the method used to record the information. 
-Let us consider the relatively simple case where a participant is asked to estimate the length of a specified bar in a bar chart: the experimenter must determine how this estimate is recorded. Modern web design (assuming our experiment is conducted online or at least that data is entered via  a computer interface) provides multiple options: the user can directly enter a number in a text box or indicate the number on a slider (with or without anchor points); the former requires translation into an explicitly numerical domain, where the latter requires that the participant map the chart onto a spatial domain but does not necessarily require explicit formation of a numerical estimate. 
+
+There are multiple factors that must be considered and evaluated in order to achieve the broader goal of empirically testing design guidelines: the measurement methods and variables used to assess charts are of obvious interest, but other factors are also important. 
+Measurement of numerical information that has passed through the human brain in one form or another can be complicated by the method used to obtain and record the information. 
+Consider the relatively simple case where a participant is asked to estimate the length of a specified bar in a bar chart: the experimenter must determine how this estimate is recorded. 
+Modern web design (assuming our experiment is conducted online or at least that data is entered via  a computer interface) provides multiple options: the user can directly enter a number in a text box or indicate the number on a slider (with or without anchor points); the former requires translation into an explicitly numerical domain, where the latter requires that the participant map the chart onto a spatial domain but does not necessarily require explicit formation of a numerical estimate. 
 Direct entry is subject to rounding effects that increase with participant uncertainty [@ruudUncertaintyCausesRounding2014;@hondaNumberBiasWisdom2022]; while these effects can be mitigated @wangDensityEstimationData2013 through modeling, it might be preferable to make use of numerical inputs that might not trigger rounding, such as slider inputs.
 Unfortunately, slider inputs are not entirely simple either: they can contain anchor points (or not) that participants may latch on to; the inclusion of these additional annotations may reduce cognitive load, but may provide the opportunity for additional anchoring effects that must be considered and possibly modeled.
 Most research in this area has examined sliders as inputs for categorical variables[@thomasSliderScaleText2019;@liuWhereShouldStart2019;@funkeWebExperimentShowing2016a;@decastellarnauClassificationResponseScale2018;@couperEvaluatingEffectivenessVisual2006] and suggests that using sliders instead of radio button inputs changes the observed distribution of responses in important ways; while the comparison to radio buttons is not relevant to continuous data, the results of these studies suggest that there is a need to explicitly examine the effects of input methods on participant responses.
@@ -182,7 +189,10 @@ This is just one example of the series of decisions experimenters make about the
 Even numerical estimation (regardless of input method) can be tricky: @spenceVisualPsychophysicsSimple1990 asks participants for the ratio between the part and the whole (e.g. estimating the ratio $A/B$ where $A+B=1$), while @cleveland1984 asked participants to directly estimate the value of $A$; it seems possible that the different conclusions regarding the accuracy of pie charts might in fact be a result of the quantity participants were asked to investigate.
 
 
-
+Combining the toolbox of methods for testing graphics at different levels of user engagement and the assessment of measurement details that impact research in statistical graphics but are not directly of interest during most graphics experiments, we have a better foundation through which to address the fundamental motivation for this research: using empirical testing to validate common design guidelines. 
+Many books and papers provide design guidelines along with examples, redesigns, and sometimes, supporting references to empirical studies  [@JointCommitteeStandards1915;@kelleherTenGuidelinesEffective2011;@shneidermanEyesHaveIt1996;@craftGuidelinesWhatCan2005;@carrGuidelinesDesigningInformation1999;@munznerVisualizationAnalysisDesign2014;@munzner2009a;@brehmerMultilevelTypologyAbstract2013;@lamEmpiricalStudiesInformation2012;@cardStructureInformationVisualization1997;@steele2010beautiful;@yau2013data;@wong2010wall]; @kandoganGroundedTheoryStudy2016 summarizes the structures and types of guidelines in many of these sources.
+There have also been empirical assessments of broad themes common to different sets of guidelines: @ajaniDeclutterFocusEmpirically2022 experimentally evaluated two themes ("declutter" and "focus") using several different assessment methods, finding that focused designs were preferred over decluttered designs, which were preferred over cluttered designs. 
+At a fundamental level, however, we have a lot to learn about visualization design: the design guidelines that we are promoting as a discipline are built on fairly limited studies that typically focus on accuracy or response time and do not assess the multiple different levels at which a user might engage with the chart and the underlying data.
 
 Specific methods for testing experimental graphics relevant to this project will be assessed as part of the methods section below, as will relevant preliminary studies that contributed to the development of this project.
 
@@ -206,24 +216,14 @@ Specific methods for testing experimental graphics relevant to this project will
 <!-- Suggested format for this section: -->
 <!-- D. RESEARCH DESIGN AND METHODS -->
 <!-- Introductory paragraph to orient reviewer to what you plan to do. -->
-This project is designed to leverage human perception and statistics to facilitate better communication about data and statistical models, as shown in Figure 3. 
+
+This project is designed to lay a foundation for more robust experimental evaluation of statistical graphics, with the goal of producing more nuanced, user-focused design guidelines that are backed up with empirical evidence.
+To address this broad goal, we will benchmark methods for testing statistical graphics that correspond to typical uses for statistical graphics.
+In parallel, we will assess the impact of smaller methodological choices on statistical graphics research, which will provide context to conflicting historical experiments. 
 
 
-
-<!-- ```{=html} -->
-<!-- ![Relationship between research aims.](images/cycle.png){#fig-cycle} -->
-<!-- ``` -->
-
-<!-- ```{=tex} -->
-<!-- \begin{wrapfigure}{L}{.5\textwidth} -->
-<!-- \includegraphics{images/cycle.pdf} -->
-<!-- \caption{Relationship between research aims.}\label{fig-cycle} -->
-<!-- \end{wrapfigure} -->
-<!-- ``` -->
-
-
-To address this broad goal, we will first benchmark methods for testing statistical graphics that correspond to typical uses for statistical graphics. 
-We will then use these methods to assess design guidelines and recommendations, providing a more nuanced, task-focused, empirical evaluation of these design criteria to provide clarity in the importance and impact of design guidelines; if successful this will improve design criteria guidelines, but will also allow us to reconcile the results from conflicting historical experiments.
+Finally, we will leverage 
+We will use these methods to assess design guidelines and recommendations, providing a more nuanced, task-focused, empirical evaluation of these design criteria to provide clarity in the importance and impact of design guidelines; if successful this will improve design criteria guidelines, but will also allow us to reconcile the results from conflicting historical experiments.
 While these two goals are related, they are not dependent: there are already sufficient methods in the literature for testing graphics to allow us to complete a task-focused evaluation of design guidelines; our contribution in the first aim is to modernize historical methods, fill in gaps in task-focused analysis methods, provide direct comparisons between methods, and create guidelines for the use of each method when testing statistical graphics. 
 
 <!-- When outlining your experimental plan: -->
