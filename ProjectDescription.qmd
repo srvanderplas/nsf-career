@@ -220,14 +220,14 @@ Specific methods for testing experimental graphics relevant to this project will
 <!-- D. RESEARCH DESIGN AND METHODS -->
 <!-- Introductory paragraph to orient reviewer to what you plan to do. -->
 
-This project is designed to lay a foundation for more robust experimental evaluation of statistical graphics, with the goal of producing more nuanced, user-focused design guidelines that are backed up with empirical evidence.
-To address this broad goal, we will benchmark methods for testing statistical graphics that correspond to typical uses for statistical graphics.
-In parallel, we will assess the impact of smaller methodological choices on statistical graphics research, which will provide context to conflicting historical experiments. 
+This project is designed to lay a foundation for robust experimental evaluation of statistical graphics: we will examine graphical evaluations that can assess common ways charts are used in practice, simultaneously developing and validating methods focused on practical evaluation and providing empirical support for nuanced, user-focused design guidelines.
+In support of this goal, we will first compare the insights from testing methods which address different levels of user engagement, developing toolkits for implementing empirical studies of graphics and assessing which methods can be combined to produce a holistic assessment of how a chart is used to support decision-making. These experiments are described in @sec-methods-compare. 
 
+As many different smaller factors, such as measurement and recording methods, can have an outsized influence on the results of graphical testing experiments, we will also conduct a thorough comparison of the effects of these decisions by revisiting previous studies and manipulating the measurement methods. If successful, this will provide contextual information which we can use to reconcile conflicting results from historical studies with slightly different methods. Even if this portion of the project does not produce ideal results, we will still gain greater insight into the ideal design of inputs for user testing, which will facilitate better study design in the future. Experiments relating to this second research objective are described in @sec-methods-input.
 
-Finally, we will leverage 
-We will use these methods to assess design guidelines and recommendations, providing a more nuanced, task-focused, empirical evaluation of these design criteria to provide clarity in the importance and impact of design guidelines; if successful this will improve design criteria guidelines, but will also allow us to reconcile the results from conflicting historical experiments.
-While these two goals are related, they are not dependent: there are already sufficient methods in the literature for testing graphics to allow us to complete a task-focused evaluation of design guidelines; our contribution in the first aim is to modernize historical methods, fill in gaps in task-focused analysis methods, provide direct comparisons between methods, and create guidelines for the use of each method when testing statistical graphics. 
+Finally, we will leverage the foundation of multi-modal user testing and better understanding of inputs to empirically assess common design guidelines at multiple levels of user engagement with statistical graphics. This process will not only include assessment of graphics using undergraduate populations or internet surveys, but will also include specific assessment of the accessibility of graphics for those who require disability accommodations due to neurodivergence, visual impairment, or learning disabilities. The results of these studies will directly tie into outreach activities that will inform data visualization practitioners about best practices based on empirical results. The experiments which will contribute to the third research objective are described in @sec-methods-guidelines.  
+
+While these goals are related, they are not dependent: there are already sufficient methods in the literature for testing graphics to allow us to complete a task-focused evaluation of design guidelines, and while a critical examination of methods for numerical input in graphics studies will be useful, it is not essential in order to empirically assess design guidelines. 
 
 <!-- When outlining your experimental plan: -->
 <!-- • Base it on your specific aims—restate the aims and describe the flow of experiments for each aim. -->
@@ -236,9 +236,47 @@ While these two goals are related, they are not dependent: there are already suf
 <!-- • Describe the timeline and sequence of experiments. -->
 <!-- • Talk about relevance to the field. -->
 
+### Multimodal Task-Based Testing Framework {#sec-methods-compare}
+
 <!-- D.1. Aim 1. Repeat Specific Aim from page 1. -->
-<!-- D.1.a. Hypothesis and Rationale. -->
+<!-- D.1.a. Hypothesis -->
+The first research objective for this project is to create a framework for comprehensive graphical testing across multiple levels of user engagement. 
+<!-- Rationale -->
+In previous work [@vanderplasClustersBeatTrend2017], we have seen that simultaneously collecting quantitative and qualitative data provides the opportunity to gain rich and nuanced insight into how participants respond to graphical tests: a significant proportion of participants in the visual hypothesis test committed a Type III error (the right answer to the wrong question) [@kimballErrorsThirdKind1957].
+More recently, we expanded this approach, examining the use of log and linear scales to assess exponential time series data across multiple different user tasks: perception, estimation, and prediction. 
+This series of studies, inspired by the COVID pandemic and the lack of empirical research at that time assessing the effectiveness of log scales, used three different graphical testing methods: statistical lineups, which test whether users can perceive a difference, direct numerical estimation, which assessed whether users could read data off of a chart and use it to perform estimation tasks, and "you-draw-it", which explored whether users can predict exponential growth. 
+The "you-draw-it" task is a modernized form of hand-drawn regression lines [@mostellerEyeFittingStraight1981] and one example of a direct-annotation method which can be used to provide quantitative information and predictions without requiring participants to convert graphical information to a numerical, real-world domain. 
+We ran this three-part experiment on the same set of participants, and are in the process of publishing the results [@robinsonEyeFittingStraight2022; @robinsonYouDrawIt2023], though the results from each experiment were published in dissertation form as @robinsonHumanPerceptionExponentially2022. 
+Most empirical visualization studies only use one testing method to assess a design decision, but graphics are *used* for many different purposes; it is important that we test graphics comprehensively, so that empirical guidelines that are appropriate for many different levels of user interaction can be developed.
+
 <!-- D.1.b. Experimental Plan. -->
+To this end, we will conduct a series of experiments which incorporate multiple testing methods into empirical assessments of statistical graphics.
+Many methods commonly employed for testing graphics can be combined in the same experiment; think-aloud protocol are commonly combined with eye-tracking and other assessment methods to provide qualitative information about the user experience in combination with more quantitative assessments [@guanValidityStimulatedRetrospective2006; @kulhavyCartographicExperienceThinking1992; @ratwaniThinkingGraphicallyConnecting2008]. 
+There are two fundamental limits to the combination of multiple methods are the fundamental structure of the experiment: method incompatibility and what a single participant can reasonably be asked to do in a single experiment. 
+For instance, statistical lineups involve multiple sub-plots, of which only one is composed of real data; this is incompatible with direct numerical estimation, because the framework for statistical inference under a randomization test necessarily removes the focus from the "real" data. 
+We can also expect that asking participants to complete too many tasks with a single plot will result in poorer results than optimizing the methods to maximize information gain while minimizing participant effort. 
+However, because this type of multimodal research is relatively rare, we do not know where this limit is; if this objective is successful, we will be able to recommend a set of measures which will produce a holistic picture of how users interact with graphics and use them to complete different tasks.
+
+As the primary goal of these experiments is to assess the methodology, here we focus on describing the set of experiments and methodological comparisons; we will use data and graphical design comparisons from past experiments in the field, and where potential past experiments have been identified, these are indicated. 
+In the first set of experiments, we will explore the use of statistical lineups, exploring whether they can be used to assess domain knowledge integration as well as combining lineups with other testing methods such as direct annotation, eye tracking, and think-aloud protocols.
+Lineup studies typically do not include contextual information that would require participants to evaluate the plots using domain knowledge; instead, lineups in most studies lack axis labels and even titles [@hofmannGraphicalTestsPower2012; @loyVariationsQQPlots2016; @majumderValidationVisualStatistical2013; @vanderplasClustersBeatTrend2017]; participants are encouraged to pick the plot which is the most different (which does not require understanding any data context). 
+As shown in @fig-cognition-hierarchy, lineups have relatively little overlap with other testing methods; this is a strength of the lineup protocol, in that it allows researchers to embed many of the more complex, higher-order cognitive operations into a task that only requires simple perception, however, this discordance makes any comparison between lineups and other methods difficult. 
+Experiment 1 will assess the introduction of contextual information into lineups by examining participants' ability to leverage information in axis labels and plot titles to identify panels which are otherwise not visually distinctive.
+
+```{r}
+#| fig-cap: "A 4-panel lineup (typical lineups have 20 panels) which leverages contextual information. The target panel is panel X."
+#| message: false
+#| warning: false
+#| fig-width: 8
+#| fig-height: 2
+#| echo: false
+library(ggplot2)
+ggplot() + geom_blank()
+```
+
+
+
+
 <!-- D.1.c. Expected Outcomes/Evaluation -->
 <!-- D.1.d. Potential Pitfalls and Alternative Approaches -->
 <!-- Discuss the limitations of each approach you are proposing and how they may affect your results and data.  -->

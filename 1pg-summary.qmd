@@ -1,5 +1,5 @@
 ---
-title: "What Do You See?  Perception, Algorithms, and Statistical Graphics"
+title: "What Do You See?  Perception, Decisions, and Statistical Graphics"
 author: Susan Vanderplas
 dept: Statistics Department
 email: susan.vanderplas@unl.edu
