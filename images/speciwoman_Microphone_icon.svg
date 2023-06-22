@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<svg xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:svg="http://www.w3.org/2000/svg" id="svg2832" viewBox="0 0 142.48 288.95" version="1.0">
+  <defs id="defs2834">
+    <filter id="filter3858" y="-.00637" width="1.2066" x="-.10329" height="1.0127">
+      <feGaussianBlur id="feGaussianBlur3860" stdDeviation="0.21518595"/>
+    </filter>
+    <filter id="filter3862" y="-.32644" width="1.0122" x="-.0061123" height="1.6529">
+      <feGaussianBlur id="feGaussianBlur3864" stdDeviation="0.68008488"/>
+    </filter>
+    <filter id="filter3870">
+      <feGaussianBlur id="feGaussianBlur3872" stdDeviation="0.8255316"/>
+    </filter>
+    <filter id="filter3884">
+      <feGaussianBlur id="feGaussianBlur3886" stdDeviation="1.0953692"/>
+    </filter>
+  </defs>
+  <g id="layer1" transform="translate(-120.19 -15.429)">
+    <g id="g4730" stroke="#000" transform="matrix(4.6513 0 0 4.6513 -1505.4 -340.27)">
+      <rect id="rect4651" ry="66.053" transform="matrix(.13972 0 0 .14761 311.88 25.075)" height="303.53" filter="url(#filter3884)" width="132.11" y="350.64" x="312.66" stroke-width="5"/>
+      <g id="g4725" fill="none">
+        <path id="path4653" filter="url(#filter3870)" stroke-width="23.643" transform="matrix(.14834 0 0 .14773 308.62 26.588)" d="m470.17 534.1v48.16c0 49.39-40.79 89.14-91.45 89.14-50.67 0-91.46-39.75-91.46-89.14v-48.16"/>
+        <path id="path4655" filter="url(#filter3858)" stroke-width="22.205" transform="matrix(.16856 0 0 .14739 300.96 26.794)" d="m378.72 670.59v76.07"/>
+        <path id="path4657" filter="url(#filter3862)" stroke-width="32.415" transform="matrix(.079099 0 0 .14739 334.84 26.794)" d="m247.7 746.66h262.03"/>
+      </g>
+    </g>
+  </g>
+  <metadata>
+    <rdf:RDF>
+      <cc:Work>
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+        <cc:license rdf:resource="http://creativecommons.org/licenses/publicdomain/"/>
+        <dc:publisher>
+          <cc:Agent rdf:about="http://openclipart.org/">
+            <dc:title>Openclipart</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+        <dc:title>Microphone icon</dc:title>
+        <dc:date>2009-05-15T09:44:24</dc:date>
+        <dc:description>An icon of a microphone</dc:description>
+        <dc:source>http://openclipart.org/detail/26031/microphone-icon-by-speciwoman</dc:source>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>speciwoman</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>clip art</rdf:li>
+            <rdf:li>clipart</rdf:li>
+            <rdf:li>image</rdf:li>
+            <rdf:li>media</rdf:li>
+            <rdf:li>microphone</rdf:li>
+            <rdf:li>music</rdf:li>
+            <rdf:li>png</rdf:li>
+            <rdf:li>public domain</rdf:li>
+            <rdf:li>sound</rdf:li>
+            <rdf:li>svg</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+      </cc:Work>
+      <cc:License rdf:about="http://creativecommons.org/licenses/publicdomain/">
+        <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
+        <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
+        <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+</svg>
