@@ -1,8 +1,8 @@
 ---
 title: "Project Description"
 bibliography: refs.bib
-editor: 
-  markdown: 
+editor:
+  markdown:
     wrap: sentence
 ---
 
@@ -40,18 +40,18 @@ ggplot(df, aes(x=nums))+
 <!--    o Link your specific aims to hypotheses, as appropriate. -->
 <!-- • Close this section with a statement on your expected outcomes, emphasizing the project's innovation. -->
 <!-- • It can be very useful to try to diagram your objective and aims. -->
- 
+
 
 <!-- Overview and Objectives (Suggested length: 1-1.5 pages)  -->
 
- 
+
 <!-- Problem statement:  -->
 <!-- Provide a succinct statement of the problem or opportunity your proposal will address.   -->
 Statistical graphics and models are powerful tools to summarize data and support human decision making; however, empirical research on graphical perception is sparse relative to the number of decisions necessary to make a good chart. When relevant studies are available, they often use incomparable methods and produce conflicting results.
 Chart design guidelines are often based on opinion, not empirical study, rendering many scientific communications sub-optimal or ineffective.
-This is alarming: effective science communication is critical for cultivating public trust in the scientific process and ensuring that decision makers accurately interpret supporting information. 
+This is alarming: effective science communication is critical for cultivating public trust in the scientific process and ensuring that decision makers accurately interpret supporting information.
 <!-- State a long-term goal that includes both research and education.   -->
-Addressing these challenges, my long-term career goal is to examine statistical graphics with the goal of *helping people use data more effectively*, and to apply this research to educate and inspire a new generation of scientists while supporting science literacy among the general public. 
+Addressing these challenges, my long-term career goal is to examine statistical graphics with the goal of *helping people use data more effectively*, and to apply this research to educate and inspire a new generation of scientists while supporting science literacy among the general public.
 
 <!-- Briefly address how your proposed research and education activities will help synthesize, build, and/or expand foundations in the relevant areas.  -->
 This CAREER proposal addresses a fundamental research question underpinning this problem: *How do design decisions impact the use, design, and perception of data visualizations?* Three research objectives support this goal:
@@ -71,10 +71,10 @@ Integrated with these research efforts, the overall **education goal** is to lev
 -   **EO3:** Improve the penetration of visualization research beyond academia by incorporating summaries of empirical studies in resources used by data scientists, industry analysts, and researchers in STEM disciplines.
 
 <!-- Describe how the research and educational activities are integrated with one another or synergistic.   -->
-Experiential learning activities will connect graphics research to critical concepts within statistics courses at the undergraduate level as well as in K-12 activities provided during graduate coursework for STEM educators. 
-In addition, incorporating research summaries into general visualization resources will not only connect data visualization creators with research; improving these resources will improve teaching materials for statistical computing and will involve undergraduates in research and outreach in graphics and science communication. 
+Experiential learning activities will connect graphics research to critical concepts within statistics courses at the undergraduate level as well as in K-12 activities provided during graduate coursework for STEM educators.
+In addition, incorporating research summaries into general visualization resources will not only connect data visualization creators with research; improving these resources will improve teaching materials for statistical computing and will involve undergraduates in research and outreach in graphics and science communication.
 
-The research and educational activities described in this project have the potential to significantly improve how scientists communicate scientific results to each other as well as to the general public, increasing public trust in science and facilitating public decision making based on experimental data and results. 
+The research and educational activities described in this project have the potential to significantly improve how scientists communicate scientific results to each other as well as to the general public, increasing public trust in science and facilitating public decision making based on experimental data and results.
 
 # Intellectual Merit
 <!-- Intellectual Merit (Suggested length: 1/4-1/2 page)  -->
@@ -83,7 +83,7 @@ This work will expand our understanding of graphical perception and communicatio
 <!-- Describe the expected significance of your project with respect to the research plan.   -->
 The proposed studies will be used to
 generate a framework relating evaluation methods to user engagement with graphics,
-establish the impact of different experimental design decisions on results, and 
+establish the impact of different experimental design decisions on results, and
 promote integration of multiple evaluation methods
 <!-- incorporating elements of quantitative and qualitative feedback  -->
 to provide a holistic assessment of visualization effectiveness.
@@ -93,16 +93,16 @@ Additionally, this project will prioritize inclusion neurodiverse and disabled i
 The results of the systematic examination of different experimental design and testing methods will not only ground design guidelines in empirical results; if successful, the experiments will also help reconcile the results from historical studies with conflicting results.
 While there are task-based taxonomies for *selection of chart types*, a systematic framework for selecting *testing methods* based on levels of engagement and critical tasks is innovative; we expect that this framework will facilitate well-rounded experiments that examine chart design and use from multiple perspectives, providing nuanced results focused on audience use of graphics.
 <!-- When possible, describe how your education plan will contribute to new knowledge (e.g., expected contributions to the field of STEM education).  -->
-The education activities proposed in this project are closely tied to the research objectives, providing avenues for dissemination of research results as well as inclusion of audiences in graphics research. 
-As a result, education and research activities will combine to support new pedagogical research in experiential learning. 
-This new research will examine the use of statistical graphics as an entry-point to quantitative subjects for individuals who are not traditionally interested in pursuing STEM careers. 
+The education activities proposed in this project are closely tied to the research objectives, providing avenues for dissemination of research results as well as inclusion of audiences in graphics research.
+As a result, education and research activities will combine to support new pedagogical research in experiential learning.
+This new research will examine the use of statistical graphics as an entry-point to quantitative subjects for individuals who are not traditionally interested in pursuing STEM careers.
 <!-- Discuss your qualifications to lead the project.  -->
-Previous collaborative research projects have established new and re-imagined old methods for testing statistical graphics; when combined with training and experience in statistics at the intersection of computer science, psychology, and communication, I am well equipped to complete this project supported by collaborations with researchers in cognitive psychology and statistical education. 
+Previous collaborative research projects have established new and re-imagined old methods for testing statistical graphics; when combined with training and experience in statistics at the intersection of computer science, psychology, and communication, I am well equipped to complete this project supported by collaborations with researchers in cognitive psychology and statistical education.
 
 
 <!-- Relation to Principal Investigator’s Long-term Goals (Suggested length: 1/4-1/2 page)  -->
 <!-- Restate the long-term goal of your research program and describe how the proposed work advances that long-term goal.  -->
-My long-term career goal is to examine statistical graphics with the goal of *helping people use data more effectively*, and to apply this research to educate and inspire a new generation of scientists while supporting science literacy among the general public. 
+My long-term career goal is to examine statistical graphics with the goal of *helping people use data more effectively*, and to apply this research to educate and inspire a new generation of scientists while supporting science literacy among the general public.
 <!-- Explain how the proposed project will build a firm foundation for a lifetime of leadership in research, education, and their integration.  -->
 
 <!-- Explain how the proposed project will advance your career goals and job responsibilities as well as the mission of your department or organization.  -->
@@ -120,17 +120,17 @@ My long-term career goal is to examine statistical graphics with the goal of *he
 <!-- 5. Persuade the reviewers to become invested in your work by showing how your research matters for the field and their own research. -->
 <!-- Write this section in nontechnical terms for a broader audience. -->
 
-## Overview 
+## Overview
 
 <!-- Briefly sketch the background leading to the present application, critically evaluate the existing literature, and identify gaps the project is intended to fill.   -->
 Scientific graphics transform quantitative data into image representations that can make use of the human visual system, leveraging our ability to take in and process huge quantities of information with minimal cognitive effort.
-However, unlike many mathematical data transformations, the transformation to visual space incurs loss both in the rendering of data to image and the transition from image to cognitive representation. 
+However, unlike many mathematical data transformations, the transformation to visual space incurs loss both in the rendering of data to image and the transition from image to cognitive representation.
 That is, when creating data visualizations, we have to be concerned not only with the accuracy of the rendered image, but also with how that image is perceived by the viewer.
 It is easy to find entire books filled with situations in which the transition from data to image produces results which are misleading
-[@cairoTruthfulArtData2016; @cairoHowChartsLie2019; @huffHowLieStatistics1954]; identifying scenarios where the transition from image to cognitive representation is suboptimal is more challenging and requires user studies. 
-There have been empirical studies of graphics for at least 100 years [@croxtonBarChartsCircle1927; @eellsRelativeMeritsCircles1926; @wickham2013graphical], but the foundational work in graphical perception is @cleveland1984, which established viewer's ability to accurately estimate information from simple visual displays. 
-While this work is important, and valuable, it has been synthesized into recommendations and rankings which go far beyond the original experiments [@mackinlayAutomatingDesignGraphical1986; @franconeriScienceVisualData2021] with limited empirical verification, though in many cases these extrapolations are based in part on cognitive and perceptual research that is not specific to scientific visualization. 
-It is easy to forget that @cleveland1984 examined charts with respect to the direct numerical accuracy of quantitative estimates; the results do not necessarily apply if we are interested instead in determining whether differences between quantities can be perceived [@luModelingJustNoticeable2022;@rensinkPerceptionCorrelationScatterplots2010], ordered, remembered [@borkinMemorabilityVisualizationRecognition2016], or used to reach a reasonable real-world decision [@kellerEffectRiskCommunication2009]. 
+[@cairoTruthfulArtData2016; @cairoHowChartsLie2019; @huffHowLieStatistics1954]; identifying scenarios where the transition from image to cognitive representation is suboptimal is more challenging and requires user studies.
+There have been empirical studies of graphics for at least 100 years [@croxtonBarChartsCircle1927; @eellsRelativeMeritsCircles1926; @wickham2013graphical], but the foundational work in graphical perception is @cleveland1984, which established viewer's ability to accurately estimate information from simple visual displays.
+While this work is important, and valuable, it has been synthesized into recommendations and rankings which go far beyond the original experiments [@mackinlayAutomatingDesignGraphical1986; @franconeriScienceVisualData2021] with limited empirical verification, though in many cases these extrapolations are based in part on cognitive and perceptual research that is not specific to scientific visualization.
+It is easy to forget that @cleveland1984 examined charts with respect to the direct numerical accuracy of quantitative estimates; the results do not necessarily apply if we are interested instead in determining whether differences between quantities can be perceived [@luModelingJustNoticeable2022;@rensinkPerceptionCorrelationScatterplots2010], ordered, remembered [@borkinMemorabilityVisualizationRecognition2016], or used to reach a reasonable real-world decision [@kellerEffectRiskCommunication2009].
 The design space of visualization user studies is incredibly large , and studies may use different numerical measures to address the same basic question.
 While each of these alternate tasks has been addressed in user studies of graphics, because the design space of visualization user studies is so large [@Abdul-Rahman2020;@Bolte2020] and the literature is spread across so many different fields (including psychology, computer science, statistics, design, and communication) with different standard methods, it is extremely difficult to synthesize the total graphics literature in order to derive empirically driven guidelines for creating graphs that accurately transform the data into an image and also present the data in a form which can be effectively used by the intended audience.
 
@@ -138,53 +138,53 @@ While each of these alternate tasks has been addressed in user studies of graphi
 ![Levels of cognitive engagement with charts, roughly ordered by complexity, time, and effort. Methods which effectively measure (or could be extended to measure) each stage are shown below the charts. Text annotations show examples of the types of operations which involved in each stage.](images/Chart-Perception-Process.png){#fig-cognition-hierarchy}
 
 <!-- Discuss how this project will generate foundational research that will advance the field in general or address specific challenges of great importance.   -->
-The research objectives proposed here are designed to lay a foundation for more consistent evaluation and testing of scientific visualizations. 
-We focus on the integrated cognitive complexity and temporal evolution of user-chart interaction, which is roughly illustrated in @fig-cognition-hierarchy. 
-Previous hierarchies have focused on the complexity of single graphical tasks [@carswellChoosingSpecifiersEvaluation1992; @cleveland1984; @spenceVisualPsychophysicsSimple1990]; while this is a useful way to determine which chart to use to display data, it does not approach different ways users engage with a single chart: 
-are they perceiving the graphical forms without engaging with the underlying symbolic meaning? 
-Using the chart to understand the underlying natural phenomenon? 
-Doing statistical inference (e.g. visually estimating parameter values from the graph)? 
-Making decisions based on their understanding of the data? 
-Each of these use cases involves different cognitive tasks, and as a result, different graphical testing methods must be used to assess the effectiveness of charts under each type of engagement. 
+The research objectives proposed here are designed to lay a foundation for more consistent evaluation and testing of scientific visualizations.
+We focus on the integrated cognitive complexity and temporal evolution of user-chart interaction, which is roughly illustrated in @fig-cognition-hierarchy.
+Previous hierarchies have focused on the complexity of single graphical tasks [@carswellChoosingSpecifiersEvaluation1992; @cleveland1984; @spenceVisualPsychophysicsSimple1990]; while this is a useful way to determine which chart to use to display data, it does not approach different ways users engage with a single chart:
+are they perceiving the graphical forms without engaging with the underlying symbolic meaning?
+Using the chart to understand the underlying natural phenomenon?
+Doing statistical inference (e.g. visually estimating parameter values from the graph)?
+Making decisions based on their understanding of the data?
+Each of these use cases involves different cognitive tasks, and as a result, different graphical testing methods must be used to assess the effectiveness of charts under each type of engagement.
 
-We will first identify and evaluate methods for graphical testing across multiple levels of user engagement, comparing methods which examine equivalent stages of graph comprehension and use. 
-\@fig-cognition-hierarchy shows some of the methods we intend to assess and compare, along with the rough stages of cognition these methods target. 
-Next, we will establish the impact of different experimental configurations and ways of measuring and recording users' answers. 
+We will first identify and evaluate methods for graphical testing across multiple levels of user engagement, comparing methods which examine equivalent stages of graph comprehension and use.
+\@fig-cognition-hierarchy shows some of the methods we intend to assess and compare, along with the rough stages of cognition these methods target.
+Next, we will establish the impact of different experimental configurations and ways of measuring and recording users' answers.
 We expect that this will not only help graphics researchers design and implement new user studies, but we hope to also facilitate comparison of results from past studies, providing context to conflicting conclusions.
 Finally, we will empirically validate common chart design guidelines, testing whether extrapolated results and aesthetic opinions hold up under critical user studies.
 
 <!-- Describe the contributions the project will make to synthesizing, expanding, or building the base of knowledge and evidence needed in the field and to the development of theory and methodology.  -->
-The results from these objectives, taken together, are intended to build a user-focused foundation for measuring and assessing the design and use of data visualizations. 
+The results from these objectives, taken together, are intended to build a user-focused foundation for measuring and assessing the design and use of data visualizations.
 <!-- Because scientific visualizations are used by and leverage research from so many different disciplines, including cognitive psychology, computer science, communication, human-computer interaction, user interface design, and statistics, it can be difficult to identify the exact theoretical domains to which a statistical graphics research project contributes.  -->
-The choice to approach testing graphics from the perspective of how the user is interacts with and makes decisions based on the visual representation of the data places this research firmly at the intersection of statistics, cognitive science, measurement, and communication. 
-While previous researchers [@shneidermanEyesHaveIt1996; @carswellChoosingSpecifiersEvaluation1992; @cleveland1984] have assessed graphics from the perspective of different estimation or user interaction tasks, the present project is focused on **measurement** methods for different stages of user interaction with graphics. 
-Thus, this project will develop methodology for measuring the functional cognition underlying data driven decision making using visual aids. 
-The results from the proposed research will also allow integration of conflicting historical results, hopefully leading to a robust set of empirical evidence that can be integrated to produce more robust, task-focused design guidelines for statistical graphics. 
+The choice to approach testing graphics from the perspective of how the user is interacts with and makes decisions based on the visual representation of the data places this research firmly at the intersection of statistics, cognitive science, measurement, and communication.
+While previous researchers [@shneidermanEyesHaveIt1996; @carswellChoosingSpecifiersEvaluation1992; @cleveland1984] have assessed graphics from the perspective of different estimation or user interaction tasks, the present project is focused on **measurement** methods for different stages of user interaction with graphics.
+Thus, this project will develop methodology for measuring the functional cognition underlying data driven decision making using visual aids.
+The results from the proposed research will also allow integration of conflicting historical results, hopefully leading to a robust set of empirical evidence that can be integrated to produce more robust, task-focused design guidelines for statistical graphics.
 
 
 ## Motivation
 
 <!-- Provide a brief review of the pertinent literature to show the current state of the field and to illustrate the gap your proposed work will fill.  -->
 
-The first studies experimentally examining the effectiveness of statistical graphics took place approximately 100 years ago; since then, the quantity of charts created, the methods available for creating charts, and the technology available for measuring and evaluating comprehension have evolved in remarkable ways. @vanderplasTestingStatisticalCharts2020 provides a comprehensive review of studies that experimentally examine the use of statistical graphics as well as the underlying research in cognitive psychology topics such as perception, memory, attention, and executive function which influence our ability to use statistical graphics effectively. 
+The first studies experimentally examining the effectiveness of statistical graphics took place approximately 100 years ago; since then, the quantity of charts created, the methods available for creating charts, and the technology available for measuring and evaluating comprehension have evolved in remarkable ways. @vanderplasTestingStatisticalCharts2020 provides a comprehensive review of studies that experimentally examine the use of statistical graphics as well as the underlying research in cognitive psychology topics such as perception, memory, attention, and executive function which influence our ability to use statistical graphics effectively.
 
-What is remarkable given the ubiquity of statistical graphics in scientific communication is that even after 100 years of empirical graphics research, we still have relatively little empirical evidence to support of some common design guidelines and heuristics; where there are empirical studies, they often conflict or have been over-extrapolated from the design and goal of the original experiments. 
-For example, Tufte's data-ink ratio @tufteVisualDisplayQuantitative2001 has been thoroughly tested [@kellyDataInkRatioAccuracy1988;@spenceVisualPsychophysicsSimple1990;@carswellChoosingSpecifiersEvaluation1992;@gillanMinimalismSyntaxGraphs1994;@gillanMinimalismSyntaxGraphs2009], but results have been decidedly mixed, suggesting that the data-ink ratio is too simplistic; even so, it is still part of the common vernacular and makes its way into many different design guidelines [@ajaniDeclutterFocusEmpirically2022]. 
+What is remarkable given the ubiquity of statistical graphics in scientific communication is that even after 100 years of empirical graphics research, we still have relatively little empirical evidence to support of some common design guidelines and heuristics; where there are empirical studies, they often conflict or have been over-extrapolated from the design and goal of the original experiments.
+For example, Tufte's data-ink ratio @tufteVisualDisplayQuantitative2001 has been thoroughly tested [@kellyDataInkRatioAccuracy1988;@spenceVisualPsychophysicsSimple1990;@carswellChoosingSpecifiersEvaluation1992;@gillanMinimalismSyntaxGraphs1994;@gillanMinimalismSyntaxGraphs2009], but results have been decidedly mixed, suggesting that the data-ink ratio is too simplistic; even so, it is still part of the common vernacular and makes its way into many different design guidelines [@ajaniDeclutterFocusEmpirically2022].
 Another common recommendation is to locate the most important variables along position axes (e.g. $x$ and $y$ in a scatterplot) rather than encoding quantitative information in color; this is because @cleveland1984 found higher levels of accuracy in these comparisons, but accuracy of numerical estimation is not the only important way people use charts @bertiniWhyShouldnAll2020, and in fact, it is relatively uncommon for individuals to directly estimate one specific numerical quantity from a chart: for these tasks, a table would be much more appropriate @gelmanWhyTablesAre2011.
 
 At a fundamental level, we know that graphics are useful for communicating scientific results and for exploring our data; whether the target audience is ourselves, peers, or the general public, graphics are an invaluable tool.
-So why do we assess graphics based on things like estimation accuracy or response time [@hullmanBenefittingInfoVisVisual2011], and then extrapolate the results to tasks and situations that don't revolve around estimation accuracy? 
-What is needed instead is a testing framework focused on the user's level of interaction and purpose for interacting with a chart. 
-@lamEmpiricalStudiesInformation2012 divides evaluation scenarios into several user-focused task-based methods for both visualization and data analysis, assessing the utility of several methods for testing these empirically, but stops short of actually performing experiments evaluating the same graphics using multiple different methods. 
-This component of the proposed work is essential because it provides multiple points of experimental control that are not present when aggregating results across experiments: it is possible to keep the same participants, data (or data generating model), and testing conditions across multiple testing methods. 
+So why do we assess graphics based on things like estimation accuracy or response time [@hullmanBenefittingInfoVisVisual2011], and then extrapolate the results to tasks and situations that don't revolve around estimation accuracy?
+What is needed instead is a testing framework focused on the user's level of interaction and purpose for interacting with a chart.
+@lamEmpiricalStudiesInformation2012 divides evaluation scenarios into several user-focused task-based methods for both visualization and data analysis, assessing the utility of several methods for testing these empirically, but stops short of actually performing experiments evaluating the same graphics using multiple different methods.
+This component of the proposed work is essential because it provides multiple points of experimental control that are not present when aggregating results across experiments: it is possible to keep the same participants, data (or data generating model), and testing conditions across multiple testing methods.
 In this work, we propose a comprehensive, multi-modal experimental framework for evaluating graphics.
 This will provide a better alternative to the patchwork testing of individual questions with highly specific methods by empirically assessing how specific charts (or design decisions) function under different tasks and measurement methods.
 
 
-There are multiple factors that must be considered and evaluated in order to achieve the broader goal of empirically testing design guidelines: the measurement methods and variables used to assess charts are of obvious interest, but other factors are also important. 
-Measurement of numerical information that has passed through the human brain in one form or another can be complicated by the method used to obtain and record the information. 
-Consider the relatively simple case where a participant is asked to estimate the length of a specified bar in a bar chart: the experimenter must determine how this estimate is recorded. 
-Modern web design (assuming our experiment is conducted online or at least that data is entered via  a computer interface) provides multiple options: the user can directly enter a number in a text box or indicate the number on a slider (with or without anchor points); the former requires translation into an explicitly numerical domain, where the latter requires that the participant map the chart onto a spatial domain but does not necessarily require explicit formation of a numerical estimate. 
+There are multiple factors that must be considered and evaluated in order to achieve the broader goal of empirically testing design guidelines: the measurement methods and variables used to assess charts are of obvious interest, but other factors are also important.
+Measurement of numerical information that has passed through the human brain in one form or another can be complicated by the method used to obtain and record the information.
+Consider the relatively simple case where a participant is asked to estimate the length of a specified bar in a bar chart: the experimenter must determine how this estimate is recorded.
+Modern web design (assuming our experiment is conducted online or at least that data is entered via  a computer interface) provides multiple options: the user can directly enter a number in a text box or indicate the number on a slider (with or without anchor points); the former requires translation into an explicitly numerical domain, where the latter requires that the participant map the chart onto a spatial domain but does not necessarily require explicit formation of a numerical estimate.
 Direct entry is subject to rounding effects that increase with participant uncertainty [@ruudUncertaintyCausesRounding2014;@hondaNumberBiasWisdom2022]; while these effects can be mitigated @wangDensityEstimationData2013 through modeling, it might be preferable to make use of numerical inputs that might not trigger rounding, such as slider inputs.
 Unfortunately, slider inputs are not entirely simple either: they can contain anchor points (or not) that participants may latch on to; the inclusion of these additional annotations may reduce cognitive load, but may provide the opportunity for additional anchoring effects that must be considered and possibly modeled.
 Most research in this area has examined sliders as inputs for categorical variables[@thomasSliderScaleText2019;@liuWhereShouldStart2019;@funkeWebExperimentShowing2016a;@decastellarnauClassificationResponseScale2018;@couperEvaluatingEffectivenessVisual2006] and suggests that using sliders instead of radio button inputs changes the observed distribution of responses in important ways; while the comparison to radio buttons is not relevant to continuous data, the results of these studies suggest that there is a need to explicitly examine the effects of input methods on participant responses.
@@ -192,17 +192,17 @@ This is just one example of the series of decisions experimenters make about the
 Even numerical estimation (regardless of input method) can be tricky: @spenceVisualPsychophysicsSimple1990 asks participants for the ratio between the part and the whole (e.g. estimating the ratio $A/B$ where $A+B=1$), while @cleveland1984 asked participants to directly estimate the value of $A$; it seems possible that the different conclusions regarding the accuracy of pie charts might in fact be a result of the quantity participants were asked to investigate.
 
 
-Combining the toolbox of methods for testing graphics at different levels of user engagement and the assessment of measurement details that impact research in statistical graphics but are not directly of interest during most graphics experiments, we have a better foundation through which to address the fundamental motivation for this research: **using comprehensive empirical testing to validate common design guidelines**. 
+Combining the toolbox of methods for testing graphics at different levels of user engagement and the assessment of measurement details that impact research in statistical graphics but are not directly of interest during most graphics experiments, we have a better foundation through which to address the fundamental motivation for this research: **using comprehensive empirical testing to validate common design guidelines**.
 Many books and papers provide design guidelines along with examples, redesigns, and sometimes, supporting references to empirical studies  [@JointCommitteeStandards1915;@brewerGuidelinesUsePerceptual1994; @kosslynGraphDesignEye2006;@tufteVisualDisplayQuantitative2001;@kelleherTenGuidelinesEffective2011;@shneidermanEyesHaveIt1996;@craftGuidelinesWhatCan2005;@carrGuidelinesDesigningInformation1999;@munznerVisualizationAnalysisDesign2014;@munzner2009a;@brehmerMultilevelTypologyAbstract2013;@lamEmpiricalStudiesInformation2012;@cardStructureInformationVisualization1997;@steele2010beautiful;@yau2013data;@wong2010wall]; @kandoganGroundedTheoryStudy2016 summarizes the structures and types of guidelines in many of these sources.
-There have also been empirical assessments of broad themes common to different sets of guidelines: @ajaniDeclutterFocusEmpirically2022 experimentally evaluated two themes ("declutter" and "focus") using several different assessment methods, finding that focused designs were preferred over decluttered designs, which were preferred over cluttered designs. 
+There have also been empirical assessments of broad themes common to different sets of guidelines: @ajaniDeclutterFocusEmpirically2022 experimentally evaluated two themes ("declutter" and "focus") using several different assessment methods, finding that focused designs were preferred over decluttered designs, which were preferred over cluttered designs.
 At a fundamental level, however, we have a lot to learn about visualization design: the design guidelines that we are promoting as a discipline are built on fairly limited studies that typically focus on accuracy or response time and do not assess the multiple different levels at which a user might engage with the chart and the underlying data.
 
 Specific methods for testing experimental graphics relevant to this project will be assessed as part of the methods section below, as will relevant preliminary studies that contributed to the development of this project.
 
 <!-- ### Preliminary Studies  -->
 
-<!-- Summarize any relevant preliminary supporting data.  --> 
-<!-- Can also be included in research plan --> 
+<!-- Summarize any relevant preliminary supporting data.  -->
+<!-- Can also be included in research plan -->
 
 <!-- This is the place to highlight your own preliminary data, showing your ability to develop and test hypotheses, design rigorous experiments, perform experimental techniques, and analyze and interpret data. -->
 
@@ -221,13 +221,13 @@ Specific methods for testing experimental graphics relevant to this project will
 <!-- Introductory paragraph to orient reviewer to what you plan to do. -->
 
 This project is designed to lay a foundation for robust experimental evaluation of statistical graphics: we will examine graphical evaluations that can assess common ways charts are used in practice, simultaneously developing and validating methods focused on practical evaluation and providing empirical support for nuanced, user-focused design guidelines.
-In support of this goal, we will first compare the insights from testing methods which address different levels of user engagement, developing toolkits for implementing empirical studies of graphics and assessing which methods can be combined to produce a holistic assessment of how a chart is used to support decision-making. These experiments are described in @sec-methods-compare. 
+In support of this goal, we will first compare the insights from testing methods which address different levels of user engagement, developing toolkits for implementing empirical studies of graphics and assessing which methods can be combined to produce a holistic assessment of how a chart is used to support decision-making. These experiments are described in @sec-methods-compare.
 
 As many different smaller factors, such as measurement and recording methods, can have an outsized influence on the results of graphical testing experiments, we will also conduct a thorough comparison of the effects of these decisions by revisiting previous studies and manipulating the measurement methods. If successful, this will provide contextual information which we can use to reconcile conflicting results from historical studies with slightly different methods. Even if this portion of the project does not produce ideal results, we will still gain greater insight into the ideal design of inputs for user testing, which will facilitate better study design in the future. Experiments relating to this second research objective are described in @sec-methods-input.
 
-Finally, we will leverage the foundation of multi-modal user testing and better understanding of inputs to empirically assess common design guidelines at multiple levels of user engagement with statistical graphics. This process will not only include assessment of graphics using undergraduate populations or internet surveys, but will also include specific assessment of the accessibility of graphics for those who require disability accommodations due to neurodivergence, visual impairment, or learning disabilities. The results of these studies will directly tie into outreach activities that will inform data visualization practitioners about best practices based on empirical results. The experiments which will contribute to the third research objective are described in @sec-methods-guidelines.  
+Finally, we will leverage the foundation of multi-modal user testing and better understanding of inputs to empirically assess common design guidelines at multiple levels of user engagement with statistical graphics. This process will not only include assessment of graphics using undergraduate populations or internet surveys, but will also include specific assessment of the accessibility of graphics for those who require disability accommodations due to neurodivergence, visual impairment, or learning disabilities. The results of these studies will directly tie into outreach activities that will inform data visualization practitioners about best practices based on empirical results. The experiments which will contribute to the third research objective are described in @sec-methods-guidelines.
 
-While these goals are related, they are not dependent: there are already sufficient methods in the literature for testing graphics to allow us to complete a task-focused evaluation of design guidelines, and while a critical examination of methods for numerical input in graphics studies will be useful, it is not essential in order to empirically assess design guidelines. 
+While these goals are related, they are not dependent: there are already sufficient methods in the literature for testing graphics to allow us to complete a task-focused evaluation of design guidelines, and while a critical examination of methods for numerical input in graphics studies will be useful, it is not essential in order to empirically assess design guidelines.
 
 <!-- When outlining your experimental plan: -->
 <!-- • Base it on your specific aims—restate the aims and describe the flow of experiments for each aim. -->
@@ -240,53 +240,90 @@ While these goals are related, they are not dependent: there are already suffici
 
 <!-- D.1. Aim 1. Repeat Specific Aim from page 1. -->
 <!-- D.1.a. Hypothesis -->
-The first research objective for this project is to create a framework for comprehensive graphical testing across multiple levels of user engagement. 
+The first research objective for this project is to create a framework for comprehensive graphical testing across multiple levels of user engagement.
 <!-- Rationale -->
 In previous work [@vanderplasClustersBeatTrend2017], we have seen that simultaneously collecting quantitative and qualitative data provides the opportunity to gain rich and nuanced insight into how participants respond to graphical tests: a significant proportion of participants in the visual hypothesis test committed a Type III error (the right answer to the wrong question) [@kimballErrorsThirdKind1957].
-More recently, we expanded this approach, examining the use of log and linear scales to assess exponential time series data across multiple different user tasks: perception, estimation, and prediction. 
-This series of studies, inspired by the COVID pandemic and the lack of empirical research at that time assessing the effectiveness of log scales, used three different graphical testing methods: statistical lineups, which test whether users can perceive a difference, direct numerical estimation, which assessed whether users could read data off of a chart and use it to perform estimation tasks, and "you-draw-it", which explored whether users can predict exponential growth. 
-The "you-draw-it" task is a modernized form of hand-drawn regression lines [@mostellerEyeFittingStraight1981] and one example of a direct-annotation method which can be used to provide quantitative information and predictions without requiring participants to convert graphical information to a numerical, real-world domain. 
-We ran this three-part experiment on the same set of participants, and are in the process of publishing the results [@robinsonEyeFittingStraight2022; @robinsonYouDrawIt2023], though the results from each experiment were published in dissertation form as @robinsonHumanPerceptionExponentially2022. 
+More recently, we expanded this approach, examining the use of log and linear scales to assess exponential time series data across multiple different user tasks: perception, estimation, and prediction.
+This series of studies, inspired by the COVID pandemic and the lack of empirical research at that time assessing the effectiveness of log scales, used three different graphical testing methods: statistical lineups, which test whether users can perceive a difference, direct numerical estimation, which assessed whether users could read data off of a chart and use it to perform estimation tasks, and "you-draw-it", which explored whether users can predict exponential growth.
+The "you-draw-it" task is a modernized form of hand-drawn regression lines [@mostellerEyeFittingStraight1981] and one example of a direct-annotation method which can be used to provide quantitative information and predictions without requiring participants to convert graphical information to a numerical, real-world domain.
+We ran this three-part experiment on the same set of participants, and are in the process of publishing the results [@robinsonEyeFittingStraight2022; @robinsonYouDrawIt2023], though the results from each experiment were published in dissertation form as @robinsonHumanPerceptionExponentially2022.
 Most empirical visualization studies only use one testing method to assess a design decision, but graphics are *used* for many different purposes; it is important that we test graphics comprehensively, so that empirical guidelines that are appropriate for many different levels of user interaction can be developed.
 
 <!-- D.1.b. Experimental Plan. -->
 To this end, we will conduct a series of experiments which incorporate multiple testing methods into empirical assessments of statistical graphics.
-Many methods commonly employed for testing graphics can be combined in the same experiment; think-aloud protocol are commonly combined with eye-tracking and other assessment methods to provide qualitative information about the user experience in combination with more quantitative assessments [@guanValidityStimulatedRetrospective2006; @kulhavyCartographicExperienceThinking1992; @ratwaniThinkingGraphicallyConnecting2008]. 
-There are two fundamental limits to the combination of multiple methods are the fundamental structure of the experiment: method incompatibility and what a single participant can reasonably be asked to do in a single experiment. 
-For instance, statistical lineups involve multiple sub-plots, of which only one is composed of real data; this is incompatible with direct numerical estimation, because the framework for statistical inference under a randomization test necessarily removes the focus from the "real" data. 
-We can also expect that asking participants to complete too many tasks with a single plot will result in poorer results than optimizing the methods to maximize information gain while minimizing participant effort. 
-However, because this type of multimodal research is relatively rare, we do not know where this limit is; if this objective is successful, we will be able to recommend a set of measures which will produce a holistic picture of how users interact with graphics and use them to complete different tasks.
+Many methods commonly employed for testing graphics can be combined in the same experiment; think-aloud protocol are commonly combined with eye-tracking and other assessment methods to provide qualitative information about the user experience in combination with more quantitative assessments [@guanValidityStimulatedRetrospective2006; @kulhavyCartographicExperienceThinking1992; @ratwaniThinkingGraphicallyConnecting2008].
+There are two fundamental limits to the combination of multiple methods are the fundamental structure of the experiment: method incompatibility and what a single participant can reasonably be asked to do in a single experiment.
+For instance, statistical lineups involve multiple sub-plots, of which only one is composed of real data; this is incompatible with direct numerical estimation, because the framework for statistical inference under a randomization test necessarily removes the focus from the "real" data.
+We can also expect that asking participants to complete too many tasks with a single plot will result in poorer results than optimizing the methods to maximize information gain while minimizing participant effort.
+However, because this type of multi-method research is relatively rare, we do not know where this limit is; if this objective is successful, we will be able to recommend one or more sets of measures which will produce a holistic picture of how users interact with graphics and use them to complete different tasks.
 
-As the primary goal of these experiments is to assess the methodology, here we focus on describing the set of experiments and methodological comparisons; we will use data and graphical design comparisons from past experiments in the field, and where potential past experiments have been identified, these are indicated. 
+As the primary goal of these experiments is to assess the methodology, here we focus on describing the set of experiments and methodological comparisons; we will use data and graphical design comparisons from past experiments in the field, and where potential past experiments have been identified, these are indicated.
 In the first set of experiments, we will explore the use of statistical lineups, exploring whether they can be used to assess domain knowledge integration as well as combining lineups with other testing methods such as direct annotation, eye tracking, and think-aloud protocols.
-Lineup studies typically do not include contextual information that would require participants to evaluate the plots using domain knowledge; instead, lineups in most studies lack axis labels and even titles [@hofmannGraphicalTestsPower2012; @loyVariationsQQPlots2016; @majumderValidationVisualStatistical2013; @vanderplasClustersBeatTrend2017]; participants are encouraged to pick the plot which is the most different (which does not require understanding any data context). 
-As shown in @fig-cognition-hierarchy, lineups have relatively little overlap with other testing methods; this is a strength of the lineup protocol, in that it allows researchers to embed many of the more complex, higher-order cognitive operations into a task that only requires simple perception, however, this discordance makes any comparison between lineups and other methods difficult. 
-Experiment 1 will assess the introduction of contextual information into lineups by examining participants' ability to leverage information in axis labels and plot titles to identify panels which are otherwise not visually distinctive.
+In *Experiment 1*, we will examine whether there is value in adding contextual information (axis scales, labels, titles) to lineups. Lineup studies typically do not include contextual information that would require participants to evaluate the plots using domain knowledge; instead, lineups in most studies lack axis labels and even titles [@hofmannGraphicalTestsPower2012; @loyVariationsQQPlots2016; @majumderValidationVisualStatistical2013; @vanderplasClustersBeatTrend2017]; participants are encouraged to pick the plot which is the most different (which does not require understanding any data context). Experiment 1 will assess whether individuals use contextual information when deciding which plot is the most different by manipulating axis scales (which are usually controlled) as part of the experiment; we will also analyze user explanations to see if information in the plot and axis titles are referenced. This study will be conducted online via Prolific and we expect that 300 participants will be sufficient based on past lineup studies.
 
-```{r}
+```{r exp1-demo, include = F}
 #| fig-cap: "A 4-panel lineup (typical lineups have 20 panels) which leverages contextual information. The target panel is panel X."
 #| message: false
 #| warning: false
 #| fig-width: 8
 #| fig-height: 2
 #| echo: false
+# Include this if there is space and you think of a good examplee
 library(ggplot2)
 ggplot() + geom_blank()
 ```
 
+In **Experiments 2 and 3**, we will establish the use of lineups with eye tracking (Ex 2 + 3) and direct annotation (Ex 3). While lineups have been used with eye tracking before [@yifanzhaoMindReadingUsing2013], the measures used were not sophisticated, and eye tracking technology has improved considerably in the past decade XXX is this true? XXX. If successful, Experiment 2 will allow us to assess the process of decision-making and specifically identify which data features attract the most attention XXX need to talk to Michael about this XXX. During Experiment 2, we will also examine the effect of making lineup decisions under cognitive load, mimicking conditions where people use graphics in daily life with distractions. Experiment 3 will expand upon experiment 2, asking participants to directly annotate interesting features in a lineup using JavaScript-based web tools. There is the possibility that this additional task will add too much cognitive load, as well as that the additional motion required for the annotation will disrupt the eye tracking results; both of these outcomes provide useful information. If successful, however, Experiment 3 will demonstrate whether there is added value from using both eye tracking (which requires in person testing) and direct annotation (which can be completed online) together.
+**Experiment 4** will validate the use of lineups with direct annotation, establishing if there is added value in including direct interaction with lineups in a more typical setting for visual inference studies (online). If successful, this will provide an easy way for visual inference researchers to gain additional value and insight about participants' decisions. Visual inference has also been suggested as one solution to the problem of overfitting during exploratory data analysis [@hullmanDesigningInteractiveExploratory2021;@cookFoundationAvailableThinking2021;@vanderplasDesigningGraphicsRequires2021]; direct annotation could be easily integrated into analysis software in combination with automated lineup generation.
 
+As visual inference with lineups is qualitatively different than experiments examining a single plot, experiments 5-9 will focus on this latter case, which allows us to test graphics in ways that directly mimic how they are used for decision support. 
+**Experiment 5** will combine eye tracking, numerical estimation, and direct annotation: users will answer a set of questions requiring estimation of data from the chart, but the direct annotation component of the task will be varied across three levels (no annotation, annotation without numerical feedback, annotation with numerical feedback). This will allow us to assess the flow of attention during the estimation process as well as the effect that direct annotation has on the participants. Providing numerical feedback from the direct annotation will allow us to assess how much of the participant's estimation accuracy is due to the transformation from spatial to numeric information. In previous numerical estimation studies, we found that providing a "scratchpad" and calculator produced a rich source of data that provided insight into participants' estimation strategies [@robinsonHumanPerceptionExponentially2022, Ch 4]; participant annotation is a more natural method to record the same information. A small subset of participants in Experiment 5 may be asked to also think aloud as they complete the task; this will provide some preliminary information allowing us to compare eye tracking, direct annotation, and think-aloud protocols, with any interesting results explored in more depth in a follow up study. XXX May want to include a picture from estimation task showing response variability XXX
+
+Think-aloud protocols, which ask participants to talk through the process of making a decision, have been proposed as an alternative to eye tracking for usability studies [@guanValidityStimulatedRetrospective2006]; this is intriguing for experimental evaluation of graphics because think-aloud tasks can be performed through a modern web browser with minimal experimenter labor using APIs to automate transcription [@hannunDeepSpeechScaling2014] and response coding [@dasilvafrancoUXmoodSentimentAnalysis2019]. In **Experiment 6** we will examine the overlap between direct annotation and think-aloud protocols using an online platform; automatic transcription APIs will be validated using manual transcription performed by undergraduate research assistants. If successful, this will validate think-aloud and direct annotation for use when testing chart usability online; the implementation in Shiny[@shiny;@positpbcShinyPython2023] will be published in an R [@R] or python [@python] package to facilitate use by others in the graphics research community. 
+
+One of the major focuses of this project is exploring how people use charts to support real-life decision-making; as a result, it is important to include forced-choice questions in our battery of tests available for examining graphics. **Experiment 7** will investigate real-world decision making by examining numerical estimation, forced-choice questions, and open-ended responses, with the potential to include or substitute the use of direct annotation or think-aloud methods based on the results of previous experiments. 
+Participants will be directly asked to make a decision based on data and real-world consequences, such as "is X product safe for consumer use" based on a scenario and product test performance data. Participants will be asked to estimate a relevant numerical quantity that should inform the decision making process and then use open-ended responses to explain their reasoning on the forced-choice task. Follow up experiments may be used to explore the effect of uncertainty [@hullmanPursuitErrorSurvey2019;@hofmanHowVisualizingInferential2020] and other important factors on this decision-making process, but the primary goal of this experiment is to compare results for the different measures used to assess this real-world decision-making process. 
+
+Graphics also support inferential processes in the visual domain (distinct from visual inference using lineups). **Experiments 8 and 9** will examine the process of using graphics to support visual statistical inference calculations using eye-tracking (Ex 8, in person) and direct annotation (Ex 9, online). In the case that the direct annotation protocols used to support Experiment 6 do not work, additional methods for assessing inferential processes in online usability testing may be explored in Experiment 9. Experiments 8 and 9 will also include forced-choice real-world decisions that should be supported by the inference participants are asked to complete. If successful, Ex 8 & 9 will demonstrate the relative benefits of using eye tracking and direct annotation to assess inferential processes supported with visualizations. 
+
+Finally, we have distinguished between visual inference and statistical inference, but the primary difference between them is that in visual inference, the null model is embedded in the lineup generation process, where in statistical inference, the null model is embedded in the scenario description and the cognitive load of inferring the graphical consequences is placed on the participant. **Experiment 10** directly compares results from these two tasks through a head-to-head comparison of lineups and graphical inference, where both tasks are observed through direct annotation or think-aloud protocols.
 
 
 <!-- D.1.c. Expected Outcomes/Evaluation -->
+![Methods used in each proposed experiment along with targeted level of engagement from @fig-cognition-hierarchy.](images/compare-experiments.png){#fig-compare-icon}
+
+@fig-compare-icon provides a high-level pictographic summary of the different methods which will be used in each proposed experiment contributing to this aim. 
+Taken together, the results of the proposed experiments will validate these methods for observing and evaluating how users leverage graphs for decision support by examining each stage of engagement while accounting for different tasks. 
+While we have provided limited details about data sets and types of graphs tested using these methods, we will leverage past studies extensively to construct scenarios that balance the desire to assess real-world processes with the need for experimental control. 
+
+Specific outcomes from each experiment have been briefly outlined above, however, taken together, the whole of these experiments is greater than the sum of the individual experimental outcomes. 
+If successful, the methodological developments of these 10 experiments as well as any follow-up experiments will result in an R or python package which implement Shiny modules for including direct annotation capabilities in graphical testing (x-axis estimates, y-axis estimates, drawn regression lines, and interval estimation), recording these annotations and think-aloud audio inputs as data, and transcribing audio inputs to text. Additional functions for analysis of eye-tracking data may also be included depending on the functionality currently available in the eye-tracking lab software stack. 
+In addition to making these methods available for other experimenters through open-source software, we will be able to compare the types and quality of information gained using each method through statistical and qualitative analyses. 
+Each experiment will also include questions designed to assess the cognitive load of participants through user reflection questions, in order to establish any limits on concurrent measurement methodology imposed by working memory and attention resource constraints.
+Taken together, these experiments, even if individual experiments are not successful, will establish the limits of using multiple graphical evaluation methods in parallel when assessing charts experimentally.
+
 <!-- D.1.d. Potential Pitfalls and Alternative Approaches -->
 <!-- Discuss the limitations of each approach you are proposing and how they may affect your results and data.  -->
 <!-- • Call attention to potential difficulties and propose alternatives you will use if a technique is inadequate or the results are inconclusive. -->
 <!-- • Describe potential pitfalls and what you will do if they occur. -->
 <!-- • State what you will do if results are negative, how negative findings will also advance the field, and what you will do next. -->
+As this aim is specifically designed to examine the limits of the use of multiple testing methods simultaneously in graphics studies, most experiments are set up so that success and failure are both informative. 
+However, there are a few components of this plan which contain potential pitfalls.
+First, I have not previously used eye tracking methods to explore how we use graphics. 
+While I am approaching this research space from a background primarily in Statistics, the project sits at the intersection of Human-Computer Interaction, Statistics, and Cognitive Psychology; as a result, I have enlisted Dr. Michael Dodd at UNL, an expert in eye tracking, attention, and cognition, to mentor me as I become familiar with eye tracking equipment and methodology. 
+This collaboration will also allow me to access the undergraduate psychology participant pool, which will ensure that I can recruit students for the eye tracking studies, as these cannot be conducted over the internet. 
+Another obstacle which may impact the results is that the direct annotation software framework does not yet exist for many of the types of annotations required for the described experiments. 
+Currently, direct annotations can be used to draw trend and smooth lines and extrapolate beyond provided data points @robinsonYouDrawIt2023, but additional functionality will have to be implemented in order to allow participants to highlight individual data points or regions of the plot, select positions along the x or y axis, and indicate regions for inferential purposes. 
+This functionality exists in other interactive software @plotly, which should ensure that we can borrow from that implementation to create a similar interactive toolkit in Shiny.
+Some of the desired features are in the process of being added to the `youdrawitR` package under development through Google Summer of Code 2023; Emily Robinson and I are mentoring an undergraduate data scientist and introducing him to open-source software development. I expect that additional functionality can be added during this proposal's review cycle, but if not, the schedule allows for time to implement the necessary features before they are needed. 
+Finally, while there are packages for audio recording using JavaScript, I am not aware of any dedicated Shiny implementation, so we will need to write code to interface between an appropriate JavaScript library and Shiny. I have experience connecting similar JavaScript libraries to Shiny (including the JavaScript code used to implement the `youdrawitR` package under development), so this is not expected to be a significant obstacle, but in previous studies, there have been issues with browser permission conflicts causing Shiny to crash. 
+We typically address potential issues like this during the pilot study before an experiment is officially deployed, but we will need to take special care that both the participant recruitment and the Shiny application are set up properly to ensure that we can successfully record this information.
+
 <!-- D.1.e Evaluation - Describe how you will assess your research program. -->
 <!-- • Consider linking this to your timeline and/or milestones. -->
 <!-- • Describe future plans. -->
 <!-- • Identify what others will be able to do with your research results. -->
+
 <!-- D.1.f Future Steps -->
 
 <!-- D.2. Aim 2. Repeat Specific Aim from page 1. -->
@@ -338,7 +375,7 @@ ggplot() + geom_blank()
 
 <!-- When appropriate, draw on and cite research and best practices in curriculum, pedagogy, and evaluation.  -->
 
- 
+
 ## Overview
 
 <!-- a. Overview/background/aims -->
@@ -365,12 +402,12 @@ ggplot() + geom_blank()
 <!-- G.  	Timeline (Suggested length: 1/4-1/2 page)  -->
 <!-- Provide a timeline for the completion of both research and educational activities, along with key milestones.  -->
 
- 
+
 # Broader Impacts
 <!-- I.	Broader Impacts (Suggested length: 1/4-1/2 page)  -->
 <!-- Discuss the other broader impacts, besides the education activities, that will accrue from the project. Broader impacts may be accomplished through (1) the research itself, (2) activities directly related to the research, or (3) activities supported by, but complementary to, the project.  -->
 
- 
+
 # Results from Prior NSF Support
 <!-- J.	Results from Prior NSF Support  -->
 <!-- If the you (the PI) have received NSF support with an award end date in the past five years (including any current funding and no cost extensions), information on the award is required, regardless of whether the support was directly related to the proposal or not. In cases where you have received more than one award (excluding amendments to existing awards), you need only report on the one award that is most closely related to the proposal. Support means salary support, as well as any other funding awarded by NSF, including research, Graduate Research Fellowship, Major Research Instrumentation, conference, equipment, travel, and center awards, etc.  -->
