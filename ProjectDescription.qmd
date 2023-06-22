@@ -110,7 +110,7 @@ My long-term career goal is to examine statistical graphics with the goal of *he
 # Research Plan
 <!-- Note: The research and educational activities do not need to be addressed separately if the relationship between them is such that it works best to present an integrated project where the two are interspersed throughout the Project Description. -->
 
-## Background
+<!-- ## Background -->
 <!-- (Suggested length: 2-4 pages)  -->
 <!-- This section lets you: -->
 <!-- 1. Orient reader to your subject, providing scientific background and context. -->
