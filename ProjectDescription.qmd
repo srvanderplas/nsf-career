@@ -754,6 +754,12 @@ The impact of this educational objective can be assessed through web-based analy
 <!-- I. Broader Impacts (Suggested length: 1/4-1/2 page)  -->
 
 <!-- Discuss the other broader impacts, besides the education activities, that will accrue from the project. Broader impacts may be accomplished through (1) the research itself, (2) activities directly related to the research, or (3) activities supported by, but complementary to, the project.  -->
+Data visualization is an essential part of science communication; as a result, there are broader impacts scattered through every thread of this project's tapestry. 
+The broadest impact of this project is the development of empirically driven guidelines for chart creation that are robust, nuanced, and are designed with accessibility in mind: these guidelines will help scientists, journalists, and data analysts communicate more clearly so that people can make better data-driven decisions.
+An additional impact is the methodological and measurement groundwork laid to support the development of empirical guidelines: these tools and evaluations will be made available to other researchers in the form of an R or python package that will make it easier to design and implement graphical user studies. 
+Finally, the educational objectives, which are closely tied to the research objectives, will result in empirical graphics research being presented to K-12 students, undergraduates, graduate students, and professionals. 
+In addition, this project will bring in high schoolers interested in STEM, undergraduate students (both in statistics and data science, and those interested in STEM more generally), and graduate students, introducing these students to research in the communication of statistical information and the perception of charts and graphs as well as reinforcing principles of scientific reasoning and statistical thinking. 
+Through contact with this diverse set of students, many of whom may eventually go on to careers in other STEM fields, this project will help to emphasize the importance of carefully creating data visualizations for science communication.
 
 # Results from Prior NSF Support
 
