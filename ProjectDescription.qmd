@@ -770,10 +770,13 @@ Through contact with this diverse set of students, many of whom may eventually g
 <!-- The following information must be provided:  -->
 
 <!-- The NSF award number, amount, and period of support.  -->
+1952007 - $1,500,000 - October 1, 2020 - September 30, 2024. 
 
 <!-- The title of the project.  -->
+Overcoming the Rural Data Deficit to Improve Quality of Life and Community Services in Smart & Connected Small Communities
 
 <!-- A summary of the results of the completed work, including accomplishments, supported by the award. The results must be separately described under two distinct headings: Intellectual Merit and Broader Impacts.  -->
+
 
 <!-- A listing of the publications resulting from the NSF award (a complete bibliographic citation for each publication must be provided either in this section or in the References Cited section of the proposal); if none, state “No publications were produced under this award.”  -->
 
