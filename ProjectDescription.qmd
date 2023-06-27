@@ -502,13 +502,36 @@ In addition, because this is basic research that is essential to understand in o
 <!-- • Identify what others will be able to do with your research results. -->
 <!-- D.2.f Future Steps -->
 
-### Experimental Evaluation of Design Guidelines
+### Experimental Evaluation of Design Guidelines {#sec-methods-guidelines}
 <!-- D.3. Aim 3. Repeat Specific Aim from page 1. -->
 The third research aim of this project is to empirically validate common chart design guidelines, measuring the impact of design decisions on task performance.
+While there is an incredibly large body of design guidelines, we will primarily focus on guidelines which are found across multiple common lists. 
+This component of the project will primarily take place after the multimodal task-based research methods have been evaluated, in part because we want our evaluation of these guidelines to be as nuanced as possible, considering multiple possible user objectives and modes of engagement, as well as different types of users. 
+
 
 <!-- D.3.a. Hypothesis and Rationale. -->
+I expect that overall, many of the commonly repeated design guidelines will bear up in practice; after all, while some of these guidelines do derive primarily from experience rather than systematic evaluation, practitioners do have the ability to introspect and determine why a particular graph is less effective; this introspection is an important part of the design and evaluation of graphics, but it is also easily affected by personal preferences and individual visual quirks that may not generalize to the wider population. 
+I also expect that there may be some differences between results from a general population and results from neurodiverse subpopulations that we intend to specifically target. 
+While it may be difficult to get sufficient sample size to achieve statistical significance for these effects, I hope that by using a  combination of evaluation methods, as well as both quantitative and qualitative analyses, we can at least identify trouble spots and areas for more precise investigation. 
 
 <!-- D.3.b. Experimental Plan. -->
+**Participants** Graphics studies do not often specifically examine subpopulations that are not neurotypical - those with ADHD, visual acuity deficits, or processing disorders such as dyslexia are of particular interest because these issues would be expected to have an impact on the ability to read and make decisions on charts and graphics. 
+In part, this oversight is because it is difficult to obtain a sufficiently large population to test, particularly if it is necessary to also assess the severity of the condition (this is particularly challenging as many people with these disorders do not have a formal diagnosis, so even screening participants recruited from the general population may not be effective). 
+Towards this end, we will work with Disability Services to recruit participants who are receiving academic accommodations for conditions expected to impact numeracy, executive function, or visual processing. 
+In addition to specifically evaluating the effect of different design guidelines on a more general population, we will also use this assembled participant pool to do more targeted testing with the goal of determining the impact of general design guidelines on these subpopulations.
+
+For all of the studies proposed here, we will test both general populations (either online or by recruiting from the psychology participant pool if eye-tracking methods are required) and neurodiverse subpopulations with conditions like ADHD, dyslexia, or visual impairments. 
+
+In experiment C1, we will examine guidelines which address the use of a third dimension in statistical graphics through multiple experiments integrated into educational objective 1. 
+In experiment C2, we will experimentally evaluate guidelines which address the use of additional annotations beyond those strictly necessary to represent the data (sometimes called 'chartjunk'), focusing not on fully minimalistic graphs, but on the impact of design choices such as dual-encoding that may provide more visually discriminable signal for all users and better accessibility for users with visual or cognitive impariments [@vanderplasClustersBeatTrend2017]. 
+In experiment C3, we will examine the effectiveness of different ways to address overplotting, comparing solutions such as alpha-blending, binning, and density estimates to determine which solutions are most appropriate in which contexts and for which user tasks.
+In experiment C4, we will conduct a series of smaller studies, using our multimodal evaluation methods to revisit the relative merits of different representations of the same data (e.g. pie vs. bar, violin plot vs. boxplot vs. beeswarm plot). 
+In experiment C5, we will experimentally evaluate the effect of plot aspect ratio, revisiting the bank to 45$^\circle$ guideline in light of interactive and adjustable modern graphics. 
+In experiment C6, we will examine guidelines relating to ribbons, stacked bars, and the line-width illusion, looking specifically for users' awareness (or lack thereof) of the difficulty of estimating these quantities.
+In experiment C7, we will experimentally evaluate guidelines relating to polar transformations, including guidelines recommending against the use of spider or radar charts, pie charts, and circular bar charts. 
+
+XXX Still need to do limitations/pitfalls XXX
+
 <!-- D.3.c. Expected Outcomes/Evaluation -->
 <!-- D.3.d. Potential Pitfalls and Alternative Approaches -->
 <!-- Discuss the limitations of each approach you are proposing and how they may affect your results and data.  -->
@@ -532,8 +555,6 @@ The third research aim of this project is to empirically validate common chart d
 
 <!-- Include any plans for collaboration with academia, industry, national laboratories, school and school districts, museums, etc.  -->
 
-<!-- If international/global dimensions are included, clearly state how the education activities will be enhanced by the international engagements and describe the benefits to participants in the U.S. and abroad. Delineate how the activities fit within the context of the expertise, facilities, data, and other resources that are being applied globally in relevant areas of education, and how the CAREER award would position you and UNL to take a leadership role.  -->
-
 <!-- Clearly state the intended impact of all education activities.   -->
 
 <!-- Describe how you plan to evaluate the impact of the educational activities on students and other participants.  -->
@@ -546,12 +567,72 @@ The third research aim of this project is to empirically validate common chart d
 <!-- a. Overview/background/aims -->
 <!-- Frame a big picture for your education plan. Include background, motivation, rationale, and aims for each major activity in the plan (e.g., Aim 1, Aim 2, Aim 3.). Suggest limiting to 3 major aims. -->
 
-## Design and methods
+Graphics are a uniquely unassuming method of presenting statistical and scientific information to the public: even individuals with no scientific training can typically read and understand a bar or line chart and use that information to draw conclusions from the data.
+Immediately after graduating with my Ph.D., I took a position doing data science in the power industry, working with engineers and business analysts to increase their use of available data across the board, from plant sensors to economic projections. 
+Many people I met were intimidated by my statistics background and my Ph.D., but visibly relaxed when I would explain that my expertise was in data visualization; I would strategically omit any mention of my skills in modeling, software development, or data wrangling. 
+Data visualizations are fundamentally less scary than the raw data or statistical models represented in the data visualization, not only to  my former coworkers, but more generally. 
+Leveraging this premise, this proposal leverages statistical graphics to facilitate better data-driven decision making through educational activities targeted at undergraduate introductory statistics students, K-12 educators taking graduate courses for continuing education, and data visualization practitioners. 
+Three educational objectives support this goal:
+
+- EO1: Develop and implement experiential learning activities in statistical graphics for undergraduate introductory statistics courses.
+- EO2: Create graduate course modules for K-12 educators that connect ongoing research to engaging, hands-on classroom activities for teaching statistics, math, and science.
+- EO3: Improve the penetration of visualization research beyond academia by incorporating summaries of empirical studies into resources used by data scientists, industry analysts, and researchers in STEM disciplines.
+
+<!-- ## Design and methods -->
 
 <!-- b. Design and methods -->
 <!-- For each aim listed in 3a, describe the target audience, needs/gaps to be addressed, methods, resources (including  personnel, partnerships, budget), and measurable desired outcomes (i.e., what would success look like?). -->
 
-## Evaluation
+## Experiential Learning in Statistical Graphics {#sec-educ-218}
+The first educational objective targets students in undergraduate introductory statistics classes. 
+During past semesters when I have taught these classes, perhaps 20% of students were motivated to learn the material; the remaining students were motivated primarily by finishing the required courses so that they could take courses in their major. 
+At UNL, our introductory courses follow the 2016 ASA GAISE recommendations [@gaisecollegereportasarevisioncommitteeGuidelinesAssessmentInstruction2016], which emphasize statistical thinking over computations and rote memorization, as well as the importance of hands-on activity-based learning in statistics classes. 
+Even with the incorporation of these guidelines, many students still struggle to make the connection between statistical concepts and the real-world implications when evaluating or designing scientific studies, interpreting data, or thinking critically about claims made in the media.
+To this end, we will incorporate experiential learning into the introductory statistics courses at UNL by requiring students to participate in empirical statistical graphics research and then reflect on that experience through guided written reflections that encourage students to assess each topic in the course through the lens of participating in an actual experiment. 
+At the end of the course, students will read a 2-page extended abstract submitted as a conference publication and will watch a 15-minute conference presentation recording, allowing them to additionally compare and reflect upon how the results of research are presented in different venues and for different audiences. 
+This component will not only reinforce concepts learned in class [@rogersReflectionHigherEducation2001;@kingDevelopmentStudentSkills;@moussainatyReflectiveWritingUse2015], it will also introduce students to the idea of researching statistical graphics and that not all graphs or charts are equally useful for communicating results. 
+In the first year, we will examine different aspects of 2D and 3D charts; the addition of 3D printed charts means that we cannot conduct this research as easily online, but it also has pedagogical benefits. 
+Subsequent semesters will involve different graphics experiments but we will still prioritize hands-on studies that require in-person participation where possible.
+The PI and graduate student funded on the project will work together in order to coordinate and implement this objective; pilot tests of this activity are underway in Summer 2023. 
+We have budgeted for a 3D printer and supplies in order to produce relevant 3D charts to support this research; a bias towards physical charts allows us to require in-person courses to physically show up at office hours and thus reduce the psychological barrier to attending office hours in order to ask questions later in the course. 
+If successful, student written reflections will draw connections between concepts learned in class and the experience of participating in the experiment; students will also critically assess the claims made in the written report and presentation, leveraging their statistical training to question the presented study results and identify limitations of the methodology.
+The success of this objective will be evaluated through the addition of questions on to the end of course evaluations, as well as through feedback solicited from course instructors. 
+We will also systematically examine student reflections, identifying connections between course concepts and experiment participation as well as critical assessments of scientific claims. 
+We expect to publish this evaluation process in a statistics education journal to contribute to our understanding of the effect of experiential learning activities in statistics education.
+
+## Picture-Book Statistics {#sec-educ-k12}
+
+The second objective has both a primary and a secondary audience: the primary audience is K-12 teachers taking continuing education credits through the Nebraska Math and Science Summer Institutes (NMSSI), and the secondary audience is their students.
+Graphics provide a useful way to introduce students to statistical concepts such as regression and hypothesis testing through interactive activities that allow comparison between visual and statistical procedures [@robinsonEyeFittingStraight2022;@vanderplasClustersBeatTrend2017]; as such, graphics are a gentle introduction to statistical concepts that can make STEM subjects less intimidating. 
+I will develop modules for existing 'special topics' courses that introduce probabilistic concepts through statistical shoe print forensics and discuss graphical design choices through the lens of perception and science communication. 
+In addition, I will plan, pilot test, and implement a course which leverages visualization to introduce and explore statistical concepts, using statistical lineups and visual statistics to introduce more general theory in a fun, hands-on, and accessible way. 
+I will also develop a course which focuses on mathematical and statistical concepts underlying generative data art: that is, the use of programming and mathematical theory to generate art from data. 
+This course would be designed to target a secondary audience of students who are not interested or are actively intimidated by STEM, but are interested in artistic expression; by working through the desire to create art, we can introduce scientific programming, the collection and use of data, randomization, and mathematical functions[@newmanHowMightGenerative2017]; we can connect color theory to perception and discuss the implications for scientific data visualization, and we can emphasize the beauty present in even the messiest data. 
+These courses will be included in the NMSSI summer offerings and will be  taught with the assistance of a graduate student; we will both benefit from a greater understanding of the challenges in K-12 education and through the interaction with K-12 educators [@knowltonHigherEducationFaculty2015].
+If successful, these courses will introduce new mathematical and scientific concepts to K-12 educators, who will take the material learned in these courses and modules and apply it within their classrooms to enrich K-12 students' education. 
+This objective will be evaluated through course surveys and follow-up surveys which allow us to assess whether the activities in the courses and modules were eventually used in K-12 classrooms and whether the material learned in the course has changed the teacher's pedagogical approach when teaching adjacent material in class. 
+These surveys can be implemented through NMSSI infrastructure which is already in place.
+
+
+## Empirical Graphics for Practitioners {#sec-educ-visgallery}
+
+The final education objective also has two audiences: the primary audience is individuals who use FromDataToVis and the R or Python graph gallery sites hosted by Yan Holtz. 
+The secondary audience is statistics and data science undergraduate students who will be recruited to serve as research assistants to support this educational objective. 
+These students will systematically catalog and evaluate empirical studies of statistical graphics, enumerating the design space of each study and assessing its conclusions based on the collected data. 
+In addition, students will also track how previous studies are cited and described in the literature, checking for the tendency to broaden the conclusions of a study in the interests of describing it more concisely. 
+Ultimately, this research will be used to compile short summaries of relevant empirical research about each chart topic; students will then contribute these summaries to the website using pull requests. 
+This project will not only result in better connections between the empirical research and people doing data visualization and analysis, it will also expose undergraduate statistics and data science students to systematic research, develop better scientific communication skills, and emphasize the importance of using good visualization practice. 
+These skills will be valuable whether students take jobs in industry or pursue graduate school in STEM fields. 
+
+This objective also connects tightly to research objectives 2 and 3: the systematic literature reviews will be used to provide high school and undergraduate research assistants recruited through the Young Nebraska Scientists (YNS) and Summer Research Programs with options for summer research projects that will assess the impact of measurement methods while providing important context by which to interpret historical research. 
+In addition, the systematic literature review will inform experiments directly assessing design guidelines: by examining not only the experimental results, but how those experiments were interpreted in later studies, we will be able to trace the evolution of design guidelines from very specific experiment interpretations to much more strong, general statements such as "pie charts should never be used". 
+If successful, this education objective will result in greater contact between practitioners and empirical research; in theory, this should help those practitioners produce better graphics which communicate more clearly with the public. 
+In addition, if successful, undergraduate statistics and data science students will gain an appreciation for principles for good statistical graphics, empirical testing and data analysis, and the complexity of collecting your own data; this is often left out of statistics classes and represents an important gap between statistics and the practice of data science.
+The impact of this educational objective can be assessed through web-based analytics which will allow us to track how often a page is viewed and how often viewers click on links to empirical studies; while this is far from an ideal metric, it should at least allow us to get a ballpark assessment of whether the research summaries are useful and connect people to relevant empirical research.
+
+
+
+<!-- ## Evaluation -->
 
 <!-- c. Evaluation -->
 <!-- Describe how you will assess your education program. -->
@@ -562,6 +643,7 @@ The third research aim of this project is to empirically validate common chart d
 <!-- H.  	Integration of Research and Education (Suggested length: 1/4-1/2 page)  -->
 <!-- How will your research impact your education goals and how will your education activities feed back into your research? -->
 <!-- Briefly summarize how you will integrate research and education. Consider questions such as: How will you recruit and involve graduate and undergraduate students in research activities? What efforts will you make to recruit students from underrepresented minorities? How will you mentor students in your lab? What outreach activities will you organize, and are these activities aimed at or effective in reaching underrepresented demographics?  -->
+
 
 # Timeline
 <!-- G.  	Timeline (Suggested length: 1/4-1/2 page)  -->
