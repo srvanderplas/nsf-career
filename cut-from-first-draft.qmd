@@ -1,0 +1,95 @@
+---
+title: "Untitled"
+format: html
+---
+<!-- Problem statement:  -->
+<!-- Provide a succinct statement of the problem or opportunity your proposal will address.   -->
+
+Statistical graphics and models are powerful tools to summarize data and support human decision making; however, empirical research on graphical perception is sparse relative to the number of decisions necessary to make a good chart. When relevant studies are available, they often use incomparable methods and produce conflicting results.
+Chart design guidelines are often based on opinion, not empirical study, rendering many scientific communications sub-optimal or ineffective.
+This is alarming: effective science communication is critical for cultivating public trust in the scientific process and ensuring that decision makers accurately interpret supporting information.
+<!-- State a long-term goal that includes both research and education.   -->
+Addressing these challenges, my long-term career goal is to examine statistical graphics with the goal of *helping people use data more effectively*, and to apply this research to educate and inspire a new generation of scientists while supporting science literacy among the general public.
+
+
+<!-- Describe how the research and educational activities are integrated with one another or synergistic.   -->
+Experiential learning activities will connect graphics research to critical concepts within statistics courses at the undergraduate level as well as in K-12 activities provided during graduate coursework for STEM educators. 
+In addition, incorporating research summaries into general visualization resources will not only connect data visualization creators with research; improving these resources will improve teaching materials for statistical computing and will involve undergraduates in research and outreach in graphics and science communication. 
+
+The research and educational activities described in this project have the potential to significantly improve how scientists communicate scientific results to each other as well as to the general public, increasing public trust in science and facilitating public decision making based on experimental data and results. 
+
+<!-- ## Overview  -->
+
+<!-- Briefly sketch the background leading to the present application, critically evaluate the existing literature, and identify gaps the project is intended to fill.   -->
+
+<!-- Discuss how this project will generate foundational research that will advance the field in general or address specific challenges of great importance.   -->
+The research objectives proposed here are designed to lay a foundation for more consistent evaluation and testing of scientific visualizations. 
+We focus on the integrated cognitive complexity and temporal evolution of user-chart interaction, which is roughly illustrated in @fig-cognition-hierarchy. 
+Previous hierarchies have focused on the complexity of single graphical tasks [@carswellChoosingSpecifiersEvaluation1992; @cleveland1984; @spenceVisualPsychophysicsSimple1990]; while this is a useful way to determine which chart to use to display data, it does not approach different ways users engage with a single chart: 
+are they perceiving the graphical forms without engaging with the underlying symbolic meaning? 
+Using the chart to understand the underlying natural phenomenon? 
+Doing statistical inference (e.g. visually estimating parameter values from the graph)? 
+Making decisions based on their understanding of the data? 
+Each of these use cases involves different cognitive tasks, and as a result, different graphical testing methods must be used to assess the effectiveness of charts under each type of engagement. 
+
+We will first identify and evaluate methods for graphical testing across multiple levels of user engagement, comparing methods which examine equivalent stages of graph comprehension and use. 
+\@fig-cognition-hierarchy shows some of the methods we intend to assess and compare, along with the rough stages of cognition these methods target. 
+Next, we will establish the impact of different experimental configurations and ways of measuring and recording users' answers. 
+We expect that this will not only help graphics researchers design and implement new user studies, but we hope to also facilitate comparison of results from past studies, providing context to conflicting conclusions.
+Finally, we will empirically validate common chart design guidelines, testing whether extrapolated results and aesthetic opinions hold up under critical user studies.
+
+<!-- Because scientific visualizations are used by and leverage research from so many different disciplines, including cognitive psychology, computer science, communication, human-computer interaction, user interface design, and statistics, it can be difficult to identify the exact theoretical domains to which a statistical graphics research project contributes.  -->
+The choice to approach testing graphics from the perspective of how the user is interacts with and makes decisions based on the visual representation of the data places this research firmly at the intersection of statistics, cognitive science, measurement, and communication. 
+While previous researchers [@shneidermanEyesHaveIt1996; @carswellChoosingSpecifiersEvaluation1992; @cleveland1984] have assessed graphics from the perspective of different estimation or user interaction tasks, the present project is focused on **measurement** methods for different stages of user interaction with graphics. 
+Thus, this project will develop methodology for measuring the functional cognition underlying data driven decision making using visual aids. 
+The results from the proposed research will also allow integration of conflicting historical results, hopefully leading to a robust set of empirical evidence that can be integrated to produce more robust, task-focused design guidelines for statistical graphics. 
+
+
+
+
+
+
+# Intellectual Merit
+<!-- Intellectual Merit (Suggested length: 1/4-1/2 page)  -->
+<!-- Describe the potential of the project to advance knowledge within its own field or across different fields.  -->
+This work will expand our understanding of graphical perception and communication by empirically and systematically examining chart design through comprehensive, task-based testing.
+<!-- Describe the expected significance of your project with respect to the research plan.   -->
+The proposed studies will be used to
+generate a framework relating evaluation methods to user engagement with graphics,
+establish the impact of different experimental design decisions on results, and 
+promote integration of multiple evaluation methods
+<!-- incorporating elements of quantitative and qualitative feedback  -->
+to provide a holistic assessment of visualization effectiveness.
+Additionally, this project will prioritize inclusion neurodiverse and disabled individuals, ensuring that design guidelines account for accessibility concerns.
+<!-- beyond creation of alt-text for visual impairments or colorblind-friendly palette selection. -->
+<!-- Explain the extent to which the proposed activities suggest and explore creative, original, or potentially transformative concepts.  -->
+The results of the systematic examination of different experimental design and testing methods will not only ground design guidelines in empirical results; if successful, the experiments will also help reconcile the results from historical studies with conflicting results.
+While there are task-based taxonomies for *selection of chart types*, a systematic framework for selecting *testing methods* based on levels of engagement and critical tasks is innovative; we expect that this framework will facilitate well-rounded experiments that examine chart design and use from multiple perspectives, providing nuanced results focused on audience use of graphics.
+<!-- When possible, describe how your education plan will contribute to new knowledge (e.g., expected contributions to the field of STEM education).  -->
+The education activities proposed in this project are closely tied to the research objectives, providing avenues for dissemination of research results as well as inclusion of audiences in graphics research. 
+As a result, education and research activities will combine to support new pedagogical research in experiential learning. 
+This new research will examine the use of statistical graphics as an entry-point to quantitative subjects for individuals who are not traditionally interested in pursuing STEM careers. 
+<!-- Discuss your qualifications to lead the project.  -->
+Previous collaborative research projects have established new and re-imagined old methods for testing statistical graphics; when combined with training and experience in statistics at the intersection of computer science, psychology, and communication, I am well equipped to complete this project supported by collaborations with researchers in cognitive psychology and statistical education. 
+
+
+<!-- Explain how the proposed project will build a firm foundation for a lifetime of leadership in research, education, and their integration.  -->
+
+<!-- Explain how the proposed project will advance your career goals and job responsibilities as well as the mission of your department or organization.  -->
+
+
+
+In support of this goal, the first research objective (RO1) is to create a framework for comprehensive graphical testing across multiple levels of user engagement.
+We will compare the insights from testing methods which address different levels of user engagement, develop toolkits for implementing empirical studies of graphics, and assess which methods can be combined to produce a holistic assessment of how a chart is used to support decision-making.
+These experiments are described in @sec-methods-compare.
+
+As many different smaller factors, such as measurement and recording methods, can have an outsized influence on the results of graphical testing experiments, the second research objective (RO2) is to assess the impact of measurement methods on experiments evaluating statistical graphics.
+We will thoroughly evaluate the effects of these decisions by revisiting previous studies and comparing the impact of competing measurement methods on the results.
+If successful, this will provide contextual information which we can use to reconcile conflicting results from historical studies with slightly different methods.
+Even if this portion of the project does not produce results which clarify historical studies, we will still gain greater insight into the ideal design of inputs for user testing, which will facilitate better study design in the future.
+Experiments relating to this second research objective are described in @sec-methods-input.
+
+Finally, addressing the third research objective (RO3), we will empirically validate common chart design guidelines, measuring the impact of design decisions on task performance.
+This process will not only include assessment of graphics using undergraduate populations or internet surveys, but will also include specific assessment of the accessibility of graphics in populations who identify as having a disability requiring accommodation in an area related to executive function, visual processing, or numeracy.
+
+The experiments which will contribute to the third research objective are described in @sec-methods-guidelines.
