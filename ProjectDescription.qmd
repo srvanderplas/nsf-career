@@ -430,11 +430,11 @@ In this objective, we examine the impact of different ways of obtaining numerica
 <!--Previous Work -->
 
 <!-- D.2.b. Experimental Plan. -->
-The experiments laid out under this aim do not cover the full space of input options or ways to phrase estimation questions, however, we aim to provide details for the initial studies, with the expectation that additional follow up studies will be necessary to better understand the reasons for observed effects.
+<!-- The experiments laid out under this aim do not cover the full space of input options or ways to phrase estimation questions, however, we aim to provide details for the initial studies, with the expectation that additional follow up studies will be necessary to better understand the reasons for observed effects. -->
 
-**Integration with Education Plan** 
+<!-- **Integration with Education Plan**  -->
 
-This portion of the research is tightly integrated with the education plan; to conduct a thorough review of the different testing practices in the literature, I will involve undergraduate students both during the summer and during the course of the academic year.
+<!-- This portion of the research is tightly integrated with the education plan; to conduct a thorough review of the different testing practices in the literature, I will involve undergraduate students both during the summer and during the course of the academic year. -->
 
 
 <!-- Due to the large space of different design decisions in graphics experiments, I am confident that undergraduate researchers during the academic year will uncover additional important experimental design factors to assess during years 3-5. -->
@@ -465,10 +465,10 @@ Experiment A2 will briefly explore this within the context of lineup studies in 
 
 <!-- D.2.c. Expected Outcomes/Evaluation -->
 
-While I have not fully described the implementation details of the two studies which are detailed here, this is primarily because I hope to involve new researchers, providing them with the agency to collaborate on the experiment design and influence the course of the investigation.
+<!-- While I have not fully described the implementation details of the two studies which are detailed here, this is primarily because I hope to involve new researchers, providing them with the agency to collaborate on the experiment design and influence the course of the investigation. -->
 
-In addition, I anticipate experiment B3, B4, and B5 will be designed as outgrowth of the literature review conducted as part of @sec-educ-visgallery.
-These summer projects will be inspired by undergraduate research, and designed and implemented by new researchers.
+<!-- In addition, I anticipate experiment B3, B4, and B5 will be designed as outgrowth of the literature review conducted as part of @sec-educ-visgallery. -->
+<!-- These summer projects will be inspired by undergraduate research, and designed and implemented by new researchers. -->
 
 **Expected Results and Significance:** When combined with the methodological research in the first objective and the design guideline based research discussed in the next section, these studies form a critical part of the foundational research necessary to critically assess historical studies while accounting for their methodological differences.
 In addition, because this is basic research that is essential to interpreting conflicting studies, it provides a gentle introduction to the scientific process for new researchers, leveraging a domain that most people find interesting at a basic level ("how do we make decisions?") in a scientific field that is accessible to almost everyone (data visualization).
@@ -499,27 +499,28 @@ As such, it not only forms a critical component of the research aims of this pro
 
 ## Research Objective 3: Empirically validate common chart design guidelines, measuring the impact of design decisions on task performance.
 
-The third research aim is to empirically validate common chart design guidelines, measuring the impact of design decisions on task performance.
-While there is an incredibly large body of design guidelines, we will primarily focus on guidelines that are found across multiple common lists.
-This component of the project will primarily take place after the multimodal task-based research methods have been evaluated, in part because we want our evaluation of these guidelines to be as nuanced as possible, considering multiple possible user objectives and modes of engagement, as well as different types of users.
+<!-- The third research aim is to empirically validate common chart design guidelines, measuring the impact of design decisions on task performance. -->
+<!-- While there is an incredibly large body of design guidelines, we will primarily focus on guidelines that are found across multiple common lists. -->
+<!-- This component of the project will primarily take place after the multimodal task-based research methods have been evaluated, in part because we want our evaluation of these guidelines to be as nuanced as possible, considering multiple possible user objectives and modes of engagement, as well as different types of users. -->
 
-**Accessibility** Graphics studies do not often examine neurodiverse subpopulations directly. 
-Individuals with ADHD, visual acuity deficits, or processing disorders such as dyslexia and dyscalculia are of particular interest because these issues would be expected to have an impact on the ability to read and make decisions based on data presented graphically.
-In part, this oversight is because it is difficult to obtain a sufficiently large population to test, particularly if it is necessary to also assess the severity of the condition (many people with these disorders do not have a formal diagnosis, so even asking participants recruited from the general population if they have these conditions may not be effective).
-For all of the studies proposed here, we will test both general populations (either online or by recruiting from the psychology or introductory statistics participant pools) and neurodiverse subpopulations.
+<!-- **Accessibility** Graphics studies do not often examine neurodiverse subpopulations directly.  -->
+<!-- Individuals with ADHD, visual acuity deficits, or processing disorders such as dyslexia and dyscalculia are of particular interest because these issues would be expected to have an impact on the ability to read and make decisions based on data presented graphically. -->
+<!-- In part, this oversight is because it is difficult to obtain a sufficiently large population to test, particularly if it is necessary to also assess the severity of the condition (many people with these disorders do not have a formal diagnosis, so even asking participants recruited from the general population if they have these conditions may not be effective). -->
+<!-- For all of the studies proposed here, we will test both general populations (either online or by recruiting from the psychology or introductory statistics participant pools) and neurodiverse subpopulations. -->
 
 <!-- D.3.a. Hypothesis and Rationale. -->
 
-**Hypotheses** We expect that overall, many of the commonly repeated design guidelines will bear up in practice; after all, while some of these guidelines do derive primarily from experience rather than systematic evaluation, practitioners do have the ability to introspect and determine why a particular graph is less effective; this introspection is an important part of the design and evaluation of graphics, but it is also easily affected by personal preferences and individual visual quirks that may not generalize to the wider population.
-We also expect that there may be some differences in effective design guidelines for the general population compared with neurodiverse subpopulations with specific challenges.
+**Hypotheses** We expect that overall, many of the commonly repeated design guidelines will bear up in practice; while derived from extrapolated experiments or opinion, they have been honed over time and experience.
+<!-- ; after all, while some of these guidelines do derive primarily from experience rather than systematic evaluation, practitioners do have the ability to introspect and determine why a particular graph is less effective; this introspection is an important part of the design and evaluation of graphics, but it is also easily affected by personal preferences and individual visual quirks that may not generalize to the wider population. -->
+We expect that there may be some differences in effective design guidelines for the general population compared with neurodiverse subpopulations with specific challenges.
 Statistical comparisons examining the effect of neurodiversity are primarily exploratory; our goal is to ensure that any design guidelines we empirically validate consider this dimension of human diversity.
 Additional follow-up studies will be necessary to explore how guidelines should be adapted to accommodate individuals with specific cognitive challenges, but these studies will at least identify the most promising avenues for future investigation.
 
 **Participant Recruitment** 
-Most of the studies described here will be integrated with experiential learning activities in introductory statistics courses; we expect to be able to collect data from at least 200 students per semester (400 total) using this recruitment mechanism. 
+These studies will be integrated with experiential learning activities in introductory statistics courses, with participation from at least 200 students per semester. 
 In addition, we will work with Disability Services to recruit an additional group of 50-60 participants per experiment who are receiving academic accommodations for conditions expected to impact numeracy, executive function, or visual processing; these participants will be demographically similar to the students participating in the studies as part of statistics coursework. 
-Experiments C4 and C6 will be conducted online with samples of approximately 300 participants; in these studies, we will recruit our neurodiverse sample using through posts on condition-related message boards so that we are recruiting participants with similar characteristics (online presence and capability) in both general and neurodiverse populations. 
-These measures are not perfect for demographic parity, but the inclusion of neurodiverse groups in graphics research is both critically important and difficult to implement; this research is a first step. 
+Experiments C4 and C6 may be conducted online with samples of approximately 300 participants; in these studies, we will recruit our neurodiverse sample using through posts on condition-related message boards so that we are recruiting participants with similar characteristics (online presence) in both general and neurodiverse populations. 
+These measures are not perfect for demographic parity, but this research is the first step towards full consideration of neurodiversity in graphics research. 
 
 <!-- D.3.b. Experimental Plan. -->
 
@@ -545,7 +546,7 @@ In **experiment C7**, we will experimentally evaluate guidelines relating to pol
 
 **Expected Outcomes and Significance:** 
 Through these experiments, we will add to the body of literature empirically assessing design guidelines, specifically contributing studies which address multiple levels of user engagement via multiple measurement methods.
-This multi-modal engagement will allow us to evaluate guidelines in a more nuanced manner, providing designers with guidance that extends beyond "do this" to explain when and why.  
+This multi-modal engagement will allow us to evaluate guidelines in a more nuanced manner, providing designers with guidance that extends beyond "do this" to explain when and why.
 In addition, we will systematically screen for common design guidelines that are ineffective for neurodiverse subpopulations; this screening will provide empirical support for previously proposed explanations [@vanderplasClustersBeatTrend2017] and will also identify areas for future research, with the goal of making visualization guidelines more inclusive and accessibility focused. 
 
 
